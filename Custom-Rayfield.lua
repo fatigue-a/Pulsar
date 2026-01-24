@@ -2724,25 +2724,35 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
-    -- Main paragraph container
+    -- Clone base paragraph template
     local Paragraph = Elements.Template.Paragraph:Clone()
     Paragraph.Visible = true
     Paragraph.Parent = TabPage
+
+    -- Hide built-in title/content to remove gaps
+    if Paragraph:FindFirstChild("Title") then
+        Paragraph.Title:Destroy()
+    end
+    if Paragraph:FindFirstChild("Content") then
+        Paragraph.Content:Destroy()
+    end
+
+    -- Remove any layout that might interfere
+    for _, child in ipairs(Paragraph:GetChildren()) do
+        if child:IsA("UIListLayout") then
+            child:Destroy()
+        end
+    end
+
     Paragraph.BackgroundTransparency = 1
     Paragraph.UIStroke.Transparency = 1
-
-    -- Hide default title/content
-    Paragraph.Title.Text = ""
-    Paragraph.Content.Text = ""
-
-    -- Enable automatic sizing
     Paragraph.AutomaticSize = Enum.AutomaticSize.Y
 
     -- Container for avatar + text
     local Container = Instance.new("Frame")
-    Container.Position = UDim2.fromOffset(10, 10)
     Container.BackgroundTransparency = 1
     Container.Size = UDim2.new(1, -20, 0, 0)
+    Container.Position = UDim2.fromOffset(10, 10)
     Container.AutomaticSize = Enum.AutomaticSize.Y
     Container.Parent = Paragraph
 
@@ -2753,6 +2763,7 @@ function Tab:CreateAvatarParagraph(Settings)
     Image.BackgroundTransparency = 1
     Image.Image = Settings.ImageUrl or "rbxassetid://0"
     Image.Parent = Container
+
     local ImageCorner = Instance.new("UICorner")
     ImageCorner.CornerRadius = UDim.new(1, 0)
     ImageCorner.Parent = Image
@@ -2760,19 +2771,20 @@ function Tab:CreateAvatarParagraph(Settings)
     -- Text lines
     local TextLabels = {}
     local yOffset = 0
+    local lineHeight = 20
     for i, line in ipairs(Settings.Lines or {}) do
         local TextLabel = Instance.new("TextLabel")
         TextLabel.Text = line
         TextLabel.Position = UDim2.fromOffset(58, yOffset)
-        TextLabel.Size = UDim2.new(1, -58, 0, 20)
-        TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+        TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
         TextLabel.BackgroundTransparency = 1
-        TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
+        TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+        TextLabel.TextColor3 = i == 1 and Color3.new(1, 1, 1) or Color3.fromRGB(170, 170, 170)
         TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
         TextLabel.TextSize = i == 1 and 18 or 14
         TextLabel.Parent = Container
         table.insert(TextLabels, TextLabel)
-        yOffset = yOffset + 20
+        yOffset = yOffset + lineHeight
     end
 
     -- Tween animations
@@ -2793,7 +2805,21 @@ function Tab:CreateAvatarParagraph(Settings)
                 if TextLabels[i] then
                     TextLabels[i].Text = line
                     TextLabels[i].Position = UDim2.fromOffset(58, yOffset)
-                    yOffset = yOffset + 20
+                    yOffset = yOffset + lineHeight
+                else
+                    -- Create new line if needed
+                    local TextLabel = Instance.new("TextLabel")
+                    TextLabel.Text = line
+                    TextLabel.Position = UDim2.fromOffset(58, yOffset)
+                    TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
+                    TextLabel.BackgroundTransparency = 1
+                    TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+                    TextLabel.TextColor3 = i == 1 and Color3.new(1, 1, 1) or Color3.fromRGB(170, 170, 170)
+                    TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
+                    TextLabel.TextSize = i == 1 and 18 or 14
+                    TextLabel.Parent = Container
+                    table.insert(TextLabels, TextLabel)
+                    yOffset = yOffset + lineHeight
                 end
             end
         end
