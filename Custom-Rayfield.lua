@@ -2731,15 +2731,19 @@ function Tab:CreateAvatarParagraph(Settings)
     Paragraph.BackgroundTransparency = 1
     Paragraph.UIStroke.Transparency = 1
 
-    -- Optionally hide default title/content
     if Settings.HideTitle then
         Paragraph.Title.Text = ""
         Paragraph.Content.Text = ""
     end
 
+    local lineCount = #(Settings.Lines or {})
+    local padding = 20
+    local lineHeight = 24
+    local containerHeight = math.max(48 + 20, lineCount * lineHeight + padding) -- min height 68
+
     -- Avatar + info container
     local Container = Instance.new("Frame")
-    Container.Size = UDim2.new(1, -20, 0, math.max(80, (#(Settings.Lines or {}) * 24 + 20)))
+    Container.Size = UDim2.new(1, -20, 0, containerHeight)
     Container.Position = UDim2.fromOffset(10, 10)
     Container.BackgroundTransparency = 1
     Container.Parent = Paragraph
@@ -2760,8 +2764,8 @@ function Tab:CreateAvatarParagraph(Settings)
     for i, line in ipairs(Settings.Lines or {}) do
         local TextLabel = Instance.new("TextLabel")
         TextLabel.Text = line
-        TextLabel.Position = UDim2.fromOffset(68, 10 + (i-1)*24)
-        TextLabel.Size = UDim2.fromOffset(200, 20)
+        TextLabel.Position = UDim2.fromOffset(68, 10 + (i-1)*lineHeight)
+        TextLabel.Size = UDim2.fromOffset(200, lineHeight - 4)
         TextLabel.TextXAlignment = Enum.TextXAlignment.Left
         TextLabel.BackgroundTransparency = 1
         TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
@@ -2789,6 +2793,9 @@ function Tab:CreateAvatarParagraph(Settings)
                     TextLabels[i].Text = line
                 end
             end
+            -- Adjust container height dynamically
+            local newHeight = math.max(48 + 20, #NewSettings.Lines * lineHeight + padding)
+            Container.Size = UDim2.new(1, -20, 0, newHeight)
         end
     end
 
