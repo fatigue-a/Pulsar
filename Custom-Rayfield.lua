@@ -2567,7 +2567,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			return LabelValue
 		end
 
--- Paragraph with optional avatar
+-- Paragraph
 function Tab:CreateParagraph(ParagraphSettings)
     local ParagraphValue = {}
 
@@ -2724,17 +2724,27 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
+    -- Main container (Paragraph template, but title hidden)
     local Paragraph = Elements.Template.Paragraph:Clone()
     Paragraph.Visible = true
     Paragraph.Parent = TabPage
     Paragraph.BackgroundTransparency = 1
     Paragraph.UIStroke.Transparency = 1
 
+    -- Optionally hide default title/content
+    if Settings.HideTitle then
+        Paragraph.Title.Text = ""
+        Paragraph.Content.Text = ""
+    end
+
+    -- Avatar + info container
     local Container = Instance.new("Frame")
-    Container.Size = UDim2.new(1, -20, 0, 80)
+    Container.Size = UDim2.new(1, -20, 0, math.max(80, (#(Settings.Lines or {}) * 24 + 20)))
     Container.Position = UDim2.fromOffset(10, 10)
     Container.BackgroundTransparency = 1
     Container.Parent = Paragraph
+
+    -- Avatar Image
     local Image = Instance.new("ImageLabel")
     Image.Size = UDim2.fromOffset(48, 48)
     Image.Position = UDim2.fromOffset(10, 10)
@@ -2745,6 +2755,7 @@ function Tab:CreateAvatarParagraph(Settings)
     ImageCorner.CornerRadius = UDim.new(1, 0)
     ImageCorner.Parent = Image
 
+    -- Text lines
     local TextLabels = {}
     for i, line in ipairs(Settings.Lines or {}) do
         local TextLabel = Instance.new("TextLabel")
@@ -2760,12 +2771,14 @@ function Tab:CreateAvatarParagraph(Settings)
         table.insert(TextLabels, TextLabel)
     end
 
+    -- Tween animations
     TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
     TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
     for _, lbl in ipairs(TextLabels) do
         TweenService:Create(lbl, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
     end
 
+    -- Update function
     function ParagraphValue:Set(NewSettings)
         if NewSettings.ImageUrl then
             Image.Image = NewSettings.ImageUrl
