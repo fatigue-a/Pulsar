@@ -2735,10 +2735,15 @@ function Tab:CreateAvatarParagraph(Settings)
     Paragraph.Title.Text = ""
     Paragraph.Content.Text = ""
 
+    -- Enable automatic sizing
+    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
+
     -- Container for avatar + text
     local Container = Instance.new("Frame")
     Container.Position = UDim2.fromOffset(10, 10)
     Container.BackgroundTransparency = 1
+    Container.Size = UDim2.new(1, -20, 0, 0)
+    Container.AutomaticSize = Enum.AutomaticSize.Y
     Container.Parent = Paragraph
 
     -- Avatar Image
@@ -2754,12 +2759,12 @@ function Tab:CreateAvatarParagraph(Settings)
 
     -- Text lines
     local TextLabels = {}
-    local textHeight = 0
+    local yOffset = 0
     for i, line in ipairs(Settings.Lines or {}) do
         local TextLabel = Instance.new("TextLabel")
         TextLabel.Text = line
-        TextLabel.Position = UDim2.fromOffset(58, (i-1)*24)
-        TextLabel.Size = UDim2.fromOffset(250, 20)
+        TextLabel.Position = UDim2.fromOffset(58, yOffset)
+        TextLabel.Size = UDim2.new(1, -58, 0, 20)
         TextLabel.TextXAlignment = Enum.TextXAlignment.Left
         TextLabel.BackgroundTransparency = 1
         TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
@@ -2767,13 +2772,8 @@ function Tab:CreateAvatarParagraph(Settings)
         TextLabel.TextSize = i == 1 and 18 or 14
         TextLabel.Parent = Container
         table.insert(TextLabels, TextLabel)
-        textHeight = textHeight + 20
+        yOffset = yOffset + 20
     end
-
-    -- Calculate needed height (avatar vs text)
-    local contentHeight = math.max(Image.Size.Y.Offset, textHeight)
-    Container.Size = UDim2.new(1, -20, 0, contentHeight)
-    Paragraph.Size = UDim2.new(1, 0, 0, contentHeight + 20) -- + padding
 
     -- Tween animations
     TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
@@ -2788,21 +2788,15 @@ function Tab:CreateAvatarParagraph(Settings)
             Image.Image = NewSettings.ImageUrl
         end
         if NewSettings.Lines then
+            local yOffset = 0
             for i, line in ipairs(NewSettings.Lines) do
                 if TextLabels[i] then
                     TextLabels[i].Text = line
+                    TextLabels[i].Position = UDim2.fromOffset(58, yOffset)
+                    yOffset = yOffset + 20
                 end
             end
         end
-
-        -- Resize on update
-        local newTextHeight = 0
-        for _, lbl in ipairs(TextLabels) do
-            newTextHeight = newTextHeight + lbl.Size.Y.Offset
-        end
-        local newHeight = math.max(Image.Size.Y.Offset, newTextHeight)
-        Container.Size = UDim2.new(1, -20, 0, newHeight)
-        Paragraph.Size = UDim2.new(1, 0, 0, newHeight + 20)
     end
 
     return ParagraphValue, Paragraph
