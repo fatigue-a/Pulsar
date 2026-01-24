@@ -2724,49 +2724,32 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
-    -- Clone base paragraph template
     local Paragraph = Elements.Template.Paragraph:Clone()
     Paragraph.Visible = true
     Paragraph.Parent = TabPage
 
-    -- Hide built-in title/content to remove gaps
-    if Paragraph:FindFirstChild("Title") then
-        Paragraph.Title:Destroy()
-    end
-    if Paragraph:FindFirstChild("Content") then
-        Paragraph.Content:Destroy()
-    end
+    -- Hide default text but keep them (safe for Rayfield)
+    Paragraph.Title.Text = ""
+    Paragraph.Content.Text = ""
+    Paragraph.Title.Visible = false
+    Paragraph.Content.Visible = false
 
-    -- Remove any layout that might interfere
-    for _, child in ipairs(Paragraph:GetChildren()) do
-        if child:IsA("UIListLayout") then
-            child:Destroy()
-        end
-    end
-
-    Paragraph.BackgroundTransparency = 1
-    Paragraph.UIStroke.Transparency = 1
-    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
-
-    -- Container for avatar + text
+    -- Container inside Content
     local Container = Instance.new("Frame")
     Container.BackgroundTransparency = 1
-    Container.Size = UDim2.new(1, -20, 0, 0)
-    Container.Position = UDim2.fromOffset(10, 10)
-    Container.AutomaticSize = Enum.AutomaticSize.Y
-    Container.Parent = Paragraph
+    Container.Size = UDim2.new(1, 0, 0, 0)
+    Container.Position = UDim2.fromOffset(0, 0)
+    Container.Parent = Paragraph.Content
 
-    -- Avatar Image
+    -- Avatar
     local Image = Instance.new("ImageLabel")
     Image.Size = UDim2.fromOffset(48, 48)
     Image.Position = UDim2.fromOffset(0, 0)
     Image.BackgroundTransparency = 1
     Image.Image = Settings.ImageUrl or "rbxassetid://0"
     Image.Parent = Container
-
-    local ImageCorner = Instance.new("UICorner")
+    local ImageCorner = Instance.new("UICorner", Image)
     ImageCorner.CornerRadius = UDim.new(1, 0)
-    ImageCorner.Parent = Image
 
     -- Text lines
     local TextLabels = {}
@@ -2779,7 +2762,7 @@ function Tab:CreateAvatarParagraph(Settings)
         TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
         TextLabel.BackgroundTransparency = 1
         TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-        TextLabel.TextColor3 = i == 1 and Color3.new(1, 1, 1) or Color3.fromRGB(170, 170, 170)
+        TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
         TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
         TextLabel.TextSize = i == 1 and 18 or 14
         TextLabel.Parent = Container
@@ -2787,14 +2770,11 @@ function Tab:CreateAvatarParagraph(Settings)
         yOffset = yOffset + lineHeight
     end
 
-    -- Tween animations
-    TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
-    TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    -- Tween animation for your text
     for _, lbl in ipairs(TextLabels) do
         TweenService:Create(lbl, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
     end
 
-    -- Update function
     function ParagraphValue:Set(NewSettings)
         if NewSettings.ImageUrl then
             Image.Image = NewSettings.ImageUrl
@@ -2805,20 +2785,6 @@ function Tab:CreateAvatarParagraph(Settings)
                 if TextLabels[i] then
                     TextLabels[i].Text = line
                     TextLabels[i].Position = UDim2.fromOffset(58, yOffset)
-                    yOffset = yOffset + lineHeight
-                else
-                    -- Create new line if needed
-                    local TextLabel = Instance.new("TextLabel")
-                    TextLabel.Text = line
-                    TextLabel.Position = UDim2.fromOffset(58, yOffset)
-                    TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
-                    TextLabel.BackgroundTransparency = 1
-                    TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-                    TextLabel.TextColor3 = i == 1 and Color3.new(1, 1, 1) or Color3.fromRGB(170, 170, 170)
-                    TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
-                    TextLabel.TextSize = i == 1 and 18 or 14
-                    TextLabel.Parent = Container
-                    table.insert(TextLabels, TextLabel)
                     yOffset = yOffset + lineHeight
                 end
             end
