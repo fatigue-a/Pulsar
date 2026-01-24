@@ -2724,25 +2724,25 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
-    -- Create main paragraph frame (no cloning template to avoid hidden elements)
-    local Paragraph = Instance.new("Frame")
-    Paragraph.BackgroundTransparency = 1
-    Paragraph.BorderSizePixel = 0
-    Paragraph.Size = UDim2.new(1, -20, 0, 0)
-    Paragraph.Position = UDim2.fromOffset(10, 10)
-    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
+    -- Clone Rayfield paragraph template
+    local Paragraph = Elements.Template.Paragraph:Clone()
+    Paragraph.Visible = true
     Paragraph.Parent = TabPage
 
-    -- UIStroke for outline if needed
-    local UIStroke = Instance.new("UIStroke")
-    UIStroke.Transparency = 1
-    UIStroke.Parent = Paragraph
+    -- Hide default text minimally
+    Paragraph.Title.Text = ""
+    Paragraph.Content.Text = ""
 
-    -- Container for avatar + text
+    -- Keep Rayfield layout intact (don't destroy anything)
+    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
+    Paragraph.BackgroundTransparency = 1
+    Paragraph.UIStroke.Transparency = 1
+
+    -- Add your container INSIDE template
     local Container = Instance.new("Frame")
     Container.BackgroundTransparency = 1
-    Container.Size = UDim2.new(1, 0, 0, 0)
-    Container.Position = UDim2.fromOffset(0, 0)
+    Container.Size = UDim2.new(1, -20, 0, 0)
+    Container.Position = UDim2.fromOffset(10, 10)
     Container.AutomaticSize = Enum.AutomaticSize.Y
     Container.Parent = Paragraph
 
@@ -2753,7 +2753,6 @@ function Tab:CreateAvatarParagraph(Settings)
     Image.BackgroundTransparency = 1
     Image.Image = Settings.ImageUrl or "rbxassetid://0"
     Image.Parent = Container
-
     local ImageCorner = Instance.new("UICorner")
     ImageCorner.CornerRadius = UDim.new(1, 0)
     ImageCorner.Parent = Image
@@ -2777,25 +2776,12 @@ function Tab:CreateAvatarParagraph(Settings)
         yOffset = yOffset + lineHeight
     end
 
-    -- Tween animations
-    TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
-    TweenService:Create(UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
-    for _, lbl in ipairs(TextLabels) do
-        TweenService:Create(lbl, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
-    end
-
     -- Update function
     function ParagraphValue:Set(NewSettings)
         if NewSettings.ImageUrl then
             Image.Image = NewSettings.ImageUrl
         end
         if NewSettings.Lines then
-            -- Remove extra lines if needed
-            for i = #TextLabels, #NewSettings.Lines + 1, -1 do
-                TextLabels[i]:Destroy()
-                table.remove(TextLabels, i)
-            end
-            -- Update or create lines
             local yOffset = 0
             for i, line in ipairs(NewSettings.Lines) do
                 if TextLabels[i] then
