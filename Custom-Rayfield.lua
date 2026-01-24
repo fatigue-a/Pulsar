@@ -2724,7 +2724,7 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
-    -- Main container (Paragraph template)
+    -- Main paragraph container
     local Paragraph = Elements.Template.Paragraph:Clone()
     Paragraph.Visible = true
     Paragraph.Parent = TabPage
@@ -2735,9 +2735,8 @@ function Tab:CreateAvatarParagraph(Settings)
     Paragraph.Title.Text = ""
     Paragraph.Content.Text = ""
 
-    -- Fixed size container
+    -- Container for avatar + text
     local Container = Instance.new("Frame")
-    Container.Size = UDim2.new(1, -20, 0, 80) -- fixed 80px height
     Container.Position = UDim2.fromOffset(10, 10)
     Container.BackgroundTransparency = 1
     Container.Parent = Paragraph
@@ -2745,7 +2744,7 @@ function Tab:CreateAvatarParagraph(Settings)
     -- Avatar Image
     local Image = Instance.new("ImageLabel")
     Image.Size = UDim2.fromOffset(48, 48)
-    Image.Position = UDim2.fromOffset(10, 16)
+    Image.Position = UDim2.fromOffset(0, 0)
     Image.BackgroundTransparency = 1
     Image.Image = Settings.ImageUrl or "rbxassetid://0"
     Image.Parent = Container
@@ -2753,12 +2752,13 @@ function Tab:CreateAvatarParagraph(Settings)
     ImageCorner.CornerRadius = UDim.new(1, 0)
     ImageCorner.Parent = Image
 
-    -- Text lines (stacked vertically next to avatar)
+    -- Text lines
     local TextLabels = {}
+    local textHeight = 0
     for i, line in ipairs(Settings.Lines or {}) do
         local TextLabel = Instance.new("TextLabel")
         TextLabel.Text = line
-        TextLabel.Position = UDim2.fromOffset(68, 8 + (i-1)*24)
+        TextLabel.Position = UDim2.fromOffset(58, (i-1)*24)
         TextLabel.Size = UDim2.fromOffset(250, 20)
         TextLabel.TextXAlignment = Enum.TextXAlignment.Left
         TextLabel.BackgroundTransparency = 1
@@ -2767,7 +2767,13 @@ function Tab:CreateAvatarParagraph(Settings)
         TextLabel.TextSize = i == 1 and 18 or 14
         TextLabel.Parent = Container
         table.insert(TextLabels, TextLabel)
+        textHeight = textHeight + 20
     end
+
+    -- Calculate needed height (avatar vs text)
+    local contentHeight = math.max(Image.Size.Y.Offset, textHeight)
+    Container.Size = UDim2.new(1, -20, 0, contentHeight)
+    Paragraph.Size = UDim2.new(1, 0, 0, contentHeight + 20) -- + padding
 
     -- Tween animations
     TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
@@ -2788,6 +2794,15 @@ function Tab:CreateAvatarParagraph(Settings)
                 end
             end
         end
+
+        -- Resize on update
+        local newTextHeight = 0
+        for _, lbl in ipairs(TextLabels) do
+            newTextHeight = newTextHeight + lbl.Size.Y.Offset
+        end
+        local newHeight = math.max(Image.Size.Y.Offset, newTextHeight)
+        Container.Size = UDim2.new(1, -20, 0, newHeight)
+        Paragraph.Size = UDim2.new(1, 0, 0, newHeight + 20)
     end
 
     return ParagraphValue, Paragraph
