@@ -2724,11 +2724,12 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
+    -- Clone template
     local Paragraph = Elements.Template.Paragraph:Clone()
     Paragraph.Visible = true
     Paragraph.Parent = TabPage
 
-    -- Hide default text but keep them (safe for Rayfield)
+    -- Hide default title/content safely
     Paragraph.Title.Text = ""
     Paragraph.Content.Text = ""
     Paragraph.Title.Visible = false
@@ -2770,10 +2771,17 @@ function Tab:CreateAvatarParagraph(Settings)
         yOffset = yOffset + lineHeight
     end
 
-    -- Tween animation for your text
+    -- Tween animation for text
     for _, lbl in ipairs(TextLabels) do
         TweenService:Create(lbl, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
     end
+
+    -- Force layout update immediately
+    task.spawn(function()
+        task.wait() -- wait one frame
+        Paragraph.Visible = true
+        Paragraph:ForceLayout() -- force layout recalculation
+    end)
 
     function ParagraphValue:Set(NewSettings)
         if NewSettings.ImageUrl then
@@ -2789,6 +2797,11 @@ function Tab:CreateAvatarParagraph(Settings)
                 end
             end
         end
+        -- Recalculate layout after updating lines
+        task.spawn(function()
+            task.wait()
+            Paragraph:ForceLayout()
+        end)
     end
 
     return ParagraphValue, Paragraph
