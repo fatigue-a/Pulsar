@@ -2724,21 +2724,21 @@ end
 function Tab:CreateAvatarParagraph(Settings)
     local ParagraphValue = {}
 
-    -- Clone Rayfield paragraph template
+    -- Clone template
     local Paragraph = Elements.Template.Paragraph:Clone()
     Paragraph.Visible = true
     Paragraph.Parent = TabPage
-
-    -- Hide default text minimally
-    Paragraph.Title.Text = ""
-    Paragraph.Content.Text = ""
-
-    -- Keep Rayfield layout intact (don't destroy anything)
-    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
     Paragraph.BackgroundTransparency = 1
     Paragraph.UIStroke.Transparency = 1
+    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
 
-    -- Add your container INSIDE template
+    -- Hide default text
+    Paragraph.Title.Text = ""
+    Paragraph.Content.Text = ""
+    Paragraph.Title.TextTransparency = 1
+    Paragraph.Content.TextTransparency = 1
+
+    -- Container for avatar + text
     local Container = Instance.new("Frame")
     Container.BackgroundTransparency = 1
     Container.Size = UDim2.new(1, -20, 0, 0)
@@ -2746,7 +2746,7 @@ function Tab:CreateAvatarParagraph(Settings)
     Container.AutomaticSize = Enum.AutomaticSize.Y
     Container.Parent = Paragraph
 
-    -- Avatar image
+    -- Avatar Image
     local Image = Instance.new("ImageLabel")
     Image.Size = UDim2.fromOffset(48, 48)
     Image.Position = UDim2.fromOffset(0, 0)
