@@ -2732,13 +2732,13 @@ function Tab:CreateAvatarParagraph(Settings)
     Paragraph.UIStroke.Transparency = 1
     Paragraph.AutomaticSize = Enum.AutomaticSize.Y
 
-    -- Hide default text
+    -- Hide default text but keep objects to preserve layout
     Paragraph.Title.Text = ""
     Paragraph.Content.Text = ""
     Paragraph.Title.TextTransparency = 1
     Paragraph.Content.TextTransparency = 1
 
-    -- Container for avatar + text
+    -- Create container for avatar + text
     local Container = Instance.new("Frame")
     Container.BackgroundTransparency = 1
     Container.Size = UDim2.new(1, -20, 0, 0)
@@ -2759,22 +2759,32 @@ function Tab:CreateAvatarParagraph(Settings)
 
     -- Text lines
     local TextLabels = {}
-    local yOffset = 0
     local lineHeight = 20
+    local maxWidth = 0
     for i, line in ipairs(Settings.Lines or {}) do
         local TextLabel = Instance.new("TextLabel")
         TextLabel.Text = line
-        TextLabel.Position = UDim2.fromOffset(58, yOffset)
+        TextLabel.Position = UDim2.fromOffset(58, (i-1)*lineHeight)
         TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
         TextLabel.BackgroundTransparency = 1
         TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-        TextLabel.TextColor3 = i == 1 and Color3.new(1, 1, 1) or Color3.fromRGB(170, 170, 170)
+        TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
         TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
         TextLabel.TextSize = i == 1 and 18 or 14
         TextLabel.Parent = Container
         table.insert(TextLabels, TextLabel)
-        yOffset = yOffset + lineHeight
+
+        -- Update max width for sizing the paragraph
+        local textBounds = TextLabel.TextBounds.X
+        if textBounds > maxWidth then
+            maxWidth = textBounds
+        end
     end
+
+    -- Fix paragraph size width-wise
+    local paragraphPadding = 20 + 48 -- left margin + avatar
+    Paragraph.Size = UDim2.new(0, paragraphPadding + maxWidth, 0, 0)
+    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
 
     -- Update function
     function ParagraphValue:Set(NewSettings)
@@ -2782,26 +2792,30 @@ function Tab:CreateAvatarParagraph(Settings)
             Image.Image = NewSettings.ImageUrl
         end
         if NewSettings.Lines then
-            local yOffset = 0
+            local maxWidth = 0
             for i, line in ipairs(NewSettings.Lines) do
                 if TextLabels[i] then
                     TextLabels[i].Text = line
-                    TextLabels[i].Position = UDim2.fromOffset(58, yOffset)
                 else
                     local TextLabel = Instance.new("TextLabel")
                     TextLabel.Text = line
-                    TextLabel.Position = UDim2.fromOffset(58, yOffset)
+                    TextLabel.Position = UDim2.fromOffset(58, (i-1)*lineHeight)
                     TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
                     TextLabel.BackgroundTransparency = 1
                     TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-                    TextLabel.TextColor3 = i == 1 and Color3.new(1, 1, 1) or Color3.fromRGB(170, 170, 170)
+                    TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
                     TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
                     TextLabel.TextSize = i == 1 and 18 or 14
                     TextLabel.Parent = Container
                     table.insert(TextLabels, TextLabel)
                 end
-                yOffset = yOffset + lineHeight
+                -- Update width
+                local textBounds = TextLabels[i].TextBounds.X
+                if textBounds > maxWidth then
+                    maxWidth = textBounds
+                end
             end
+            Paragraph.Size = UDim2.new(0, paragraphPadding + maxWidth, 0, 0)
         end
     end
 
