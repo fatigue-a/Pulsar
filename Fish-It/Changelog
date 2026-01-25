@@ -1,0 +1,29 @@
+## v1.3.0
+- Added multi-config UI refresh system
+- Fixed Rayfield CreateInput property name (PlaceHolder → PlaceholderText)
+- Improved config switching performance
+- Added dynamic changelog version selector
+- UI now updates when switching between profiles
+
+## v1.2.0
+- Implemented ConfigManager module for profile management
+- Added Save/Load/Delete config functionality
+- Added Auto-Favorite feature with multiple filters
+- Improved UI organization with tabs
+- Added Settings Tab with config controls
+
+## v1.1.0
+- Added multi-profile configuration support
+- Improved error handling for auto-buy features
+- Added Real-time stats display
+- Better zone selection interface
+
+## v1.0.0
+- Initial release
+- Auto Fish feature (Remotes and Game methods)
+- Auto Buy: Rod, Bait, Boat, Lantern
+- Auto Sell functionality
+- Auto Teleport to fishing zones
+- NPC and Island teleportation
+- Walk speed override
+- Pirate chest auto-claiming
