@@ -1,1 +1,47 @@
+## v2.0.0 - Beta Release
+- Complete codebase rewrite for stability and performance
+- New Key System UI with animated interface
+- Dynamic changelog system (auto-detects versions)
+- Modular game template system for easy expansion
+- GAME_CONFIG centralized configuration
+- Multi-profile config system with import/export ready
+- Improved error handling and recovery
+- Session persistence
+- Cleaner code architecture with Functions modules
 
+## v1.4.0 - Alpha
+- Added Auto-Favorite system with Weight, Rarity, and Mutation filters
+- Smart sell now respects favorite criteria
+- Added multi-config profile system
+- UI refresh on config load
+- Performance improvements
+
+## v1.3.0 - Alpha
+- Added Auto-Buy for Rods, Baits, Boats, and Lanterns
+- Added Teleport system for Islands and NPCs
+- Added Walk Speed override (ignore fishing slowdown)
+- Added Auto Claim Pirate Chests
+- Bug fixes and stability improvements
+
+## v1.2.0 - Alpha
+- Added dual fishing methods: Remotes and Game
+- Added Always Perfect rod charge
+- Added zone information display with click multipliers
+- Added Stats tab with live FPS, ping, and session time
+- Improved configuration persistence
+- Baseplate spawner with auto-cleanup on re-execute
+
+## v1.1.0 - Alpha
+- Added Rayfield UI integration
+- Added Home tab with player avatar and live stats
+- Added Settings tab with save/load functionality
+- Added fishing zone dropdown with dynamic areas
+- Basic configuration file support
+- Platoboost key verification
+
+## v1.0.0 - Alpha (Initialy Started)
+- Project Start
+- Auto Fish functionality (remote-based)
+- Auto Sell to Fish
+- Auto Teleport to fishing zones
+- Basic state management
