@@ -1,5 +1,5 @@
 local ids = {
-    [121864768012064] = "https://raw.githubusercontent.com/fatigue-a/Pulsar/refs/heads/main/Fish-It/Fish-it.lua",
+    [121864768012064] = "https://raw.githubusercontent.com/fatigue-a/Pulsar/refs/heads/main/Games/Fish-It/Fish-it.Lua",
 }
 
 if ids[game.PlaceId] then
