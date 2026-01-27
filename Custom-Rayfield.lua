@@ -1642,10 +1642,10 @@ function RayfieldLibrary:CreateWindow(Settings)
 	end
 
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "Kenu Hub"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "Pulsar Hub"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "By Fatigue"
 
-	if Settings.LoadingTitle ~= "Kenu Hub" then
+	if Settings.LoadingTitle ~= "Pulsar Hub" then
 		LoadingFrame.Version.Text = "By Fatigue"
 	end
 
@@ -1696,8 +1696,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(100, 450))
 				RayfieldLibrary:Notify({
-					Title = "Kenu Hub",
-					Content = "Enjoying Kenu?",
+					Title = "Pulsar Hub",
+					Content = "Enjoying Pulsar?",
 					Duration = 7,
 					Image = 2867270,
 				})
@@ -4139,4 +4139,5 @@ task.delay(4, function()
 end)
 
 return RayfieldLibrary
+
 
