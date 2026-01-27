@@ -1,7 +1,4 @@
 --[[ 
-	Custom how?
-	added a function that (barly) supports images in paragraph
-
 	Rayfield Interface Suite
 	by Sirius
 
@@ -663,6 +660,135 @@ local RayfieldLibrary = {
 			InputBackground = Color3.fromRGB(220, 230, 240),
 			InputStroke = Color3.fromRGB(180, 190, 200),
 			PlaceholderColor = Color3.fromRGB(150, 150, 150)
+		},
+
+		-- Pulsar Hub Custom Theme (Console/Terminal Style)
+		Pulsar = {
+			TextColor = Color3.fromRGB(0, 255, 200),  -- Cyan terminal text
+
+			Background = Color3.fromRGB(8, 8, 12),   -- Deep dark background
+			Topbar = Color3.fromRGB(12, 12, 18),     -- Slightly lighter topbar
+			Shadow = Color3.fromRGB(0, 0, 0),        -- Pure black shadow
+
+			NotificationBackground = Color3.fromRGB(15, 15, 22),
+			NotificationActionsBackground = Color3.fromRGB(0, 255, 200),
+
+			TabBackground = Color3.fromRGB(18, 18, 25),
+			TabStroke = Color3.fromRGB(0, 180, 150),  -- Teal stroke
+			TabBackgroundSelected = Color3.fromRGB(0, 255, 200),
+			TabTextColor = Color3.fromRGB(100, 200, 180),
+			SelectedTabTextColor = Color3.fromRGB(8, 8, 12),
+
+			ElementBackground = Color3.fromRGB(15, 15, 22),
+			ElementBackgroundHover = Color3.fromRGB(20, 20, 30),
+			SecondaryElementBackground = Color3.fromRGB(12, 12, 18),
+			ElementStroke = Color3.fromRGB(0, 120, 100),
+			SecondaryElementStroke = Color3.fromRGB(0, 100, 80),
+
+			SliderBackground = Color3.fromRGB(0, 80, 65),
+			SliderProgress = Color3.fromRGB(0, 255, 200),
+			SliderStroke = Color3.fromRGB(0, 200, 160),
+
+			ToggleBackground = Color3.fromRGB(15, 15, 22),
+			ToggleEnabled = Color3.fromRGB(0, 255, 200),
+			ToggleDisabled = Color3.fromRGB(50, 50, 60),
+			ToggleEnabledStroke = Color3.fromRGB(0, 200, 160),
+			ToggleDisabledStroke = Color3.fromRGB(70, 70, 80),
+			ToggleEnabledOuterStroke = Color3.fromRGB(0, 150, 120),
+			ToggleDisabledOuterStroke = Color3.fromRGB(40, 40, 50),
+
+			DropdownSelected = Color3.fromRGB(20, 20, 30),
+			DropdownUnselected = Color3.fromRGB(12, 12, 18),
+
+			InputBackground = Color3.fromRGB(12, 12, 18),
+			InputStroke = Color3.fromRGB(0, 150, 120),
+			PlaceholderColor = Color3.fromRGB(0, 150, 120)
+		},
+
+		-- Pulsar Neon (Brighter, more vibrant variant)
+		PulsarNeon = {
+			TextColor = Color3.fromRGB(255, 255, 255),
+
+			Background = Color3.fromRGB(10, 10, 15),
+			Topbar = Color3.fromRGB(15, 15, 22),
+			Shadow = Color3.fromRGB(0, 0, 0),
+
+			NotificationBackground = Color3.fromRGB(18, 18, 25),
+			NotificationActionsBackground = Color3.fromRGB(0, 255, 180),
+
+			TabBackground = Color3.fromRGB(20, 20, 30),
+			TabStroke = Color3.fromRGB(0, 255, 200),
+			TabBackgroundSelected = Color3.fromRGB(0, 255, 180),
+			TabTextColor = Color3.fromRGB(0, 255, 200),
+			SelectedTabTextColor = Color3.fromRGB(10, 10, 15),
+
+			ElementBackground = Color3.fromRGB(18, 18, 28),
+			ElementBackgroundHover = Color3.fromRGB(25, 25, 38),
+			SecondaryElementBackground = Color3.fromRGB(15, 15, 22),
+			ElementStroke = Color3.fromRGB(0, 200, 160),
+			SecondaryElementStroke = Color3.fromRGB(0, 150, 120),
+
+			SliderBackground = Color3.fromRGB(0, 100, 80),
+			SliderProgress = Color3.fromRGB(0, 255, 180),
+			SliderStroke = Color3.fromRGB(0, 255, 200),
+
+			ToggleBackground = Color3.fromRGB(18, 18, 28),
+			ToggleEnabled = Color3.fromRGB(0, 255, 180),
+			ToggleDisabled = Color3.fromRGB(60, 60, 70),
+			ToggleEnabledStroke = Color3.fromRGB(0, 255, 220),
+			ToggleDisabledStroke = Color3.fromRGB(80, 80, 90),
+			ToggleEnabledOuterStroke = Color3.fromRGB(0, 180, 140),
+			ToggleDisabledOuterStroke = Color3.fromRGB(45, 45, 55),
+
+			DropdownSelected = Color3.fromRGB(25, 25, 38),
+			DropdownUnselected = Color3.fromRGB(15, 15, 22),
+
+			InputBackground = Color3.fromRGB(15, 15, 22),
+			InputStroke = Color3.fromRGB(0, 200, 160),
+			PlaceholderColor = Color3.fromRGB(0, 180, 140)
+		},
+
+		-- Pulsar Midnight (Deeper purple/blue variant)
+		PulsarMidnight = {
+			TextColor = Color3.fromRGB(180, 200, 255),
+
+			Background = Color3.fromRGB(8, 8, 16),
+			Topbar = Color3.fromRGB(12, 12, 24),
+			Shadow = Color3.fromRGB(4, 4, 8),
+
+			NotificationBackground = Color3.fromRGB(15, 15, 30),
+			NotificationActionsBackground = Color3.fromRGB(100, 150, 255),
+
+			TabBackground = Color3.fromRGB(18, 18, 35),
+			TabStroke = Color3.fromRGB(80, 120, 200),
+			TabBackgroundSelected = Color3.fromRGB(100, 150, 255),
+			TabTextColor = Color3.fromRGB(150, 180, 255),
+			SelectedTabTextColor = Color3.fromRGB(10, 10, 20),
+
+			ElementBackground = Color3.fromRGB(15, 15, 30),
+			ElementBackgroundHover = Color3.fromRGB(22, 22, 42),
+			SecondaryElementBackground = Color3.fromRGB(12, 12, 24),
+			ElementStroke = Color3.fromRGB(60, 90, 160),
+			SecondaryElementStroke = Color3.fromRGB(50, 75, 130),
+
+			SliderBackground = Color3.fromRGB(40, 60, 120),
+			SliderProgress = Color3.fromRGB(100, 150, 255),
+			SliderStroke = Color3.fromRGB(120, 170, 255),
+
+			ToggleBackground = Color3.fromRGB(15, 15, 30),
+			ToggleEnabled = Color3.fromRGB(100, 150, 255),
+			ToggleDisabled = Color3.fromRGB(50, 50, 70),
+			ToggleEnabledStroke = Color3.fromRGB(130, 180, 255),
+			ToggleDisabledStroke = Color3.fromRGB(70, 70, 90),
+			ToggleEnabledOuterStroke = Color3.fromRGB(70, 100, 180),
+			ToggleDisabledOuterStroke = Color3.fromRGB(40, 40, 60),
+
+			DropdownSelected = Color3.fromRGB(22, 22, 42),
+			DropdownUnselected = Color3.fromRGB(12, 12, 24),
+
+			InputBackground = Color3.fromRGB(12, 12, 24),
+			InputStroke = Color3.fromRGB(70, 100, 180),
+			PlaceholderColor = Color3.fromRGB(100, 130, 200)
 		},
 	}
 }
@@ -1581,6 +1707,293 @@ local function createSettings(window)
 	saveSettings()
 end
 
+-- PULSAR OVERLAY (Custom Feature)
+local Overlay = nil
+local OverlayConnection = nil
+local OverlayFPSConnection = nil
+
+function RayfieldLibrary:CreateOverlay(Settings)
+	-- Settings: { Name = "Pulsar Hub", Game = "Fish It", Position = "TopLeft/TopRight/BottomLeft/BottomRight", Scale = number }
+	Settings = Settings or {}
+	local overlayName = Settings.Name or "Pulsar Hub"
+	local gameName = Settings.Game or "Unknown"
+	local position = Settings.Position or "TopLeft"
+	
+	-- Destroy existing overlay if any
+	if Overlay then
+		if OverlayConnection then OverlayConnection:Disconnect() end
+		if OverlayFPSConnection then OverlayFPSConnection:Disconnect() end
+		Overlay:Destroy()
+	end
+	
+	-- Mobile detection
+	local isMobile = UserInputService.TouchEnabled or useMobileSizing
+	local scale = Settings.Scale or (isMobile and 1.3 or 1)
+	
+	-- Base dimensions (scaled for mobile)
+	local baseWidth = math.floor(150 * scale)
+	local baseHeight = math.floor(65 * scale)
+	local basePadding = math.floor(8 * scale)
+	local baseMargin = isMobile and 15 or 10
+	local titleSize = math.floor(12 * scale)
+	local labelSize = math.floor(10 * scale)
+	
+	-- Create ScreenGui
+	local OverlayGui = Instance.new("ScreenGui")
+	OverlayGui.Name = "PulsarOverlay"
+	OverlayGui.ResetOnSpawn = false
+	OverlayGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	OverlayGui.DisplayOrder = 999
+	OverlayGui.IgnoreGuiInset = true  -- Better positioning on mobile
+	
+	if gethui then
+		OverlayGui.Parent = gethui()
+	elseif syn and syn.protect_gui then
+		syn.protect_gui(OverlayGui)
+		OverlayGui.Parent = CoreGui
+	elseif not useStudio and CoreGui:FindFirstChild("RobloxGui") then
+		OverlayGui.Parent = CoreGui:FindFirstChild("RobloxGui")
+	elseif not useStudio then
+		OverlayGui.Parent = CoreGui
+	else
+		OverlayGui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
+	end
+	
+	-- Position mapping (adjusted for mobile safe zones)
+	local mobileTopOffset = isMobile and 50 or 10  -- Account for notch/status bar
+	local positionMap = {
+		TopLeft = UDim2.new(0, baseMargin, 0, mobileTopOffset),
+		TopRight = UDim2.new(1, -(baseWidth + baseMargin), 0, mobileTopOffset),
+		BottomLeft = UDim2.new(0, baseMargin, 1, -(baseHeight + baseMargin + (isMobile and 30 or 0))),
+		BottomRight = UDim2.new(1, -(baseWidth + baseMargin), 1, -(baseHeight + baseMargin + (isMobile and 30 or 0)))
+	}
+	
+	-- Main container
+	local Container = Instance.new("Frame")
+	Container.Name = "Container"
+	Container.Size = UDim2.new(0, baseWidth, 0, baseHeight)
+	Container.Position = positionMap[position] or positionMap.TopLeft
+	Container.BackgroundColor3 = Color3.fromRGB(8, 8, 12)
+	Container.BackgroundTransparency = 0.15
+	Container.BorderSizePixel = 0
+	Container.Active = true  -- Allows touch interaction
+	Container.Parent = OverlayGui
+	
+	local ContainerCorner = Instance.new("UICorner")
+	ContainerCorner.CornerRadius = UDim.new(0, math.floor(6 * scale))
+	ContainerCorner.Parent = Container
+	
+	local ContainerStroke = Instance.new("UIStroke")
+	ContainerStroke.Color = Color3.fromRGB(0, 255, 200)
+	ContainerStroke.Transparency = 0.6
+	ContainerStroke.Thickness = isMobile and 2 or 1
+	ContainerStroke.Parent = Container
+	
+	local Padding = Instance.new("UIPadding")
+	Padding.PaddingLeft = UDim.new(0, basePadding)
+	Padding.PaddingRight = UDim.new(0, basePadding)
+	Padding.PaddingTop = UDim.new(0, math.floor(6 * scale))
+	Padding.PaddingBottom = UDim.new(0, math.floor(6 * scale))
+	Padding.Parent = Container
+	
+	-- Use UIListLayout for better scaling
+	local Layout = Instance.new("UIListLayout")
+	Layout.SortOrder = Enum.SortOrder.LayoutOrder
+	Layout.Padding = UDim.new(0, math.floor(2 * scale))
+	Layout.Parent = Container
+	
+	-- Title (Hub Name)
+	local Title = Instance.new("TextLabel")
+	Title.Name = "Title"
+	Title.Size = UDim2.new(1, 0, 0, math.floor(14 * scale))
+	Title.LayoutOrder = 1
+	Title.BackgroundTransparency = 1
+	Title.Text = overlayName
+	Title.TextColor3 = Color3.fromRGB(0, 255, 200)
+	Title.TextSize = titleSize
+	Title.Font = Enum.Font.GothamBold
+	Title.TextXAlignment = Enum.TextXAlignment.Left
+	Title.TextScaled = isMobile  -- Auto-scale text on mobile
+	Title.Parent = Container
+	
+	if isMobile then
+		local titleConstraint = Instance.new("UITextSizeConstraint")
+		titleConstraint.MaxTextSize = titleSize
+		titleConstraint.MinTextSize = 8
+		titleConstraint.Parent = Title
+	end
+	
+	-- Game Name
+	local GameLabel = Instance.new("TextLabel")
+	GameLabel.Name = "Game"
+	GameLabel.Size = UDim2.new(1, 0, 0, math.floor(12 * scale))
+	GameLabel.LayoutOrder = 2
+	GameLabel.BackgroundTransparency = 1
+	GameLabel.Text = "Game: " .. gameName
+	GameLabel.TextColor3 = Color3.fromRGB(150, 200, 190)
+	GameLabel.TextSize = labelSize
+	GameLabel.Font = Enum.Font.GothamMedium
+	GameLabel.TextXAlignment = Enum.TextXAlignment.Left
+	GameLabel.TextScaled = isMobile
+	GameLabel.Parent = Container
+	
+	if isMobile then
+		local gameConstraint = Instance.new("UITextSizeConstraint")
+		gameConstraint.MaxTextSize = labelSize
+		gameConstraint.MinTextSize = 7
+		gameConstraint.Parent = GameLabel
+	end
+	
+	-- FPS Display
+	local FPSLabel = Instance.new("TextLabel")
+	FPSLabel.Name = "FPS"
+	FPSLabel.Size = UDim2.new(1, 0, 0, math.floor(12 * scale))
+	FPSLabel.LayoutOrder = 3
+	FPSLabel.BackgroundTransparency = 1
+	FPSLabel.Text = "FPS: --"
+	FPSLabel.TextColor3 = Color3.fromRGB(120, 180, 170)
+	FPSLabel.TextSize = labelSize
+	FPSLabel.Font = Enum.Font.GothamMedium
+	FPSLabel.TextXAlignment = Enum.TextXAlignment.Left
+	FPSLabel.TextScaled = isMobile
+	FPSLabel.Parent = Container
+	
+	if isMobile then
+		local fpsConstraint = Instance.new("UITextSizeConstraint")
+		fpsConstraint.MaxTextSize = labelSize
+		fpsConstraint.MinTextSize = 7
+		fpsConstraint.Parent = FPSLabel
+	end
+	
+	-- Ping Display
+	local PingLabel = Instance.new("TextLabel")
+	PingLabel.Name = "Ping"
+	PingLabel.Size = UDim2.new(1, 0, 0, math.floor(12 * scale))
+	PingLabel.LayoutOrder = 4
+	PingLabel.BackgroundTransparency = 1
+	PingLabel.Text = "Ping: -- ms"
+	PingLabel.TextColor3 = Color3.fromRGB(120, 180, 170)
+	PingLabel.TextSize = labelSize
+	PingLabel.Font = Enum.Font.GothamMedium
+	PingLabel.TextXAlignment = Enum.TextXAlignment.Left
+	PingLabel.TextScaled = isMobile
+	PingLabel.Parent = Container
+	
+	if isMobile then
+		local pingConstraint = Instance.new("UITextSizeConstraint")
+		pingConstraint.MaxTextSize = labelSize
+		pingConstraint.MinTextSize = 7
+		pingConstraint.Parent = PingLabel
+	end
+	
+	-- FPS Counter variables
+	local frameCount = 0
+	local lastTime = tick()
+	local fps = 0
+	
+	-- FPS counting loop
+	OverlayFPSConnection = RunService.RenderStepped:Connect(function()
+		frameCount = frameCount + 1
+	end)
+	
+	-- Update loop (every 0.5 seconds)
+	OverlayConnection = RunService.Heartbeat:Connect(function()
+		local currentTime = tick()
+		if currentTime - lastTime >= 0.5 then
+			fps = math.floor(frameCount / (currentTime - lastTime))
+			frameCount = 0
+			lastTime = currentTime
+			
+			-- Update FPS
+			FPSLabel.Text = "FPS: " .. tostring(fps)
+			
+			-- Color code FPS
+			if fps >= 60 then
+				FPSLabel.TextColor3 = Color3.fromRGB(0, 255, 150)  -- Green
+			elseif fps >= 30 then
+				FPSLabel.TextColor3 = Color3.fromRGB(255, 200, 0)  -- Yellow
+			else
+				FPSLabel.TextColor3 = Color3.fromRGB(255, 80, 80)  -- Red
+			end
+			
+			-- Update Ping
+			local ping = math.floor(Players.LocalPlayer:GetNetworkPing() * 1000)
+			PingLabel.Text = "Ping: " .. tostring(ping) .. " ms"
+			
+			-- Color code Ping
+			if ping <= 80 then
+				PingLabel.TextColor3 = Color3.fromRGB(0, 255, 150)  -- Green
+			elseif ping <= 150 then
+				PingLabel.TextColor3 = Color3.fromRGB(255, 200, 0)  -- Yellow
+			else
+				PingLabel.TextColor3 = Color3.fromRGB(255, 80, 80)  -- Red
+			end
+		end
+	end)
+	
+	-- Mobile: Add tap to toggle visibility (double tap)
+	local lastTapTime = 0
+	if isMobile then
+		Container.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.Touch then
+				local currentTime = tick()
+				if currentTime - lastTapTime < 0.3 then
+					-- Double tap - minimize to just title
+					if Container.Size.Y.Offset > math.floor(20 * scale) then
+						TweenService:Create(Container, TweenInfo.new(0.3, Enum.EasingStyle.Quart), {
+							Size = UDim2.new(0, baseWidth, 0, math.floor(20 * scale))
+						}):Play()
+						GameLabel.Visible = false
+						FPSLabel.Visible = false
+						PingLabel.Visible = false
+					else
+						TweenService:Create(Container, TweenInfo.new(0.3, Enum.EasingStyle.Quart), {
+							Size = UDim2.new(0, baseWidth, 0, baseHeight)
+						}):Play()
+						GameLabel.Visible = true
+						FPSLabel.Visible = true
+						PingLabel.Visible = true
+					end
+				end
+				lastTapTime = currentTime
+			end
+		end)
+	end
+	
+	Overlay = OverlayGui
+	
+	-- Return overlay object with methods
+	local OverlayObj = {}
+	
+	function OverlayObj:SetGame(newGame)
+		GameLabel.Text = "Game: " .. newGame
+	end
+	
+	function OverlayObj:SetName(newName)
+		Title.Text = newName
+	end
+	
+	function OverlayObj:SetVisible(visible)
+		OverlayGui.Enabled = visible
+	end
+	
+	function OverlayObj:Destroy()
+		if OverlayConnection then OverlayConnection:Disconnect() end
+		if OverlayFPSConnection then OverlayFPSConnection:Disconnect() end
+		OverlayGui:Destroy()
+		Overlay = nil
+	end
+	
+	function OverlayObj:SetPosition(newPosition)
+		Container.Position = positionMap[newPosition] or positionMap.TopLeft
+	end
+	
+	function OverlayObj:IsMobile()
+		return isMobile
+	end
+	
+	return OverlayObj
+end
 
 
 function RayfieldLibrary:CreateWindow(Settings)
