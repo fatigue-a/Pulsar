@@ -1,2 +1,4557 @@
--- this file was generated using ironbrew1
-return(function(a,a,b,b,b,b,c,d,e,f,g,h,i,j,k,l,m,m,m,n,n,n,n,n,n,o,o,o,o,o,o,o,o,p)local q,r,s,t,u,v,w,x,y,z,ba,bb,bc,bd,be,bf,bg,bh,bi,bj,bk,bl,bm,bn,bo,bp,bq,br,bs,bt,bu,bv,bw,bx,by,bz,ca,cb,cc,cd,ce,cf,cg local ch={}local ci={}ci[1]=2 ci[2]=2 ci[3]=1 local cj=0 local ck=-32875 while true do if ck>=-15642 then if ck>=50273 then if ck>=63147 then if ck<=77981 then if ck>=74394 then if ck~=77981 then cf=ca(bm)cg=ce(cf,{},l())ck=50289 else bq=nil cj,ck=88873,88873 end else ba=w and w[(function(l,cf)local cl local cm={}local cn={}cn[1]=1 cn[2]=4 cn[3]=1 local cn=61605 local co=0 while true do if cn<=29601 then if cn==-34838 then break end if(cn==-34838)and 8660>0 then continue end if cn~=-34838 then return i(cl)end continue end if cn>29601 then if cn==34225 then cl=cm[134]for cp=1,#l do local l=e(l,cp)cl[cp]=o(d(37,99),(l-(cf+cp))%256)end co,cn=29601,29601 continue end if cn~=34225 then cm[134]={}co,cn=34225,34225 continue end continue end end end)("\175\198\190\194",76)]or function(l,cf)local cl local cm={}local cm={}cm[1]=3 cm[2]=0 cm[3]=4 local cm=0 local cm=-49292 while true do if cm>=-49262 then if cm<65595 then break end if cm>=65595 then return cl;end else cl=0 for cn=0,31 do local co local cp={}local cp={}cp[1]=4 cp[2]=1 cp[3]=0 local cp=0 local cq=-41051 while true do if cq>=-11802 then if cq<=-11802 then l=j(l/2)cf=j(cf/2)cq=43453 continue end if cq>-11802 then break end continue end if cq<-11802 then co=l/2+cf/2 if co~=j(co)then cl=cl+2^cn;end;cp,cq=-11802,-11802 continue end end end;cm=65595 end end end bb=w and w[(function(l,ba)local cf={}for cl=1,#l do local l=e(l,cl)cf[cl]=o(d(37,99),(l-(ba+cl))%256)end return i(cf)end)("\115\129\133",16)]or function(l,ba)local cf=0 local cl=1 while l>0 or ba>0 do local cm=l%2 local cn=ba%2 if cm==1 or cn==1 then cf=cf+cl;end;l=j(l/2);ba=j(ba/2);cl=cl*2;end;return cf;end bc=nil bd=nil cj=ci[1]==1 and-20820 or 51645 ck=51645 end else if ck>=84796 then if ck<=84796 then cb=function(...)return{...},k('#',...)end cj,ck=-42093,-42093 continue end bq=function(l)local ba=0 for cf=0,2 do ba=bb(ba,bc(e(l,bn,bn),8*cf));bn=bn+1;end;return ba;end cj,ck=-43252,-43252 continue end if(ck>=84796)and 5654>0 then continue end if ck<84796 then break end end continue end if(ck>=63147)and 7594>0 then continue end if ck<63147 then if ck>=56315 then if ck<=56315 then cd=ch[1167]ck=-39447 continue end if ck>56315 then if ck~=58563 then bw=nil ci[3]=(ci[3]+1)%5 ck=26335 else bm=bl([==[4"^O6I['m5!($J&d6I>S4;Rts%hT?Bs8W-!+o`)s6\PC;s8W-!rsok8:a,iL(%P0E6QP_^<6.F\r;Zd]<6.lXqEIsC5?-iCJ*7CXq@=>;:n^8TTgKh]e=f5Mq@=>;:ndncU&Y/1K`43[@1Vsbr@hY;>hF"(s8Tul4ksJ`KFK$k_ZV-!QuHIu9Xq<^$UV?6)_Q4p-@!>[.=1@@+6!eKifO3?U&L.I6\PsA+[[8*eGk$^:n^71r_T:U*Vr-W%MS[LF6F-UkV/_10SfW]L]/u_%<L_eTar+=0VL_TTg)5L6[tJ"@1F5;9\;%-5>8T)L'r@<Yi,a)-Cfh@E/+l92I%*8Kb[kFE.U7.LCG%X>aVaN>HhPQL'da4$[]B;LHSnp_h8I4p2I%j"Y2R$'Wb1l,p>SVEg%45kcp2hij&8%ir:)U`$+.aiZ\;NrK&*N7&UZP'L^"Q&b6`;a:K7NA10foW">XiKatX9"Jp\Y'llH:aA<s66mt?S$E8dd)%RH;`1]MN$5klmW"=Q,H6poGMElqPoM`iXTb,SEBL</"d%N@>-pr_I<9TEq%RlR0BM<)9Jd<)(;Lfu!%"esGndIr0#aCA-Os%oA"6M"&@M%0?-5:!$/O@H9);$8l1lL'uPT\I6VM*@Zj/B(#9qGa^NCo38KK36N]G6&kTaD*6i/:6]&2A'1[#NUSK*a&',:%O9[I#aQVIb4aBP!&359?p>icl,lG'8&g,#$eZM2i:0P.=L5q72dTl#PC_`>G-]N5@^7)gc%,/QH(]/$Z^A&s<7M(6_sHbYc>`]E<fAgX@B7]^shB9jAtF#0OE0r^N+]$F6*9I.t:PL"aBKQYr1/6K3>+eY)q3X&#KMW(P8GV>&1[lmaHlUK-QY-R+:^Bj88[3#_6<1^c#R#&JXHS^JH95ab21CnujWI7ad+@`1]R3kHkr3"r_OgS-(7pVs_l22Hg*0T`_Q_J\\^2T!DV4S'?n+q$@c,"+H`=KLnt0nkc8HoPqg&89-==.N)Eam&j1?tpss6^jT;!6Buiqi$nsefZZri'L'%"6h=EA"LQ5AJRAL%'bmVdi-A<DaI):,&=le,!=ZB.qF<c;$Jk3?EKt,F<SIoZ/TXu@&#4+`[0[\n*VFZi!+2@@MD3I((8!pDR=)D78a'bXi?g.^j\"52>3'g_+JV_oh-jS_B>S7YSi%DD;+2ElncJl@#T7aUf4)>Srlc*(^AHV+>=!5`#7r^Js4F!&ZOD4Wl0L!-O#/HTb(EZ0bP,:BSs30"adLDXd(mT!`e%!bNaL@M%'Pro3osqA_m2BZnsIACY5*"#R7M9'0=kl@:qSbNjQrC-a5TUKKX$dLki3:&^*uj%\[!.oi?'C<5E:MfbE!tL+6l8TQ*BnfXQKr!$`.d03GJneHZ^bCuDs(!tFKPmP1s[A6_[1@^)<..gh*]=V<fO4iM7jNYDQSd&4f6+tr!4MIRCi%3/T)Zr"TWhC:6("4'pX;@JI`E(VAs'9b^U>)<KK`1CBKLk+#`W'M+@YR.um9jgmmMD_.G'S[5e'G]2`Tu!r=ZXm*D#Vf:V1'ki2X&LOP;Ooa$#'Q`.4!UYm/!r/V@'6_kV3fi!7RTWPP=)-B1GVF@(9qNUf5.T0<N#e@%(KfY0`W<3,n/_D(#.ZVdi?n0E"k#kN<0+_+Tu%9H&<nhG2N+tW.gkX_TV7eWK(-';9Lr9+lI<(GhsPPL\_<-8UTb,h.6P]Oh5fd4F>'^M.8Y2R^^0.2qjEY7'"d/Y](j%^g=rTodsM\fB[;8C8%b:/%'5b^a*nf^`Wh4M!tNo!<[8X&;5jQa(9-Q#2$8C$WXDT&/kubfhr6;=Gak>#SYgZPWtg6!\P?7!=ZIP&JJT9i#%Y7<5Dm/n2;#?1`f"tW?Jd'1L.^P6GVt#L[q6u%)P78*-[Na\kn`N;SWG="6HOJ^d(-jKHME=!t"H:`t@g"&fcQa6bl#t/AfAG.hlqI6*QNj?86t7!FaM&RB),D4-mNUE5<+p&ibMoKm:TK6m2hEZ[r4JCfCI+a<7]8"pTT@!_a446m48h&0eq&$"/Jn^_$cZE";+]'Om+(>\Y/[#OF,EX-0\G#ad#AL,anX!so9j3[#+^h#srM]b-is"W#]oSrCa8%`2%G6:(YYJr"A2^^;Cm#(ckDk(s-O&]4JP(^M;9&-*B[@+:&96l5p@ZRT?*!($tQ#=B[<6GSAa9FO?t6\5k=!<[OT_BasE!ETlK&V>',65C.>(c]D9E314'.gD*)9*/3`.gX/]6B#Aig6SGl3\nLW-,R?iSF`glaAQZU-5>\e!;BPUb)7(rFKt9be9\M?j'Wh.O^T9pX5K`1D&l<e9&Ls?'IB`A_/S>E9<K@<0X?F-=sBiU,@[u]$+g?OM8W`D=Ju_rCR)W,g(V`3Q"gCYUWseFThqW'*oNc=AH@.47B%,?N!)%-<jBP7lB4\l32+VYg^q>"J6aKG(@j/!^i2/SA"'+8S)KejILlmS'(jc@3a=M!bF-93XfGMLSaEEae0,NYBu-f!Y)9o4C/m<b`M'3['3H\!SKJM"0IXAeiRe6r<'t+@(@7mT+E%jHP1CB6c:AJrWtE=H(_!8uLuLf3(+!(AH=oVsM*9C`8?n&^ReP+mO;2$fZKeY5P]7TMisf$o/8.q`/M*n2Kn<T`STn0%Q_9&&;egh+Tr3#i`"5UWTWNa#@^$tA.Mb*C@V^:d_Ea-]`Yc[l8p+,!I*#3I,DH_.e-(@4=&WQ_=<g=)fSmdP^IWn>*N#28$cQ!Qlj4n;%)F]a7?K'VK26ImPa9UP2\H<O(2FJ=,3,b%;R#lF4U%n7;fLec85)ZcL(nH)e1nfS&[/3diN/-Z'I?0Z#pJ6[\a](gJ=YceneNOKLR7/>oj6c/+'c$\#qX6sN!KIMKOD7QD4o[\jRm*-0P\h$b8eW(X,Au*#s;D1=U0BaL?>O2!g4InW>DYXV^ePt7K<i(#)UhS!"Qmph]Sbo$3p+e(a:t]PV8kpMSR`qC(aBG&4=RcI)"QlOgc`6KQN"g+Tje7LbrXH3-1;C-t#aa&XuRQ70FLmn0F*O'Bp2\iBfXT[%]-G$:u-],R$R[DAU9&W2esV2Q4Q'O>[FkbeU:;4`sZ@#\f*bKEtG.MIF#OJh]P+'h2t-/-Ur/:3L-o#;qd.,$7*2`"K,I$8H3;-)+r`j(aKQ.:Q8=b-JSn'd:E/TGX@.#/\.u]jM+D9HpBf/:]kcieeZ@/A!0G+X+@+8[oPj^uJ0H<_DT6?q#%@&n#h97#IGP3ao6o(Le8g/E;7/Kdt)=eQLZu7''Ig+@<u>6u?X;;ML''W!1$fOE8m@TH2;,6o^/\Ybt)K?06Ar%4jCE@q3D"9O`5cW"IghlFaSq.AKqG_,-RO@^X$%Ym(E1;;=SSMW-F&gKY$r+m'X4"SMWU($cg5"L(Li1'KQDQ_eQAm^[B>e"sQ-UfVe:*8j+K7T,SGGc@X!fUt4%Ni?a:fSa,\2$u&R:rI!Y!KQ;P_<NR;9@[.u_5cg"/W(;n!tn_0ZKU>'@$37!-pt'_2)W4k]PDd!#X>O#K5flWGjeNQ!dI&9;4,6\<2k,2^m?)-<D*Ln#T#O2<8f[U65&#%B^.quM8RiOELAM:"$0VYBV$F>]J,/Q7LDKs&Kk=!'fm*3[of,pHTQrj3#O#m.6*c..%t@4Fs7>6@H:Q'O`i0N9aChu67!k01Xrj62O+QqUklNOg<>?aI!?Y9gX<oG&V6-K1B/4-$=FHZ8W"+S[e!?I,V7HRCs=LILJp&?@A8.H2(BBD7T@/i&tGVB"q[o1?kCU'iMIau4)A"f0QW^6_?g8t&KjEaP9X1%8;T?\OWPUq"Rj8?V%?Q2-H_a:\dUlV5nXcKe:S)8GpQQ,L(Jku_BD9s8ReWU&AY9.3"go8"'%$'7"B@.[SA.W63=AAca[_%`F.U`'FI<Y@RpR)Va;(4$3H.dJO)$-%ZA,oD?@^aJEreWh$?nf8&BNR>;qZEV^,M4JVk!@/p7@c1-lG?:h%6P!ZXlb\7S<OE%3?A+ArJQ_1@K#M'54)`_cjHg>rnj!Ot\;-B=<-_'MHX&fH?'T0t@EKE+,5+>C#*M221;,QWOR^r&Q,JjD/!3>)I6KODd;7R\!u#!dteJ1-LU"RH["'-[]IU`'S0L4hm&P(GA!0JG17&/#?,JdF,&C5N"I"FEg?-qXQ.#keJ%#Q_Hd9c-Kc(eHC^;&#.CWPj<0&gG.98/*:5WX*bb<"WR@#"a=V6GQDqKE>AB+q0WdTgDTg,qUl+?jHe>MuX9>6,EV4OH;/L!Y?fJQs`4IIm=`6=9J_4`?YUDOspr.65:,.8];qYFqkG%<%8lOQj<m&lm&3t#XeZE!>-9nO^`l0Lk1C^Ll$\9":Kqk&r]p@-pRhZ#hY5H+G,7X!\@F[.4._d,_-#<`"5bjVAoC[G4ijb-*pcW%D1f)h%1$qgUaunR*>6:=nA_^Z//sFEZH(Q_BabJk6=FXa(`fmU_R.#mdA1^93OEpnajG;(:FD+]WiFS_Lsfu&o0P<7>Jpq'3m;HOhDF'_;(,P3+"H"Osp\EB?GqQC6gGnPGW,9B[>i2do*8Dcc#)=;S>qrS)H',+fodF%gR9[:[i'U`M'st=@AD\19D?Sq?E.(QmUYTS77H%8p<'0m+`N!L8"!TO\KDcQ=4.fQZXgF\05+CR:\?<QYtGikMh'?3O[pc3i?budme#_PE^#k2sL$HCKRe(@-S!ee;ffYhJ-cnPW"g4rM_'kdJd&_GT;Y[)e!c1.&p?0U:?-k0:J#D:G#f`)?Ue4A'9/@MhNGk3368OJq9hSbEo,COc;MmC85$?@85`_:TI[SRACjB73h'VH,DqR7Vh$1'?p+]<eGOr[mMn?1i<cH.Edl&[=bI8a4Y1>V7Q@!iVktq)r6tij&ig7!#HG68uHoK^oSCZU6+u@*Kl-RFtL$tJ(\OKArZJ9;rM8`X.r[8eX.j\<1at2hWV&%A2k[nago[QYg\mCf?Q,41l_2U0%r)OW!T9K<ME['Yh=_1^VKCP*$a_&hOJ$h;6pZI3&c`._&TclkmjIJ<-EA">8AAF2_eaO2KcEiiNY6[(Gi;tf4l9XeSNco8W5SKZ('Jo-,9#tiptsSdY,_-5Q(S")J9ON6+Wk'qJC&c@Q&n+0-j\EAVKC7QW*KVSd:Vc=Q3>?l7tL^kc3AZEs:%MU1nVJ*)nlOe*=mb`ND"UbA$]mEP63OCslDfG"PCh]$uS*`Cm;cU9uZ`X2]3g\6u)nEBMr;N(<_MEFp1$PWE=m"$L[Qf#UC^1SJ6lp"7\Eb%of:>b:Aj_:%!?=GsHQElX?Ck86;Z(1"j(``9KN2G@uZX'Bk^Q2&mNi8!%&.&lIH$mRC?ITX58PqFkqA%ZhFS/JCF9j/:\OH#+<6o>?5LRb5/kB[@8#0Re,+7j*0O\N[!1o^X`Z#+UTX][bREN:F7?Q-rtCtNAW91->*Q4>"&Kr-Ni0:)*4X:cWEo68F+!Lskd]!QZfD6V?s<@jKJ;qE[kCa"/f*VW2iE<o2&##)JV#<bZ0)I#6CN1,Q^'SfX[X'F=nR:]$:I1i[T.H>\.cM`jVWX_g._<7ZFN%:rJCkDNAm/GWUI;i78\]PgJ6a:^WTM\[N\>.Xr#u!#?a"59iq@,`9YUW4h7&E#o+hEi)<=Y;kWl[:llg"J*D.;CC3*X&VN7b@2XID3)=H=rWFCV]`ZAYk0?1iaR7R],e@!nUZaL7KZR-AKcUA2lEGIFBRCh.KE$]L],bFgR/:tej"X`2s;l&jL34X^o57EojK#B#lsV&3!]G@c+t?YTCpbL9e0e4q:lJ]E5Il'^Ef0:\A.EE*47,XYV;h[u_q[[/MH5%(14[!Fm`iPTFjhf^Rlgk);T`6Vh`0cN;@\R9LM>gSgs?_mN1/mT:E,hu'@'ji!jh"o$ceqo<;m13@+r_Vu!qer&f>Rlg_>?-^pe@[?A]=KZM#?lP#2r9&<?0'^0_Lg?^LI(*Sl?N]</&pac&+F\mZE]4L-XFQ*N$jSKl7!r?LocXLT'mT_.&+5i1;q7-%W&c+dHjjQLYY#XNK=9d#iMb<;R\Bg2^!V[;Zs7#0X.(8%.I5o<L>YP*F#j9)IYlZSgc_g+,U>A4YD/&:N&KLGDMI%VZmpl;'cb<2+3Ds!Op.YoKC]ISenge*OSPL\`/bb_"S3kiJm9ji]/W^1(Cm6VU`n13<HT7.s6)eGm'?rQlh]>Qm7-30g^DX.tms8Lq*S<#S7$!6pO!K6kBqBM+A3#&L?>,+orlUJ.PkL]IAtN+<n8)J3a0iZu'6CG1<cKq]a_MA$0X?H[<CLn>p&fp@3q=?GVM]Y>/`"_PJl:&9,k%5,^'H.Vq`rb.eomqt;<Gbmu7nX+ZPb%H1o3rC6MnI!pa\*Wt:dD:qmU+&JF;#e8o^@mt7dM'e`HQ`FYdfAn=]n&@je<Gi(`1k=:J;Ui/";"!LEk,=&UkeJ<lV#V+$4=eS5(s6:eN6F<`Yi;5uJ4m-l"l/bb"@>LED$iWU>RsY8f$@i%a\P1t8e;DqY;u\p.2BMk`:XZD!s<?N$.p6f5TLYV\n^V9:HX"l#]N')X$');kNKI3Dr?34(t_4^6@]Uu5::2=V^/Jo!V=Iu9m71':n*+O&MN-0ZL-I:D.c4(6u?]t+M`RAD+cbm^gNX`U3tWBC>0q/mJu>gPWr"D62:Si<GeC?;FFoS&-Aar[N3&kd'Kil./ucl.aTr3ML\OK!'uF>D%4Y&KRcmZ5]%^<[O*CuTNm'=#g+MC[ibsaH%Oc(+:,A(JH,t`<C(m5jV-.@")?j)C)\rKc!<!#FK]=Pa&'CWjuhDpTJht+S:TDXX]r6=;Ud$&63r,9Tj/TQk%Hbac4o@H"J?%:7&pkG$&!g?GZQO6%%'G="<iAJ0QI;JJHWfe;[a)3,k+u]bc'Ao0ja?;N>0P^UhO:FW2N<ficJgD\*l.C:@qc!3EB!]["88de?0Q`I]=fGV^(?fnF^'t)i%#7G+Tt"<[5akn'[IOE%urO3:!UN\7MHP"7XRaa-H$:&$eQ`R*6()FQ'K7g,jJ'l-=Rjgqh$If>?X?]p,sDU!+*S,`9D<+UEb:r<NTn;#@#*EIeZ)jTbjCLh)to"9]"I4nVl^#U2Zi&;W^[&Vu5C,")tdKEsni![.\5&0O4D6o&,"&0`<M&.fEcL`d6Q,!n[c5S/T>#XUO4:a?+)!!Kg0#S7&(!$O`u,*I`b,")tK+bUC=&OAf-7"c,)&BZ:)#S7R[&OI$Q!YIaE&;U=KJ8e9r+9Vt++9Wj@&;YuNJi?X_+Pa[6"#)tG&OAef+b1+J&W)#D!JDR>!f/*G,"*&16jOt;"Hc)?&:tIL&.q/Q&4-MU#_@Ls+sIYOE)2T-&W$KU"9]kJ69oKc'0uo_Sg"5&KLd9u&OJa=#XCX#6j*NW6i_TR#)!+'+Tt,f"SYlHJ,h,EKSTY^&0_1/#S@?t;^@$8:QYX>":,#>"@Nms1^O1+J4N!<RoWo>6imCOKSY.$gf">B!!4;DJOno.&.f-lM*Q`@RKt')66nsT#U4j3";-:u6&6cf!eEm1&cp4g66RHq+p&oQJ:J1;&H[b"&Hj9i&OM9ZKE-[U+@ICt";)i0E)2Te#U4j3&V4ms&I9N_+G`Dk&4q[IKh)br"b[.I,`!!4#SA68dj,PL&eP]f&I<pn66m\,L(FP5&.'O("GH=JKHL=?![%V45R8Nd&0_0!6kVm36kU]",U*gl"G@$^7#2*M6&6e:8.^B"M?nbE+@JUA#XEoZ:QZ1p!<e&e&.fET!@!+<Ortq]&HkBFJcH'EJ-[9JH^]aY&;!FsJfkUKgf#J;:EgD=BbD$5;^Fau,Xd4q6kYX+f?8F#p-"gfU$KMepf':RhM^+a4_;519\?eU)Rc'pAF9og%3oEOcU!([9>J2dr<BHq5'u></[6g[GY9^+=&(4!ZJ2:p*%dd0aQ).Hfh2T)KPf"s]Qh?"-Cgc6X6-.N@2#.hO1Gj4]a@e'^N/;me&k[;%43M0JP_rR4[fY<'gs5Y+bWC>80S0[&g<Eg844#G8;)dA6j2:D,X;nQ#pFmCOpHV06p`"%":.:!6:<g9!KdX3JA=<:"GhjFJq+C<!JH7o#XCd'6@ak'!eg+Mb0bba"<o"BJ.N;(+p((2+pn#j_Wt8/+B:i1"/ga1H+L6Vg0*Pe>ebC`(s=Nap&Lg(nX<Z,$/pP_M?9HU)fjdb^3c'"B/)(?MrrD$!tjLt]lJ>Qjbqa9&FL!/0aR^8=fPlfS2;%KSi(`J?,+1IV2PtiY/8jk3Eh]*ie$7784>e"65"h\&OM#(#U"dk,)!I_"i@-'>[)2k/r;#&!ap:QY2W>g1#YYT"q^oi^mhuV2dl0q($l&-#u1Pl#Qb4Q%gYKeJ3\o5,U=K8KHNYo5U8W$#ko$a&4o8V,U!:6+s8'263n/h#_3I/_Gg<l`FHm'UmjDf+eJ(9R^n?ca=4dPbi=.0D71+7Yg*16fh9I?&mT$FEf-6Zm>XLb0kuG%D0"qDJa_I;dDi^Fd,s.Kn>CjAhcYH^Z93J^75feMXi2eH^b:MSMr<><DdYKQ(a\$r?$bPY7mNb9Fn=f3'-9k:cODj@Tp.08.%J#1$kB*Q(Yo75ju?8,k9D6'`%`G:KEq])JpWpl5pRTrP/(dV!upT\P:'o"%<L@aAX"DBVoPsNaPi?GQA/kdE5O"9"A*\k'V<'7*,/q$(BTqnjV:HDMskiCb[+&MOOtSY1/basm#u3XcNNF$,cf2npT,jLGOU3/r92$6$RJi)S%c&1/`*Fs1J/gIoUNh>oubrA]W;tG0a&UF.Qje4eE0U;Y$N<$rmGpX[k.7ECg&lP+67"<ARc?e>V-AS<J(IE`V)GL3!ufPMI3lVCgA7CYb&WcFYb/Eo_r)3Q)t]E<\1K6)n9,\h6e`mF:MTljRV-3RhVKi<(AI0!a$ba?2tsJ!'d.#:[1(GpQX=1IWkE>,8dr#1spl\;<@f-eb*]9Xk:(%dDT/E,AZ^.l&J1ofA1l=&A30&7tka=9Z\=.MAsRW@t?;%]Z'3!+i$Cc>$:FFm,QoRlNq5Vl.9(+/WK$U.B#9W8V@X!M%Bf/>F9mH[<X1CgMmlG`PbBbO]Fqh4+&E5Dan\pP?:`Ba96gI!*o'7NWjh*e<t'aWgI61$%5c@UT%&8Ksq?_Sm'B91jHN\F_?5KS?ApRC(4SrGk8br(99"*F!l0mDoKZ"[EObs#f0I5k*j8_f5"]3OeP:WiN!93Dm5*#G$bU4N>og@AZAifPILlc9][0^jhVmE(hn'6e4Zs+?JB_iE`":ump>aZadL):f\F1V<pn[^G3t$q[%M:%W.Zf;Vjl=e.56?l.aB^(]q+,uaPF4+^PQfjoQ>gnF6.3DC`_/MQS"5bYJ,[N2=S:]_TqJEYU$[*9X-)\0JeI$2Zh`njJKu5El0)B:DLZ8=m_$BN=h6)QH,2flUhlM&D73LR"E5'ga5#.XL$F?E-QQ9eN6mtC8PXJjN,I&W=UQg>Gg0_6bQ4`eJdBu\,2F?N]+,i#fDhC":WfR2/BX'"\s\:_$]8J%1rRR`sNnq?+h-,etnGKWN@^L8Y=SH(c;n'P^`u_S1#/RD@=1*=`.&gPMm'S@.ECl!11=#LP.qpTscMnBjr\b`f>][$Os#gLR6REp[$"$!:ErZ]Pte`O_rk90(J?]1.N@Q2eVnXo88+gl&P>^e(q`_q1c_08str&OgKf4LLmV).`+<n=QZdEp9eqVBMQl!(&TVR')]u1JGA11jRUG`(S]]^WreNh)95un]n<^=bO38)`'d!)Lkr0!'#4rHE7S`k9-a$2+p*DtKQ<?F-S?VtKEQu!0-])H"p/`Oj[VVI"X+!Sjmb]+!X%No"<rD;"DYRB/MReBjUdYd8E(PUV_Wj\!!qZrP\3Mg#SB?N?Q^JU:JdWJ#iug)KQ74<*sb3DJr'5h:nBrJ"1;]++I#AmSj3SC$^<G<+qT895_phDJ8tlCLHm*s!0PL?#iuX$+G`k>62?*X!.dB\Esp+fJ8tc\jpWHr%7C=a-r6Ku!s/`/#iu;U.nJe3P[@8T2HML=$a+9uU*i#*%k`1&eihZtjBfE.Em80fNTdgqVITASm>4\fR>%5h^oU\.cKji]ll1ljhHm9?f?PARK;G0Z8lH_tm$/XiBKS=0(uhO[VL]2=i/_`SG2WAFO^r$OC6olHgoP)$^1*mE)%"kc@rko_=Yf!Y-,%h61D?pOSm7e/G.3XnWV]p5:\\tC.#a4!m_7rReNrrjSe2X^He;U2(([>7lZ3_LbE4+`i:c*Q:^PDk31CfRhQ^R;UN^$GH!*qQEF"[M%i<rc+)'ZI?8X<Hj("T8AQQ"emh<4g$mjiZ\:be/"Mc;d<spHsQ)kLX+TUunHqsf#)O#H*T`A=+:u3`I4<h^9]\#qG!/K;`@3XcgYS.Y($6g)k<?L$u5kt':fcUEj-]Kd`=aVtJ-JQD9MSi=IR'O"eY[W'3^#b8biKFYmS/$e8/FYH0F+foMYecg?BuZQ)/6Okq,;s<gre,&&mmH-%iaB,qCMq]N(;tu`]8(u%X<$D_l(k@eMGdQ^$L_cUXBN/\q9"B+\a8'.?JE,1f1N]jA+fK2"1+!;[D'W_mbm4B)f#s(4EPgWd"`XAgjcAMntmJN(lPjPRism#im*Wf6&6'r+VHsS&HbE&g(P%3((_<.#j$?e1\WA0/jUT_6MZrZ&-<u;5R<0V>8dWtncd/JW%AC/:gP<5,>ass3<K:*U:)Hu5G7oS!^_/6[Fp-%%g!<b'qd[A&0f7]./0AsK5q(r&BV@+.'K;P.L7/[3<BcnKSTU6jU@A<;#Vc*.o8taR7@eg+UAY\Tf*3R?9rFJ&:dT+5la5gAIouK+&F"E!(-KQ>(Z8LZtBW,!($[J&.sR,+pfCq&J78r,Q\NKJ-[>)"JP_n#SDk8igqJ&5p-0$r.';oIR"HrHP-W.!:Hg1+9Y(FmO8c:7"@Nj5TlekJH-l*&P7Kq&g3>["@<)T&;UmS&;2/;&-@uM6mNoY+pifCE)2TmIK0D#&.f,#843_L,S39b&eRH\8:jB#JoFML!$Xf6+ZtJbJKQ*B,(bVAKFe_-&Hj7"6AQ0Y6(#OGOFg%JOHROF77%:J.0oKS_jC`Y,_SDg"JUt`Qj=lB"+a!r!/-..OT\"$L^6<iOoQ[4#Q^.-+b<%;Lkt@'o=-t9)E(,!Si"ZT'8SZ\AdB4Z+9[Ae6@iN0,XR:e&H\l1\CiFF/%BH^U2BFSU_4;a1[+6U$ioatNV2r_E],.MgL5eQ>c/);2adZ6TG?3CE.S*iYJanGJ,hc@$%*G<pI*g&V+V-H8`1c8k!I6RFVpAm!3ZplPQEg1i(Je)Sg:eBA:APZ5j!M0!Sib,<mSiFV[:Q%#7B4nk(:2kB;1QiWSg\m-Y/s0dbWTq`9n]c%Dq(aU>7WT)6CZ$[r9592;X[Y9(/![Qn]KD2SI%K_j."f8M''$0T5m>'e,eV`;ZHuMJYAi/5FM#HE\0L_/p6U&9EWVUNfA4'cB%LJ\YL%#\=:C[ahZIlek=]!)RSP$9"J$[r^2G?mW[R+c1;+0OS66/rgOJ<%PmcOU_f(,R(Zu2SoSI!(fj.'!WCIXGA&O)TuPo=O`rQ-'04%gQfT%1%Cs_hNc%d`<5B9"?u@!73c_n$!-)RJ-#l/f1?qmCu='ImnJ>;[R%\;$''>OM&Q`9Edp$!fu%.UC,[k.`Je$-XERCJ'[AShj)DK_-ZVTkS3K"t3j?0J2h@aLM\e#(l9MiCRUCcdA%32;]-9=:32Y7J(f]5jc^V#GWi(ZrSPo[LiC1.Q.nW^N5;JR?rkY>e"-9hO"`<-8pWd\`9Ld:0E2@#bOe,mPE+sh^#tuog4Pk]_nYgr]gX?)MA"gTnllIU9\p<.?SKf]0N/)1M7a9/2P:Nqk>/s9A.JAZ8/i*2kOG&$T(3=RP4Ob+I#nMgdn^8YuHEFe5h,oRTNl.Y02`-nZf5"/]0l,09s/\--:>[a-7i$dC_l[5aCC:;`lWok89PPs73ES+t-8nZZ9hO',W>,6-CkiOR*OsK=i*E7@0qILNR'Ao4M"pLlJ,pdGqh4PJeBTPhCfDa/R=c>BWtUOEk,;,+p1<pM:`=:=i`iQC:hV2O;.UN>D+fY<iW5nVLa6G--t;7O=sQU\!b@*XCHZ+&<rtACgd!S#<j.)U6LDB[V1s9mNE$fG=<dePetjZ2N&KW[ZL+5rCcf7jD$&gPq//*X4$u),>C.r3h@-fM!7Z`8W/V5lJ.N;Zq$6!ke?7@b@%2*Y=A'Uc5kq1[lHDkuQ0:sgM%Ga!Wid)gCV4T2Jrto8$R>7p.tPZOE,ur6+^5ka_pH5^4dNI/*SK4E0_"W8,5*F&3R09@i=3aMVjuLuYMm/(HWi/_Z\:Gh$)\Z\Z.,OQro(uO*'IRDr1nB>T%%<96,A[BK=CoR\TZ]PMc\6@'oqrr_1Q51W`V:R5_g>pcNP('c,)j>D!.'Uo)URT2O)iq0M5duGid%'1WPIr96$XTMoUm:ih>(G.:Mim>Ti'um1Jk+-'lYE,qbXoPDcbW"&h)EU=b/14ao4sPm*SJUkS3lDC!$%ef<Cd/gejAX1QO,=VFS-`%/QHGbf=XM<ARo5!DWVOX4d&_FIAFe>mAB.dKjb15Rg,@pk?OFg+QW\J^rQEJjM&$%0p*=c<S>E+:KN712+*32e^31!HK1QM'Q]c$5AU[!-l>71XOjXh`(#.B108\E.L+N=#,r9-Y0KU(t#OiC38S4F%Rg-'9QB.5%"&7iVsr*1a3i3ili)GS.]h"q/!`M("(rKq/I/-9+2=J==ufQ6d-uPQVFJCj#(OFnN9FQct^bN$uPhN_r"LY_9\5<jr?17On^En(H/&`ENk?_su!W;;TZ](e-#sO$1VhP6Ipo\%!tuft*=U6r'\jXpjc_$3T\3@bh$l[EWA\?RP!@l+Wa#$^&83$('bT'NCRC=a>DnK-AP0/pGWaR$p7IDu]V\_]j!PdckS.f=#<)ZL+Rk!@Pi16>U^q,_/_j5]&?4[HJ733F&u9SY7$0BThb;8M-[rQc\c$@DBL(/CE5+Hc-6#BbVfZS_fRcf6p<C,STcrB@o4RK$cp*QMja"dAeF9HhHSf7t"FF6d@;h@i1HViAP")(ppqD`M7G/V<,cQm9*@Lgg%*<8/KBYhtC_Z3=,*M[BcRrBX2s%i<<M>H^:eh0Y;]E5/1^>\$6^("(qG0%3+Hehch.)4+E?QB0Bk=$Z@+HP)ScK/77:TfG:o+''UEk@8F>B@p)YE2Ho@.g!Y\%J1H".E\6OU)o(K2CG].C0TL@9?`lR0pj&WPFGZGRS*o1-XkC[E/[gfgNXJYW:G:@LL[i7Hk&PTY\S#2DIGQ4(TC'Dnbc]orhLtt\-h4I`1C)B'V8>jHp4cd751HsA\htsANo7tSR[%^#'[?&;1T,YG?WYse)s.jcQjo>2$]=go2H7Oc+g1V;YCmF1foEskekC2=iM]Nc>TXmN=Y\I5]joITn;%C.rRDoN=kFO1q>"ltm-e,mZ#HPMA,DJBEOpK<cD'hLXY![*TlI^-Ut!uZnD%O(3_lO:YYR1Dg_j_9p@lkc8Bq]9.!f8!;Dg"oOj6:AnbtD"KtUFN0kp-qqN;_\2&Hr=c^q5KC6it[M^lWsV^\*Tdcc^#XB?ttf_Omf\.O[-Gd7hq&k@)q(XFQ&*\>m2<[P\)nHBu+5L@*Kem2*l[Q+4^lnX'ej"_)1;LiQ"Y*`=IUg`OsR/f;OC$pokF#ZPhGWWc15_KOMlmsf-nq;]B^`F`<aSTgE%'kjKW*P%NgX9&I6:I<%>PfH7<fo%r\Id#h3\3(@A8HH:V<A2V@cXV(VoOgbkBYK&AXes[,)`IIF.Q7<Xa.WjPaCOWJ%Tu:fJBlkY0\*tF>W!&.scsKNn1LL-6/uNaa+af1kpQ=HudW/3N:jS_4CDF="LQC4^SKN6u'2lN[F(D7@!`/e]hQu@q6,qN>B`-2AfJ>C2'-&9iP7LYGc3"VI"(<<i:_QWKS(nBHSf..g*\@$A/e:bMl]f9iDH0<]E3Vn\J0kUGf6OR:'[t\OK^_Ad4=d>hK*.n?=0q4j#^^c%HKLgf&[bR%O!F+;X,)U'PgSA:'>>"?[C9SO.N\5?c.YHkG9C")oF*>@i&T"Mf_-@]V=#+P,#@C(RtQS$iR6GO@O,=H3rd.I\VSZfk&!hkf&H9q1Up&-b]=5QkI#gs\Z%H0Nc=R4<bN)XLiU!Z@blD+hhr7I_?hikARu)f?BE!Vl0dn]ddO"VJ".BjkJZ@B-6'\kK#]K'Vs86/:Z$M08F^!J[U5k'+j(b$+'-LXQWh9VQcgI0O<p$rGF?:3]o8&F9-W#'"[[&1Tb`j`l?)(<;o8ff*P5f@Ke<-tUsT1jcIiI24?R(>*_;Lemm3UhCP(7bCk^\%L>/CtCpMW78%\.C+8\NWn\7SifhICc9u8S^'(0iF$O*b>;!$e?Q-=k/(TeNK'(sf[V7d%@dRS3k$7dQpL,pAC;H[;Q70?EjD1(X"K>nVW-]0_:bm4^$M5YW1#>T]Gs@'Q"&_pn-0jo3+flI@a8diNSq\lo=<HC5q6_FbNUk4)Lf7bX0qNPAY#TE\CG[eCLQ%mnjl!"LrWP`f*m$'W_MnVCK9UQUPI[hm]O:7[O79L?&'n.RDt7Vl:&Org5/>agl\2RNk*0?k+[^KK4Rro`P>s#89CS!<j1dpi&b&1kj.!VH*BZ\T_=Cg;NgF&)EN9hl.jr/`DA2r7K*"uQ'nIgS[CJ_=jpS\c$=QPpUR5bLgAT\fJB`CY4Vsq&'=cd[PG[Y6ugo@aIL)>#3EGS'FQ7J*()0kTX0:d#n/LaXrnoV7)V!H&9"PX:p>(EcF0JC'l%_2+[q3P!$VPm_(&;Z"OEL1!0Fs$[.H?O.[YgDY8.e$UXW,V0hXhVXqIm?;N^:(jagD,@-CQOkXmV%Y)Y(nS)6&HZt(O<.**5fYVFu^\=.$SBK29U>:LjB^#&(j9pqJN=,o>qK+!UVF[9m'_PK5M_eh?@0/8@UqtGqPZjXo.!-5<,#iM,,3QmCjc:>u77P!;US2kDU.;0MWl)[r=(M'"Up!LX^L2GmZgCGC=CtCT=XVD&Z&s"naku_,.Jn+\3JM3h.K/0H3blfC^VAu+E*P?#rA(dF`>u@G-M=W:@:7O-'Ct]]`=tiH(m0K20CHCVm[a)tr<U6lCPunh_'g#aO4^:9n:aa-)Og+*81]u^\g?N-u;n(7mkUYC[FfVheet+E73-0TD%\2rAB-^eC(n1R:G?kn]k1bHs#Br;G%O"EWY;!m?,(^1+$;NBf+[HY`#dkPZjqS4d;q_/T"XEQmq8Fr%cMR%b9uc@uOVk8BR5;)r=g>=kD=12cO+r'5nG`;3C`6R31hX]II!0mLdI)l%mT`nN0XPe"L)8I.4W6OCI4)n!RVOB9KDX;,T!s)E<8(Hg2WrAfiA@(6Cocoml>g+kgbmq?]!`aTqgu1U.D^r4b(SEn()CO11LWd/-M'nR6-h9((0+VPb8\7LdQe?D:Di6#jk4fnb3b4*f)riVOV-=RM:WrFbR:Q$i72sV[r*'s'FeqjGW`UrjEU,jn#DepF/(m^'tMpdUXHhfrlY*(8G1c#%BHXEPq.osmN*u3F1/h[e)dkfmO8o&^:P[C@b/kr849\\o`,se=^MkPNtNaM=UbIbKF!)66>]:j>BdM_VG/&;3[?7][9a?%4WLbPhJ^!\nPI&D\piK"DiJ$E*Q"BE[m\EOk)=JCkd#9T5$W%T]\TRl4mCqMG\ERP[!'Ne>C0#J1X[^agEA"7@C_t<Z[jClRLE9(T%;8`fIHK7?6%0Jl=b.m2HbZBT6g!ObI>IZPAT@(k9n9gX:Q=eVSfAE@nRicAaD"R=,jKC)MY1o&S:s'[d4!CC.?9cC-q]E\J:&t2'6=?bI3)eMJiA0?KgBfH)PJ&\Hi#s9TYi[5#K@]if;^6H)$irb9Yq_2&t1YE\KJbnDPE1g9eUc"rY@0Cbls1&7;cUG;b>IM;[-XL'LW6]fc[Yq\%&iL>oZ'7AmWEAY#8iD8G1P/\G?l7s9E<0b/=E$o#:O=sLrh:O(^d;4KJl$cZ%P?UNGRPAmnKf1?s^[OB?d`R5+CWCj<3&eTI0OMF0a"qlRl6?uQV#_PGd6HgTh'h^hMh/&Bp47Q_A#P>e:5S=p[[WkFJ9b+&l=m>?X?eNf^*HB*l>18Yp*<h`<4tB)a)3j0eFaj5XdGd\nXH1AjE#+<co-MpD9P&j&A&l6k%2cTe^n'*ke#7#4_H[*f'I"\5#iX1:8>hRE7Le=I3$F#%aWA#F;`HE7G$VL4]>i)uV?*9\S^:!^?o&JU3`D4V!ZtN[S%'lT;jLjW@R]_D9,jF91C-T"6+!QU)ASlX'Y':DC:FZoe-C*hH:R.\9=mmd\^X*dLR6rbWtlemrm\32`a\+='*H&B35McVJ;jPA.MO'4+G9mM)fG%%i`4Fc=@Rn)h4&A+mZ\PNAW%A\nk6L<7o&^u9?W2/_fBV2S-\OH6p,PK&ADP?X%?0hD/3ZTA_@3WFeu>lY=^>QPEpk*;*Y7-(rVi?OM]ck65HinX2a0nHCQKRejuSpN(OPS2I`gROLTc-ao7j$^L^.s3G8!XWfpN8>RklKl-0SD2_H/A]]"+-02=X>@cHV8*+(fe4TAk%0@!NG`'OMN'J`15?k@r%EG9OJgdCN'S;s?jXd&\+PA)Hc]Y?Y`U\dR$U'LG5@je:-a@LEIZt]oBTL<T;Vp+shN]?:h4<1I`Zu[cUS!MA2el9:-Q\2NJA"_Hd>J"`XcS>@e-@ZB#oC.:AjP`P`Y$@<n0cC/t,=s:)"%%gJ)IddDP<G<c>0AVLFh2&#()GN7(F=nI6aU[:2lrd1\\&l`l12ZZ?.8e)@^"]O+a;kiS>@Eb'^PI@o<`fd=OM?Lh!uZS8oGa$fJ%kT,iHV!ljA]@RPCX5jm6/Dib9d/D,j'c7>!2$53/t*p[m8ID=,cGT!3a)G'/S_#@k_?HYiZ%&fcq$!?#YuC#Y@Ne>Xia&e(HSN4i[WAn)#&<:fbG>bQ6s@_S.%@Y^-rX7P#7`"uC-ME3s3f+4/8/bZd&Kan?6'-K]JO^O7Pr9BFK@6bgLGnLB8%ifX!>X>T'?Lpp5(3h0cAo$E?PiI2H3I&+m*#,ko[bk0QS:SI9QuM&DOoX@me@",#G`*<UZ'5W/lat%,A;h+%Rpts_%R/[<f2W8jiH/U@C%6FOBUK;mojatB.Mr@'jX4JqZal6^_ubgTgHm.[I"hBdkE/<0jn3I;XQek`#>USKKZ,\]$p\-]A-a@fp32k$10h1hi-^9Wb;NhDQI\Ngm>:IO+kfn9Mo9iP=G`;n#U+5Y>q#F/b^uL4[;>7=-(!o<5Q[=[_OQl#:3?PTUJ2@k!T6W@%5^mh,diG1&4gLT!'?/;W!\j0o7X>U&-^-Y,D#q@-#Pb;[e7t#WN[Q86q@AHEbCth1mB)Y%Z4"&nrbdVXGmk\7t@99#pQmI3Te\U6R?]TfmJn:Xots9Yu6C1h&5i)Bi+Aq-pL1W,#rigb+)HVS#.ItY_a1t-?GD$/n;eL'qq:e,kJ*n/l#5lI#7rGLVR;HYR#d#*4_k;!"[d-0bLWWQ3<9\qn=EKF1nLr0E_F\F09lP$?$3+PQq93'dO@5OX#BZMjQ#n(dJ@[M31"+"L+$h$m?5)]Knq!&2CqWncg9T'EEcA&BZZ)m;&Z&Wi3V]<1#la5\rg.;%CWXWiI7$\FGDmA#!hW3LH^TC1UHr'6mS1@shjf5aCl%\Lm8_]15e7[FCSC3+$[81#9VUc;:Cu'bb=dDR/?.LN'^R"Cm,g&'rh2>DSUjH4pl3Rp.]Wec^+EX>8d;kU*aFdCXkto?W<d%MobO+FC4/(,1:%<[)pLV_ITZ:]KpdQ[XSV(W\MG=e0EiiJ?lts./VmnFn%"f)Nfks2WE']^e;*0Dm-0WVf\"%0*#Jj5T79-2K9A_QV.WkPd\Y?KD,OZ`HY)%R3sXYJ.mTq2;k'J)tOmIY`KmGgTG?(O]=KqogGOiEpu].4ZM:%_:m)]W-JRgCMGi1[G)$L]3Sgrj3GITnBOOirAnf?[CgPdD(n20m:FKfH)XAf1`p"_9cQp5@NFFR_r?b1&nY)"Pl.W]^h<aac4pJ)34X,hu<%"?i!jMrqotBHKs%As7#Wp_>E*a1k+>2'l+ZM(kVe5d[Oe>Rn,7F$_g2GY(-DsO7iO77[$VtrJRVF])VFa$-VpIpsM*Mo!>g_I1-&'T*a8Y7?q^*ODNtQk7<(0X1roPDrdC`,P*R<ra5R4M1:ArLYAISTgo)6?ZBEuECoBO7X6a:n<Z?;[;UGD"Q4J9r,pGL:5LYYJA:q`-2t`A?7+S/bR73rpq>9cs2`g,6%Y"?lqs89cd2QNs3mV?Rt((Ns5L*Zp)!a$FAX\%[*fK`Rnrsqs8(u`]`.n3rr1)jmrb&ulK_f&jn6sudm!sWhtp%7fJ!5#>hs\D#X'mS3-4a*F.##,?X6VLFsK2J:Y`P]\%e9!pfIL^pOE4NJ,%jGr7O%'5PQTJJ*<rTs1X@t:tJ])H*&0;:d3p2aD+grr9liA&`(i,*?LD1!NWNLI,[kKa1h2qa8X1NrjNF'?d2aKO.tghIcTPa(C,H\5I:1s4rC6BN"7Lf7SMc*s0$qL+90)/rk#rEYQ)f'r71iHfp=nuinOC^J,%U:5CW(?:KN#><:l`rGeNh1)h7_75JHuZ+3MWQ1V`hYJ+ID(<Q-s^\A5W&7s7+(l.A^goq,:XVdK=6rmP.[q8Y-WBC5?[\aXg4s,Z&_?QcNHe`#\6D,7;(G4Cj,Ie;A:r:$gaY'TPlhrc*[k+@%n+2@cLs7FM'rV>WJdbk&Yk?daEHtq[0I:)h7qLp#U>C26,mDA[_8&SB=MVe4aaS"/Fi/dlIErl*G>Uhsc.qmGRA'_:Un8Dr(C%[[d8*<&8DB1[NP\"J(qWLFf_Vb2Chn[#)pWrj[ZO?fpBA\+6L$/Jtr7fu9p@K;"s58CnNrS-(q<NP*Z#Jb3cTIK_X1s,RNGh#ZjWAmQO"GkQ=3nX\)eI"(0)Rs,5:jc\rqCg)hg>8s:VE-Sl@Q4bHf^Z^D^P_Vk['DLB^jJ(rKFS6\j`s-(W<nPpr(NO>lHDVp>a'jARP9hs7i49kaC&?TD[nght]=Af?I[(q9T*'5KaEErmj$ugTNa4V&)AeRFgeDMV5/Rih*m^giMA#oAd%Pk1Li!-e%DC+6*c\s$I+lrNF!+2o#14$_RClYC65%`NQuJ&*3Do$aW/SkT7d>=89DkPFl(Uj"SDArq>hop%ps'^!ZNFe,SdPJ,C[dHhrHbI-#VFYPuN8?8T^p3@FSP+&tE!iMXqU*sh3Nh"`Uas.d@'cO92jEq"SSQh'7a]`3*Cq(Djlp`2j9!r2)A?q*@:hm3[Z++F=+s"c2#qhEu7q9=+I(G4du/ScHqg-"4#UN0n,K"!8#dpGa<43<4r"2&].!05.pjMrqOr3^`Tq<2a(p_;#M-`@k47WA!>2cm3eRX]=Pr'gVU[9)2k`Veqb[t!qQ!l<1.^A!i4><MWE(SCNV-__%Vo43l#G@%Y8.Zb45f2DR,fCah^2#mHt:B_hrD'@<-Kp@_ra*;+f0at9L^diXM5=kYtB2cXNpXK_*fDU]PUY1$o4Ye!`9U;U/kuF4NBWtiBT&Wp19,$R_7IQ!aXh'@@-C<D+\8_j/0>f1r"#JPqdpl\,4qn-Ohu;$"1`2<'^Gh&4@dB%#LgiGM\5o\+g?sUb+3./[>\s*[U:*\h:/YWa;%6cS+ioorf>et1H.4P8i1e=;06X`]eg`C3Q!24u*LCqDi]g3H2$LbV=3^-LUKDO/MUqaKMUNNtYrh-7A&\/C=kKnc$V>3.`>&=Y^7<X/QA;[FY&p]q,g5ndXd=@Ug5Ymd]/7i(8+$<Ac/$F$gpt$*]8;S/hKiFEcOW3hVIMC>>uT4N/*m\jGH;`hH)5\lU:gJ>>B5((9o+'gT7<Y>^e::1ptS[&qV2U1qWp_dr8!DtoBVHcnsa"]rTg)>YIsVI?[hI7hu)K)\',rori9u8jR^]Fdd]!(&=aS*,5>M0p&=^CHe"=ci%r]/j1162c[PEqQ[a>W.rYG)s34%CrpdTrIJUoYs5EIRYC?0Qcb018B>=B7GN:8'X3\KHTDmeF^@:6NhYd!bhtcng^@CKpmlgX3YCHG]2o#?6_QSAV-0Y:&=$QTS:]JN6o"35]n\Ymr2dcT^IJ:?<rNP4pHK1E[^AXU8IfJC8cThBIGCTG<ZbLf:OXJ<e)D[@d;F_>uedrcTR(NC!!Ip)Yq;6ngRC>b4)p+H,+HX%ls"*[b,CP%2f.3Q-R]r7u:U<oApp[GN]_EK)j;5S2PR;j6?#/Vf)?2h9:]02AT9Z$u]gEJ2S`oA](]8I.`2e9goL=Z&]cHg+mj(3k'YjZ:qpI.si"Z14oD6YnrjRr;]PbI^rNOB<oDEii^\HY5PHR4Fg)%KomT6%\kZ<90\]"F0c-O*%lITA?eTX4C6en[t5OP>[fG7)h4Sf!N<T-C0na7L1^\AH!qrB\#e]OroGe;nk^A$'bHl*&sm18)Fm2'*XDh%S::]KnthgFCl?[DFXcb0%:2ntf1$1jWNrGD2?o^,GqcU&Ephg[PLifE!mp#fY-rEGokdZ=08/1U.bV\8pfn"^FUdcdiY[Zup;:GTBOY=+[nh*82:i`";OG[&$O&`X`So($#Bps.@1Q[ec^o9/oI&mui*^&3Z35Q'`QkN(I^?[OJO+aEf=mmZagN/q?Cnsf)to@<>i2a7!4o7_,_J-7!G[u*fJ^">#dkPatt9uhQr!67mI=24<sQTsj_:ON%V-/<e=q`fE&;d]MjaR=FVI,VKr?Mr*Thg=P@htb)!J*fH9rpH=qIJV"1J'n;keO"f`]!<S-!(.OoEio])Jb+a7PEqIGe/.gCrPl1I54cqCTDg'frumV6]_JRVl+,F'qjA6/"eV/r@)^3+(ruD?#m#PM95fq5,3AeG]`-s[]^b:Y?[1`=DghL%hu37]?iB[O?@D8mYC6*>P5b6IY8H_8`ArX'kE;^*_,$MeWMu*a'*le$IM*=lpYj7R55Y>Gb4>EgT2TZTJ*#PcfiRtB-e,fp'F+sZ(;iVbBgC7^oW`.1Fpdb`?S47OqqOic$%\"Q4nhG8V9cgO]s#E4ZEJcL("&WY"Ig<ie7ujr\h'#-ckSqId2PORmMj8$K!0UVrP\UZ9L&EfT=j`[YC?"STCearhgX]hYD%OBJeMK%]7LU+TM/G`K]N18IeQWeo"36Jr6<ib2fENe2VPL@;`kedr:J%ea-4htlg8&npruG'R2:cfi&t45TkBu5/)P`\i4@eAjh&q;5C;Y,dJ#m";YoLI^@J8iMdQM6=#%APF2S5<:f\"_T7/_@l)S0?olKf0:!4(/r=\5TYIl7?HM_Jb0]2oe+-^-FpMA4Sf'gI8FKc8"1kJ;O9'PZ(28=F;nFNPBs#h@t='te$qsSq/q);Y1)d)VtSq+Qt1/VHX_TOSsqqBfh2m?Y,bO<+Dg^>cn!<9A\+:\I&V+%`b]>:s@oDQ.I'pM4\:,&d1.3r3frZm_8a.)TZqr/.CJ+&(ELT)c5("'"B^CUgXpG5+[^Z4?+0Dt=Qk?n&]Vo%o9i>$m0%.T*]+F(H4XtP7q"oe4Z?[D6XT6p$^0lsa/>Sr5A2So>iH2G.Uq"O:p^\Hp*oCEcJs7VddMZitA-S</sJ?'thoBin;YIriBBA_s"pG9QXSA<An!RL_[I.;?*-ePsEGbUu6rm2;?]_;d@Z\_$qq8F.7pUge,IJ8#-ns@\8<dItDR/h+pKTG/&p?K-dj>hZNCe3O:p]mF;[ikTr,5oh7YJ'G;YEoRP;'Org?^$&Bom@jrqt7.'$*jEn;a2gR$GZQ!VgeNVB+4mO>Bi>s5QA:mL40$0chJ:fr_S+CQMmMEYC5]j?V0=F6@bDAh>Z\n(U/8[%K#0((!cjCAS0j!bdZJ!3LWTcm%#Uj&bg[\d%[:W]nt[8H5=9oq;6J>f4+'PR/pWm^[0g'k*M*>qts[%Iu71NJ,Mg4jCn<9?e6s8O?E-rYMhGe*jji)p$9'clhA%,YR06[Ieh$@ihEmbh#.7V_!dp$^Ac#JQ?bJ&&WaK[IeIn-r3Nl)%A"&B^0-aI@rHe[9<Xf"'S$-6(&pC^nfJ%K4t6NM$\1J:F]<bY-XWfaSVEUb@;"H)"Pc^SIImD6h7'"/QbWR<5C&6G#JKraHdBG@$O`=]Y4-*ZI/g$]s!FW?Fa<cJ<8:Pac@1'dFi5MsH3;c#lYjL'LTC3&7cQ-g$\tq!*YWqJ1k5AX(V]jY8:&$=T,&_Ai:)s!s2l0@s6=r<dP$=cM86I+Ri(1>ho'&=R&>q"\=%fZbiT`?Vd<'28:mnZi)A(up<2m+E[He?It5>*hkUhb07Moon,1;*/N^]91D55PpBGg0I%qkcl^%sNIj'p&Dnc/f$og_l-"_'#YJ*l8J#u9:B4qaW(Nm!Om9b7O>-Lcb]^nbbL%g6#>l9K&@T-ZYr6i2*5FoNk=2J=WnQ&J1T.pUh>6;J1#N_,Tn`n,m.e(dRDr,g;?2_)-7R\-,LE"pqQoR3>HVO-V?MrTJDuJ`IWY#:pnFgYtorAgqrbTsZ]FtI=g@--#XO'QY,eU2]5,SP='`p%:eJe;j#<Ob,h9+>VI*p6t,msR4q0%\s&&.[R,_&>&+a?;/9>PtYa3ht4(r3\Q-R8V%I&*dXa1hBKb@Jle"iD<#%ie[uIr>Ht.=C9+r/eb9cXQQQkpq4n),L<;jZ>-9deV'oiTFQ$rW!ViqHL/:r:<]2KPQ&g"Op?#Z/>X4!'g&)?iQGb0E4WJJFUpSmm$b."@j^;]=md<+i%$dq^-;W'R6k+chDmclPDB[L0f9ED\WH6'h(-_]n8p&J1KN,V=58;A&#)WpO2B#?Ur%[a>=B9%,dO\^%^2X;.]\^<Wmqs]_@`Mo$4^8^iM1./-oiP,K#n!VgjR(*i0ZTPAe/dR\.DTZL8KB#f(5DFbC$>W-sC'pfAP\"L)nGQZ_SA,m%Dk9jNR;TC]<+!ke)hiqJZL$!2WGL$pDkE;?D_9<uWH0L1.1q:W+3q&p%]GRst%nX"1",8Tdod^r-0#''`fcdfd(Jd_$;7d;/th#@67&3,+"c%(?=I-XEir,,!^Bq:n/ip%II$a#Bj>bJsW,e2$O3$AMt**(cED]@]ec[u_6+J#_MWmu<f\&t9!$2?9Vj^5[tdVD(0hZpL&Hh!U#c'NmGY-qhImJ@`\dFZ8gpY+6c<su4d&/1Sf4<)Cc`Vu7<&\b,8k-u=YF_LgBd`M+Za/!q*Gl"];$$OmG8#D1"DYoqgq<$OZj5Kn\/,6+:3d@Z?HFRI5C!41[%U+Y&e%'+3o[(M=[LKr.(k*Z43>Lq,pPn!AUG)#hIg,R`h1,.T@lrLpgNJMYk)73WHL3iohV@0bb@e[.$\aA&hW]=T0?^8/M[HQes3n0$A&3oIm9@,1p$TD<B@UB9F^M^%iL/3upr:&[H-PoFco.N_BFXF,)gM;1dM9(rQ5tA?.@t_fT7!;.24[h;%"G?kCUtZ,_'OMRUM+fKK';44`b<nm[@;/5:EJa<k-q5Mol]QjSWtdfgXkg2l$1X([6NL<psc;a#Gs&QHRk(3#M%k?CKl6s#&PKin;tNf]_=;")#ICQRAD`:ZhMmFQ##s_g(b-JpBTMgo)H?]j*SN=!sR"'Gjgd"a^+r<dSjcp2DOUF9,k0%/0obto_"B;(b"C%Mp<=./a92#WkFaR%UU.!R)Pn@g[P5)ZhM!DjsWDtR"+JU/(7^@LAN&KMLU8.e/8X==8C*Fr>=E@Qh["6DAD[2^/E>H5BZSWa<UV*CdWoQPOKCWhfn_>7E%P3[6?@'CnNg]s$/.(O0'H_4$-NLgDNY2/q8)iWq"'Ql8*#-EdNhah`11X#?UB+YgW8n"Fi%o,@@tKAbiq1ppE+p:5p#!g%WB+:#-iY5CkJ3G-&@u%;iB7B=H/H]Pi&8$;U%q(bOLH:hSl/[1.<bRU_h=QSu!PGB(ZScKaN%V34&fF0]`/U?MoPV_9=1?=2d!JSPKk=4WD75CR_"k,G0Fp:9SVm,SKk%4_m7jSh<%R:?ItXh2)akE\8hGP<r+:>Xc+]J+]f<H_c8?%k_jUU4h)ct85TgoY3rWTi#>;ra4)Xh1iMf;&t=hqN3TY0&<`@psaWbq"KXO4W\^^9PSAYjXAu5OjH:Jea4Dabk>lh!;On@QTmZLZ\+_L$g+b+'uJO^ku.jYm(&E!WMC#Jc,lEB?].mn<G6C%lX4ZikBCb/?cNpKHM^(>U8fgr['Il/7&:s08ol"8"J)+^R>+g/qa[t.)3b!eKa7'=4@G7Fkg'8^\q#JrKN%l2E=nT$VX\?hf:qP40SPMCssJaI,mQF[G(/iAV^!6Fd4<IQV@&3Wf)]>^q5O)iC^3spg><Z(sM$\%1Bl]_Kp\:+m.)_>WOY3^m5]oHRI%`E,FA%S5g<,kibc.];+E6h7Dm&OnD_$\aM9P1e:dlIaUtiegPmL#n47b?`<;Bm%_)*]<Z71<kkO+L+f0$13_F8S.6abAQn8VE,]R.\fF/prI3*ER'DYO`*BH]8dK\d!J3j-7*P0;O$R<Jf)Mh`\nq@cJ#7Ega6%e_B;`*Z63)(@)6[jf5<XHY+ER1t&@7/PgTDM%'(D`re6'J*o3N(q.gA4<,(@iTs0Vbs,:)c.bs&f/7R-r,I,hU]L%g05#>>u.E</Dt1BN2^&0VgI,_Fnr@?La:&lDLih2j%/1Wa`E!1;W^#_3Hua<6_nS,`4]J+auF5ER(c"FEL3U_!\;iB4(c/C2Zs7Y$g<J`K*'0JY@XnPc\:!l%:1-\+oF#[AbKKF:2$!"kT791'i1$+PL#j\esFTaGkp7W$9GnW):\"'\ppj8>#L8\,7qkP2b!F59C]Ra1-lQIA:U4d;@oAtW%Q>PM_re>S!&7/0Y"&hF*=a`',VoBC;8f`GDCrE/h!??`ue7=ZC:_CJc]Z]^rYRtDk/<a]Qr0.1k-1^HEOp%3m<Y9;B="rs#&o!4sOQ4j(gP&V=@$mPUUp\_R23'X,C#1tbnL7pRmq+4GQcp4-)AoPj7\@lRin4Y\c!OiV"_ir_mfACs)-mqG:^k2.KE>?M@1P2;g,"O-#^gnu?0LT;V&6Wj3%[81Q-*f3)Rm7,JlsM$)WncP>Ufp!1Y\%c#Ws(3R-V4EU7W;6:,&?hudGBmS!05Yj\XAI9dW0":pQ\<+2jGfWVL[,>_+o"c,Se/0OK)\1$&+$d80W^U<.K%pWe0&C5]9be9F?dPNYW"QaUOrd#f4%t!@Ee'&loHSUp.S%fRaJF^pd"XVT,.ECb>^K0?!pZX!E/>&XupnRNA`X*s=8$E3g8j*"Bl."fKYXLq'Wt8@uBjN"EYL_S[XR[?_,QV.-FU?LM14_A6j)@[Wuj^nR-t5iRU$Zq>-42b'!a"KkkDTBi+60o:Tg#:_/,mLT*l(3^5jes`:NV.8!f#.W0jH%>KW>R?e8EhFp1-V/Wg6=Z!#'ngX$i0)>4`(<K$S4Y,['a$tT4((8$_0S7%^toY"Zl>&27BS>X@AEg`ZQUqSC(Y]f:4U4^!ddE=(<PSdRVS0r_bi\@&)Y6uOtSMDHlWm9&.Ke6lfaKV&G'D_'6p0?h[V&b8V[>BLf%b)o/'pgR572jS+Qiq<VX4>ILO&bmpsZVk,]q8DCPYs+#"mTCOURj,o-V&b)_!`%<+_NOgB+U8GF8C>3;_'+Vj,eZ0Gq?F!1b'h(7&adLlbga7&_0jJ\liWsIMO,1R8A)?ikIn5ge8rW(P5hAjL08J:g#BZosPC_H6($Y;`Y+7(,dEKSn-/(gR_JjBelZW72@_8W+UFhA*O<PblN9b--#'F6B)_!crp)%f@t[KnEc"#P`5m'RbZU'Ac.>nXqC!oa`070V-Pi.0`@!oP.-NYl0C"C,5%_%:1<lNj_;,5@33k,e>#$,B8*!\UVoS:^gVK>:h%R*2!5"q`t5)a+R4$a"q."<bN.1.8pq2$=CU!2g)=G/],7R(I8L_Up+:<eZpAcaoOJ5QWJ^i/@g:FT`Ak?OAq#YR6d[7m/%g$;!p3J-*MHmO;V"#SqS#$3Bq8b%<Uh.c>6c"<T&>/dVi3#f-upRBtBlisWnB\4FD7(^/dkap?2s!>i5.!">Q.'G,5O"=KIY1W`E5D/f\@&gCdHZkBQ^9sTpQF8+Me(kLj@?mYE1oBUP@eIMqUU0N/=&V/D^Lep:M5ld5`pm6TJ,m6I]?XG!Z&4hJudB[D8Ei,e[ThXMX+fn0F^dR+!OSNq&bp>fhX.l,8g@blr[@oJj*6K9I4;CpomM*&\*Ta>]g:S0.71HXR"U&5-r6%_]Q]%/TrIo&hg[ch[;+gojmZYQmgK)SQH.BWoh3ZSXWQ3"dUE7Dr':=CMV5'S=n*o?:Hh=eTJUdNb^Clenrf@(ndDWfV[e_du?iT3's!e7NhVH:('^^_Vqk&?r'_kDGVsuJUI&-[uP8P\aD"4Eap;PM>\m<)MlYle&IBq`3f^89"T%R&-I-GkIYQ"K-rPa9a#Cglkpj^G912NNUDWBCsV^_oVmU;BJi+r@hr%GhX^]&&oF%a*YolklTdsqA#T)IM1qJZE'2uiiADfdsHZ*%gdrKA<4I6W+!CrlPAcInK!%emh>!.XmLEF_+E=;9Qdg]%3.s,S;l%o7SShHGCk`n1+_ec5YV^"sq-Romi?^\ulIUPVZ",MTS?rqHGg,_;kTq.(X$9,t!@IR^Jfi'aVR^72j=.W+/@WX2N8$O&gA,&hGPAnMT\qX=IH-QPglMDk-hCIt$2<AAl1"=$]7lH*.q*u0S3mmd@)R<(_`GteFWAX#8&.DgI:0kOfl:F`)@4DJ:?rB6)ZRJuf.7V8pd/5[$f:P'[OW,<Qj<%M%gPq7+'bcYVWo,.Z5FUWCf]:_f>7Cllk@MLj75Cro$Ta$f[JuMG$iR4N6;uud7/UASU3[(hGiQ>QCnNj7r7gihd*2?#7C$-s$Qc1F#^sSH9Rq,%s*Nb61WHA7^#@GCfW%r9;-,?OP,gK638sZD'<!)uePQY6jO8p7L@?9t^.A7_"_I\COE"TKl(s7sb9WT'jTUZo%URuqkD,nCto9CG++L!'V;4\3X/j[$IPbWaAP\WX'Gu361">>isEs.jY^OJQ-ZNrO`r.N2aVShlsEb%b)//PQ0ZDajt9*P7a^N;MGs/u@!Vu*3NAu(&d\^1cah4@E0WnCW3dkN.H:Ro"a#pK;@pd`*<^b8^Nc5gs"2>]o(;Ht\4X@dG"(MP**>kAf@\96`5#"Jgr%NhnLS@;A0ek!FmjnTSlhFE142^/Bk@V+<l+(Q=Y'X]r3Q>L+!f]L[LJH#dA#ZqYR5^:)G19&+2b`4_?)jZ?R'<.2Q<<OQ83'`/olu*[l80@/)JIf9:L(#.Ui%IL=0CPN_G+Do[r6^[U6EDKC,PA3fS+lSVB1hUeeZmjR_tn&m3jh8Ti.8b=9LHQe<Xc`!l$]E5rqVNUh!D(9InGcEm=*.!p'(.;`_o+$(f6g(bmAjrVn\cd<>,+OUOe"-%MC]]2]"Q:3:f<KF(t[2=CXoW`VfN*09chFhY`pCp^]Ig5Ni%=M.N<2n6`gdmm"nRRlt*T(\>QLk9f@8U?uC4!nacXJ+_W5el^[4&:LQ\;R"V7d`7j$d<edtc:ITKo^3.n-4@-mMs%KFr1sJdped%?Vsefbl1jYi>oipn:Xp>UmWg):#^$7]BOu__B2/X(DQOPGL&g"gO"iABIh^u-;>!udfKHhK"2a<_$E*P9M."+;O9u,>5R7l/8B%l@^uHp26MYW;W?HeG8s@+]\.C=\?*blsCV$csH5W<7[ZLBu")Oi9>`g=1%"O=>88qoa"KZ\JQRou,-1P`'\S)HGl[1EDG`,'8*m8GTT-tReE@I*RNM@^RQ2k1X$V[Co=A#h!7hT7G+Veq3O9iIo,A*$J"i]2K[4N=K6)GXp?LN%<`fS5.MJKU<'bf5b%']taTsm](Nhl&,8g?caBa@gT$o,b#PU)9V$s\am!Z6[3:bZER748eNX(-2R,S\&t&4D*U&OHctP`1\H9R(ZuQl%<5#:kIoHBe@#Us\"h7^6YO1]u1d#e%f^+cPh'qmo6D_?[Qh(E^PN&klqXP[WM.E<WX7K@,l^MIFo"f`"PaM+&+_/D^Y-Rj;sWb``>5K)h+R@q9&)71b7X$c4J.QpSali1L3H"FnH)I',g6Dk6qe"BIeg=%H_\^ggoH^9u1UV^P=a5rf>Zi("2s[$ZudEg602b5;LO]<$fK/l;OY7;XLXb'QUdjhFm*R=/(CITOU<7?kh?L2H#nff%,Q^1[=f=I=TKJ`&i349^rk:p+G.NeRoiVoITYVslL!!22<;s0.0=ZZ$TZp_:86R(j[D=4Soh3A)a@7HSk6i;s>\qj'5E@Gmb=d6UHR7MYAN`'k_'Jq5Bg_I]J;q)=.ccs1-hZ"p!Hg%4u\Fq>n-93^R2]o&!uX4Uk4?T'gQZC1`pf1Y%X/ZJC?UN=C#DYWK+?YU>A\8sS]-b+RVp699\C/9ZG8?p25(0lpj\SM6AL+s4>r30<YYU:3?LtNf8VKrk\E;YhjH,'?ao=,ZPqMck-m:u%HZ$!Z#h.[Yk376B!FMWQi>b:;C-AQmSSI<SPV#QMd-iESBGiD#1hdF"<YrfXf4a9^Ar66i?Id_jf`l:5)Zm9*=n=a?_<WL@\rI8D]6fodl@dqZ;@?+MA1P%glmVJ;]\m"`IVn]"F+5\Qd^X`WGJqFCOS1TZb0SK>Q_8Y=3^^8q3iY)hWk^=:(:r/.W7=95dj9&Kt!I3AemON\W1=!6!(OE)7)O"6Ud"!;;P=,\/MqGt`>:Om5pBLb9AB>358T9ms_YdN#%)bFp2U4]iQ+2Xl4BYj*Go$1*kea(J1'ta8<45Ls:03n&c?B!t3?d<qg`=ra)g\QUZa"0Y7pS*<0eJ4lZ82jr(68TPh476'n^saASCK02;INr<?+A&(=Pm,u;@l?@fNB#Win0,b*3=Kh0F#"L-k-llYg=L*"*PrpOW$PSM\@'BA&8cbqJ0YH>7od"9,OVp>kWcsp+/4q[*4^WE/\`A.0tG[f@>^ZQ/AZOl=#^,T$MT77;f2Y':&RC(+k8M@V;nVs*q6Elc$619aUDi2^In&YYAE.0i*XG"'Z6tJoT?Se*$FF(\=[[]KWu1A2K*[GM[i4b,G6tAuN5Rl?m]J[J/ZD,K*Pn>a]_^@+iHP(?qVES/aaiHZnCU%>nnc^orbM1)fA[\pK%0n^-\mh*p<2lX&FVT6dlS=98M%I^.tts&H!MC"2k5mghS>$gI_YbZ*1]="J>dJ.6/D4ju^pq26)Kb1)D7Y3ub^eo]%6IJ:MZK7Dk>Nf!^:.T?#OJ:Ha#YMV)Q`.kFf\V^k*1dM[>'S1d!D-4]+UOp[.^W"-VctQV+]_)K1`[Bk5lKX=p=Q$'5P'UMp72!IH[:Q=W&gc+#+M;$=^m;8G"9eG4R#s#*JrB8$qG+Fj77O@e_-%A?Bi'VuUPmQpZPBZpd?%%]Pl[1e&?*Y/I9``GJPr59'-FJie/RT:ocWVq75:LDfKFTgpHR@=X\Gnc)R`BCCU-ECEJi_,Eo;oY)]6C`%0\OPN[,/EI)$=EJis09eE-`4/':!\/1?R:nh32b&:emfAcX,`r_m6p>X:]TNNF60`YYc>XuD*A,::?a\*quh&l3aJfIQKK$r_c(D324jeobTd9_']Xh^Rhe3Y<+D_=1E4;m!]GU@r23Ioc^>HtZl.lNG%"oJ&Qrd)OTTSgZ5YmiRqN\G=S$6[`771dab%=EpB(f2U)J"cEi'ae&qL7(OcenMp(dU/<s[N<5UbeWjt$As'>$E:/l(!LC#M/E&q#cHctIUgQX_$^"lF>8$:"^77["Lmt*GYu-[omaWX^A3%W>__<F]Zk>I<L,DukW$8V*fN;Em1Q3r[/UO,?CbaGOkNfQa_T]S(:(n:pQ!TXgCuAPAbH,f_fH^g4VCmh4WlMj7@)3F!gTo3p">EYVg(4[WIj598Nf%5;2Um]Oqc?OpX<3D-bub;@%E$,ncMu(.QTH;8SNe`),R6Of0dK^G@YDZ+nWe&+Mf*1G&7Ij/2j;,P]u@dqomKD%;/T^BY+NX^)gj=ZpBn[MEH:Q_CC![Yh,gU.d;PZ21UaW%<7#.;IXfI7<Jp\5'@b15Kl_j652p8T'):_EA[k:UI.m.F=3?3JR>)5AFqF!$(!4/iQ.(7,GN]+ENe/&+rVpYe"t)hA%Mj[".S:[\3C"7X7YF!ANJeOL%R-=`@fo@?BUC&A/Z\c3Y=*lqZ6Km]X>K4>OHmGA=:t_O-0mB#21N2GdsB1p4%>Q\N&V'C2qC(N_lOS(&&L"hF0PF'&T"HUIAt"1M<[8qU=9p<onUK:+VcG^3(IbjL5GR$C/D"-R'mtN6Lj5c]h"HtWeEEG>3?j0-8jDN3#mqSaBIU*[0UO^&hG1,(lj-AN.H,I&g8Ge@%r#dR7BV]3j"VH6SL7c#>#%)63pX5#sQJmb<AbU>h4*?]!6*tT/$2rf(Ii]EHqA1)cYrN'?<"iSjnC"lbqqF+Ol+%WJ!cFa*J!5p[;F/)TOe/R$&bB7+ZeW]D@p/s7NRR)/qX'JBbSS.DbeoratQURUk`MPt.mfmM;.GVu,V@Gd_/lDZ)L`"E:)oKK-D,\<Eo0OuR()9=h#H0O8Lkju!W)8SmN^16rWS;%SI.CF!7fZ0G#N\8"o]Kp#"P@[0Kt`==ulg0uS0X(Wt8e$>=r,o[bZ*FWrE8=W-g_`0F:U_k7VaK2;hSML;KP="2BZ'WOc50ImgW!9\<9]2Hn4)EbF(e*(cK$+uFX?qIM7#$i);=^MLKA%$(<Y0>Q#Qs26?Fa_U?PERMODX/;A/iEpEPYgGDd:.2oC5Y,9h'=kN:4^rg<62"9NM(O^L,l$)8'p`qmiB9^j/R,LR5+[>LRr7'lBH+S])V&=\R"e+tK8Sh`Xu,HYgNe&!hC![2r#bJ%%l3_3pnD*uIeJE>H<6E)*igEg2&)mXlbYUXk_H5'LD[o&Y2]^?1AKD3bmCE2.dXD@q>+7-5<ZpT?^sa#3hbkmnW/M%DFE8XrkP&-Jh![0@*jN``(q`s&[!=%^KdC>u>K/4g]seU]-K$Qc_ka]sKdS@AQ332\XdfsHlEX9B=hThB2MU<O6p-:'m'SG63_<R"FM@dL295nqe$-58KZ9=;97[Q'h*N6VZjQ5ES"QSq3L=E(.5&rI&hjfIH6)DYn9&df$t.(01h:p:HX.UnJN4,c:e:u29\-CJekJruh`&lo.>Jf>.-Ho2RDa(XKqZ0)]=2TUt^/EZG,B:\%^Ht#u*pu8r_qPP-JDr+t^"uD8,DPt0\T;XfcI\fb/3pnT0)4Rdf9RoV;RA5T/:5h?@G^7rr%h@N1/&>=c\g3,g'^o8\T7nU!%$haN`qc9d-+)bnU8eSW;`"u^JX$7CnI4^.3*Z+T=Ft!_MGeapYqen.Tr'TLWb'X5!aDOQ1G2G)dbrUf!t2Q!enb7_0;Y>&;,@ci2ds*l.$]]$a.Wo&n&jo!kA6FtCn@W'7?!CnOp8@l6#Dq->$/K2M`NqSE$-4h.*TS"_Uoe_,]%HeZT'**8tpSgK]s(mFB[[2'ETY-<^VOrL_'h8O?jF#gs`(-Do^n$:s]E,YFMPR^rk\`U8jTmQ^m9[7h>5dYOKZ+W&tXh?7*YLCYS20APOsd[Vc,r?V&tXMQ+aDS2P@VXL>>SUJE*hi&iG13de'5p&nN>r<qa'n=GW+qKZcEI0#q3^ZG7,NhoB@UA4#^qeDm]efR"%eWmh/?e7`/^-$Sk-KPmaWn^_AT(;RQk>!?k:G4lXH0Rjl>u6DF\7ePZ8:31WN-2\\:rD89cC#WR:(+i^$\O;(Sd%X+c3/3C(,)sN/Jl9m8D+eb*.t(W^s!Dmq!BgkCKVRPY%:mTeD&J-U3;llQrRA7=B8-@$tgDe'YO',"?7uh@)K6n=NZn\`Mu??GDCMMV;RLH>[S[`4Gk\HI3FJ7,q^>\ifGl^YUVOSLqjH30G*"t@U0t1n@EAh'G@,;+_70pM^1ST,/F>Uo*be_;4AUTmi]C^B-[!qeZBd4a,($[:$Ik.nCa"p7P1Gl<[c8N?B"C;6bR[Km`]b<</--mK'*mqpIUBW>0N]+;l<h\\M="A\!k>Y)s,K.KIe1*Y-;H#YXI,"`[0u(`$>\=X]oc*b@qUB<.$9-\)95<W)6$Se@i2^(9M1+_0N5`AeH%#NXK:8bS70O;SX%`XMM`K8HG`/Qkk'_e=&Y7ZXObE)JU09@G#`uRt7KRRFrLjW_FA_)CB/$"rBU19GXMco0n&;^T.rkCJ?'T!YGre9?u"$'"Di*'I/YE!IV,*Ei""C1;n`JN5@D>&GC*K>$jH3(_aSir;5X/&^R@B*c/pSjla''PMk*0al#s-MFU.u:#b<VJO+\I?jd(@3*>65%XJPPO`XYJSLML05.EV_71C5,;7:B.Y.g?,pee?,U*E8?@jkJ)=*-)Yk]YMu.6d;G$Lia[")#6WJe-m?X1MmmI]ZqF\SZQTo(=dt"1tW,;YP7#L5T+I.s&A&19eRe/;m.uCa@G,TdN_AI]1>nL=o\&lm$>6*f"3ni^R1;U5\,4_8XV$=_KiG=j]f(BUVK0-q=sWMH_7L==q(Z*3/H9Mca^c_:9"&'$#Ss*Z)LE:,R.=BL-,3*+LRSh'r%K;EMb2(Le$q]4"0^`Q1RBZtbQZU3W[d60u6FCb>e`q4KfG%1IglD9kafB0aE5(]mfq!)-fRQ'`CKMNO[MK$bq+:qe(ALWs;mjI0Q58UPYP<tO.,Rl?t\r,_UVHCdfXp!Fd#41f(G<O9:a,Q++GL;2Y1V$m"c?B&kF*;&nj*g^.FJ,J@po=L%oP/_aZo8qQH:o"]^*ua7n&965,+sr"n%^d;jqM^4X,"eRNM_LdM@URNd6rK7cF(a'8*u9#9r^!*ASr2$J=,XbI04#spnccQYM-G:I^OIA.5&i,(:+gpW#>Qg2Zjs9qT7>`M*Eg=W+'lML^uj\WZ>jXncQ!p1&B9c4E-I)tNb([!]5X1j"1Q32Q%]obX+%H.HXNlc8lFfL([[[+Xu(?ZKhHDBLCf.jLIHgDA3@-LC+I;.1BIqAAl%d"Ufc4)!6?B.!??q&WlttZ#9a\0eI$]P$&Fl!@'i's8\!;+JkHr2k6/?@q3*uc5t&:HP'+D)Rom6BYLS7OahS#77q0[e76Hd9`2=(U*'$RS'>p7O,pWOGQh5O8>c7Ss[ek5aDtFHrfEgs:0LO+H_kkC$I1lSEo]EDaV+']R:[RKcrIB93+S/3XT:bhhZMKR6NFTH-k3C<*RPd_hQd<,22gfD2q-9Kff^Sm!ETtUN33[8oZB>qGS9hl6l=c?G9(]_XE^$g%MlF7pl"%&m(EtB242F=J2]!Bk1,9ODcPYg-]t#lhrM7F19c-+%/PqD=`J8]l@,R*L3\`[fe7ctW\mjucGeCEK_<l8hf<&Z3ARhK.WftW^LFF<KNSrFU;u=mfdGd[aD/Fa/Wu160WjsU%7e-J`$n%_V.q[hoBPbn51[8"/p!BOHiYKMDV@P`$2^*;n1SP-_#)Ta<Kt0O3FYH@^FG@;dUkD't$I^++"=Xs#\Z?<QbD%94'd:An+lNaF5:[:?/&\2/!j>)3AQ1gKi&u-3Bn@VIaH`p]f6tl_99N%_n=;_J0dolfq*$)W?-o=8]5Zij[<$5od:\Xmn7d9?3@^(EDjsfhG%j'aLC;.T]b@Ff+!-CF(D;:u"c=Tq'Et)<l_LY/DQT!2L^O,\;_Y;(Oe2Xe;[@V1+F'bn-fp^m$j`8iUCbb:KHq0=P$fsZiWheJ"^sZRTY0)_)VD:#CU#>t@TU53Qk5jlXEucbY8\:B=5%D6=K`49>&G!4:cl,KT!Ck\W->a(no2KO/8(m0&)rYmJJ"*h1r?\4ar$XM,LLL)!$@$GaDn$p>oE<)JjEXl;.RCQ>sSXu&+EsE',M&`-6`Kr0[O3_?jJL>nA=fXN&UHq=3R(8\TH5D#P5%>4GAjsminY3ju1B5HDl>cG^&VqH%Be9XmP8,q:(fC?=p]Nb4S?4f*iVR%mgO&4=jcZ(Yt8O:8Na.XVd)$?XW//4QpH9`.nGiW*d6<Tpe3`#G`af;N+o$k$KZ;,)bFm>nN9&9dt8(0VhF&Qt)PC#onoS"bEkgaT=WaPIjku3nUeU$c4HdanD9c)p;%D-q#l5SDp7H-]F=\e^g?S5Il0HY45sG@nh0g$g*Wspdg7DJZEF=[nNmk=M6!?_W;Y*GH;(fD8f#Da$$%OqmS2r!5$Tb3M)KA,B-6.oS(4m<=FY>\rm?"(edhtK?MOpB@eYi]NlX\@U^u)%#'7ZMA?<V)I\ClSO,oT2\ic8b`<L!F:>6*jY'@Lfb3iD2+o#.q`mB81:/nj/B/dd=j6BcTEUr:#*/Mig/jjSlqlL@'O?:.BuI#Z#Rh+B_ci*Q9/&3mX466,l'mRT&5s5S_/;@ZXceKWl)D)`3?(3Hqgis$`V!5fmoO<BfM:#dVgp/`Xrc5;E+8"p"VY[<?J%-i4C7C1+HJ[7(gg#+iorigTS'pc#Sr)a(=Nb!@u?dXS6et[X9Ct#9C-XOIiri&Q<!u:MDQH+kt#8k!*CX9;'DfUUF.<4((:cr9JJ66YcVUFE$b>=nZ^MHEO#hA>gp+Ld"]8)\l[\%ETbRmNr%.+S[\C@M4<\U\`o=N#-`;uNpDG6YU;kIP!ZoO74jh=k[PpeMcC0c`?pa((\+5^`V=c`.]+("_&a8B(t,j8&qG3!XYecBhn%Mq=<>%9-$"UL:/?$<*=m<FlWU^.e6CeZ2sPPN@!jnX`oE,W_U3gNE.m96E(*kO53`d.*\e-cDQA=#IO7\u"U(o[j.sU(GLOekZt\cmKN(PW4+f+c(^N$8*H%h6[NsOrU8j)bHbOYM3d.6M1OX"sQ.fX+`gNZ@WmL:g_X<H[>F(h@*Zs4D:Zlt.f<oDJ%#Qto:ASaMQ`Ws:q*!U'3n[L`5.kf"ABG#=e1_E:%\/RD,P)P\0L5]1DX>1QSRNTn*))d.#(*VH_BY1H*'(h8Qjfs'aCK0<'Z!Xk%Q>3X3Ltn,g9.ob,^t+pRDdEngfS^6j2bh+I/&98iZ/P8hB@s)/^B8@=^B]chXPP\O=aTgE]/p&iEmrFIC_5b^o*;jj(3k,?@A\[W.cY8bCr3c.5hLEHSCB]K:#eL#t\k?&Ji3Qmkhe+lfY3jp7VZA_N%nP=%ngIc[KilQ!1RnmsS),a$fIH<t>,j6f5ajlaa(1<X0\1Po-BlNJ7m+(arX2Qlf#'W&it/g3D,84>C5;-<.tV6:]8.C2N>E]OD!gW8[`9Hc'pp:im."9Gk*OFT-kY.k^.ViBr#&i_+H(A3'=eoXRF]C1R\er)R;ME_UjkLCIK&Pg,p.O*Nj=#o5);LT2];#&j3\"eaAc+XZuC-^B9KF@[f*-3)sd%ipP9/[Obi8*AdC\aACOIc6DH#J7$pFK*Y<Pp9IX8</,6Xr[&UbHMq[oLpq4&&t*W!_1#H-6h$^'HJ_M*]=<EX:W8NV@kFL.B8dF/=-3=[`kQU#tK%0d5-caX#G_C9l.lFoBTkKq=4D=:\;/\F*D7-5*hGde.Yc#U&Y^c0H#[AHA`XQ"!KW0-@A>jj+p4@+Sa>O=#O(`q8U\=`CAFk.7<n,5a(i,Jq.T)OboL4),'aN9Ruqj#SpbTkM^itA#Ro<(8l%oY]BW<M0e9gLW7qfmlW_<iUYubY3O6.#L29bNM4O=`QH.e*U4ON_E\jNW1_7]bd*/>7$.$Y'gZRs!Rh$=1?Y0c'Gdj1LaC@JO!T%+akqE(]up_Rh8oLGqF/\h"\jT408SV5]\5/hnW$`:[IMqu:)\L\Y.0V]"VZ$?r?!(`0U;kTGZu\eq4VjahS]V$-cA8>M:ID)LJA<j6bOlp&LN`\8rM`a?/a2UdmJgXpt=&SgU<oqo@B7d3>sJMQV)h`pQPs)KU/hZi\\Jr7_g/sHY82+&nJ5H0l\kO"aFiN.PN8[Z/J)!:(2J:WC$Y:."=Eh:M2PtRXS_sH!ij@PZ8+"lM?@.R(-J;^Nm1kI3?44ls\]iVN^QD?!*YKX7;hoj6;kWW(ZuEJW6aa_NY*i@A&LRZ_[^-&c?6/IgHM2psW6Q'hJ=o`&B?N__]8lLH?k"$m3$*iR&ANV0t+$88V4**F"U'ZYSUD_O`J64b0/21k,2iP'bU0A^bF]m.@$f.Ud!WjcZDWj172]L/:jJaQ,o!.Dkkl*D[[3=Ji?jRL#`i+ER;liA`4o)m11/LZ7-S3="`=M<=9!;bZK>K."-gp.^D%2hjg@`cs48Bt00J$_PL24Oi?G"Z;u0*jKU7^o>;)J0,\gYSd$e0Ec@AYUm^8M')db.R^=9+ar?,Dt_9C'Cu^UiNgFD8]R7t99R1DY:i(eDsr]HR=J:6:Kcc[;,8L?Qk21YZ)SWBVVnU%#,34f.1@aa,'c8VYdVm]$5Us_9ASQB(Y4Q>cWjRmoFP??FQCSA.p230-foeK#9)@65d:;%N$,'4I=$%l(/'_sN?p#^P=Ps>D$q;W)F4K1_'C1g]:4`JhNh;W>4qO8D3Z"tF)Y13*/O;j?eonXcQ,*ZjF^*,X;F&<DL-p3/uW06<\3[25I5[@&Rln8N?s&$U8"Xp6,kr:6;/!RBVg0)jhC"R9fH.?CA4^@q#@2c2>7^OQ>[W[T=a,[e7AUPF<r$o[,)!"p&"7o_5)(E=Z_5#K&P(L`LtWiG(gb7Gsl+L#Wum&kqMVA(RZWer2Bi_S%RJkoP&u>M3Yt`4Zp?&YTB?M_99?(*YS\oQ7,"j0C:C]F$3WihAL2BXGRmWJgmuf&CNcUgAGdRY%cLN:33BgdP[A'm6`ulhU?mF2XJI9%9B7ib?5CX`2u(d8.Fnn[LC'o#"/:*hFKMUM.mR)FI85V5R"%-[[*ZohASCX,llOW^/%hOp5^]nhK[nW/ZTeuCFh>Pn;1HBqO8E.g;\JO6\,[V?lV$JiQ&l8TVA]&fSfg2@Nt__+e<eY3BF6irc!qKr"S^`SR&cOOaTkmqH`WA4-.kh]8i7Za8@Yl9E`0Nd^#66<C.:VkY#sD7X4I)>of94(_7'o/Jt`696)4caZM?kaX_KY=:k0\3t)/"E+tEC+)&n]1hN52#^^rCIIZljOo$t@e&'-IkOnJCjn?ItI&a[6(6qUm6*oPUNaW\K\Xa"#gNe:u=#XNdY6]K0Dr8+YHct1mPfcHn"Mf8VN47*9'lU0\BsT[%g)]"]27r+#s6(XjLc;K>@0g1ALQ*Nrf7L?!o`D$LF`rIH-ZGbM/8V`P(fLtups>tWl?R%.+BC@a<0UK-"RGu9\Pom=,'/D[!^*g,&7Eeuec7m_j^.KHl")CAq]AC:F^lrdVjGVq`WqIANH'>dUt*4iB[VqWSCLERU*^@p:h`)4%De:B4YPDR_W?gT;m*a0!"s>u'<lCM(]o)6n6Sti#.r&6^Pi=\g]3eREb2+D2tUsebd`B*+,`O@c:5;`SQaP.Ie]cg*^;i1RsB-7E5Ruc[WVhLOZb./]u,R\ofrokCZ<K'W6d4jnq\"s#@moE"i*!nQdGiUP8^kmFfKr]k4.9N9D^V`MK[OgW:cB0Vf!1)L7L%bk_:8fLku;J,)T/tjL/Hi18ddnAqQL,-H*\sQ&Bh)arF8%i"@*6$K*da==dA\D<]R7m5s-`^'>^KM#2PN8XCn'7q8W>A7;C7=YJ^iULRDa)(')PKd:IFoQ\@@rKh,ULeKnLJ1s>2CrM8T#dCj6&)SE;UK(D[ZbAGLa+cl>R2l"cA7#j@0OdOfS(>pn_OqNj.3Ufgdn!jde6QfC"BkkV2)DUYpjhq<;2=<nN=R[(i/0nW\:4%Ea%Fn-A26srQqM86MO?hrRa>FT7iH+ZWn<8>fP/IQW1fSZ$_I,/Je`jWO5f"DJiV=#G\FqCjbL:'/_S\1EIPljLgY3q!]l_^9,ME^@:8p30B+B\;5;tSI&(AU<Pa>WYZD7#7P5Z%41\qlY!l"1UTC5H#+hG(lQf6cbZPOZ#mHk;&r.00.&LAsJWHDX=XZ2*C'U'n)KpHlLk4%3V&a.-qT#h]WVpHBB,'1FqFh.f#S)F.PqL8\dl>cX:7>,/kIofjN,qnZo-#R@F+q"l"t"F.q^tl5]V5)\]XucNPK=#6NruJ,iD`^!7DWupd7"]eOTio`Vsp\_V02TW=.BBp(K?YTjUcNY^NILZCLW?cBodr12BH56A^f/_A&fOY\dnnHMhn<".O%7-8o#08@O;7u`L(C2=@=jQpl8on'oTq!Ni?D)'Kj*?qr.e2H#[L,ZR<?^K%[2cXKV;e:Q9Hn\c[i_!CUB'Z[diC"bD5X'L?1V&5Or:,k9o!UD6pRI'?kr,:^%?(@8tdYM,YTA*bAj4hW<O&nsn,q8Is7Lb9%%#SpnoKJ8;'@1+!@7S[.'rMcmT&RW,!\2a';r%W@7>e>n(:H_U8C-CiG)@atC#`Q/%G?G1;W44]W"rQ/b`JWn[jh>&tGTn?i-fiVQmSEkI^\^1`L]?KYrI^_Ss88Mg@JH)^^BojKoB5muIn-%$>nC:>la\aV\TZt`6I>7@naHK6UMbnij"X2BeYkbL)i`@L,nd=#WUuW0An5aYN<%h:OCp54jo2*_S_RsR'Kb:s;SeAaP\Pjg(gu8'"]HOFDURQM$oV@3ntmGQZGt8Yg$XDh]jl]]SYqLV;Q%?a@<UQg[(*2Z7KmY.L0@SZ'"n0FjGZ8f\/`ECjJjD("I:\Uo<^GR"Pae5/-9^U#k$<8-&[t`_f"X(M<DgH_hI?pc;+t;b*WC^@H2si'fS&X*P$8qXC#?=CuDU,'ti=\>D.(>@l_a"3u<N)X&XDMZd`=cY0#NdjtdghX3B8=:0d%^$QcA]<6Ns$":.qG_/lMYenMVs)`M"d\@5>gDM$>]B(pRNKg\`K$3MSc#p6,)r-ffY/2[HUiq=K&GX^m!I.(=d-3<To_)mY&gTHG[D_J@3!YGY.<"0.JmN?J@#iJEhm(53B@3IQ\/cg3O\U*/k@=mt>BLff!QnOdg*g7np>-h+t>9=^I<-Y>j*ZhU@#iH:u.iW>B[lIinkNJA(%uuDd?7=g[>uBXd2!gI/<#QUXiBmi)!"4k-/lhtQ=<*N%,bdm^+m,AF!W5P)(C7Om`sCTBV0j"+a5'b.538pW'_eb)#R_)Vk\Sd;HIUV$C9)`LGlN^C*kjfM?njKh2*=Ij<Rg!_;M_^+E0e+YjJ;D%RM2Pcnbqh"i49j/ln#g(gRN%l?m4bcYpj;Dk*dMja/iZ0%7Of!5nFA0Gfe+N:e6%3AM]pR.TlGII[i8OU!&V_No2>iDK)lCaQ@X$'6q13]Nl3OO+4)X3<H00#/W7grql)rnBr_[l'%h-S_IDt(E!O@a'rG,.#C;J_C(7\9MBKEG]/)b<a9_8Z)-R#@!]_mY'_u94efluG2Hrgbl\WjIa1C63]3%Sf'1a3JJa>0UtC>'=>B92L;h,rrN7N=`Wqi8WEMbm]1")&<IZ&SZL$_VD7nOu_<7<"bdH<&4Lh83C+u$8!Xr=>a#M%<.O.6;;PCT1'5>CXT_Z/s4Y1%R!R=NUVJ`"^VGBEo7X?m>>ftu/P/je:]`IgB2[I_b<t@?Z^XI7n=sZ?bbB/!A0OC,cMUro;)#&@fT".p`l;qosc:Q!B))Z.\EMR\Bi%_:O5VWhe2G:-s,E=OFo2T4=3XS"2ki9;,%%`dG_u]brcMj.@pPai"3p*#K=ppOO`2`@9kQEfF"pWUN^lO]^@U,la`kiq5Eu[#]6-47t$OANr%#4"m=E,8'gO%tSltYRVBuT6O@)8[J:[H\Nou7ofWIP-(!g7;_ZD*5\)_MAef'ZRK1a/58!MTFan;7;:)d7jioK(sqotu#lR0q&Ga1D"gQ11*b7j"+BUJb7NPt?6VZlu<oE1aO-#onVkb_H3'65qmt'['Tu=K6P?6N@>mGYJ0U.l\)fYWs]W/umXPZ%]a&n6i)A+?h`0<XK%TWF.*,6R^]fJMiRA!'uFN,EF[7`sroPf;Rs;J31WG,=0GmGmr?GfR"k&)1FR`DqX&%+.71lp;DZ%XhZD5<NL?<q(eL-`Z-YQa+mFbW"BZWV(JH94sX'1Q(]L"#ai3=V@u#H1X@@SE-h(oCXr9QoNjl^C_2sb'-dosap\scZZ%Ws6Z7jE6/^/%_T$Jg(cVY:Ed2[XiE.mF:Y\jL`.Ji@SJB?oLDA%'Prh%i%5X&W?/5OQ+SLI/o@Q2_LDTlumhTJn:0,\A+.UrqKA2DV$\GF1T!TFIe5_B0UsarlN07;J<CNi?fntlA-k8`WGA/^PS+1Ir'f.l-j7?^.`qRa4/7q`7/;=0:Z&h@AU=q-%man`n&0?%[#qqnG$Ba>PMAZ<25SHi.J5_.6l1Oq*q[X?Q0%1J97(gmI="HC)6nphSHOa.\gJYnB(f#i&qWe4.PGnY(T+/Yd9f=8@7sY?bhG+.hR9V%Mc-8][h^M3)#857.:6#rPUB5eZ0lo65Jh-W5EQQfZnTYSV-"#Ca9rnqt1O.?jNRdbIr7p'R2hT!6l%(X7WY_j4"kN<MMK][]L,0So37.,+.!V?fGYe`uc#_`7Gi"g8<s4%$R(m#SD\I:t'BU_\4Dm3I-Zga_eneSr5eo#d6NB5lNOb#e8KM0*VZEPpXU8!h@t)7srFY__6^q]a%c5lc1u,Z6K;mT/>"WOcC"I!fgCapcG)B]F"9n-C0iTh`B/Sg23UJ)!Wc3f6S,%s#]ZNYNHXa!$-[KU#:g:kBDl_gKCg3>\%HW`LZFYB:#Vb4\25.iY%B\VAV1U6C9^6_J7*+0e0F@rQG]6)C4B*ZCOTfe[&[IYWAEk6gn(><.>_b'.TsuD@)=.'j8MmO-M?]e56"#e+Ja(f1N"$1_f&d642O[6+3\Fg^ls8L31*?^iR%Z#h\#aO?Iso=O.%Z<g+QgLoor9/T/2^D6h'dH(J`iFKMk#=RmKfl17=0:ZJ[GNm.*%Y+^]4(`WRLBkfI1PS7Uj;<XUCice6!@&M[I9Ak<:tQ\U(/_:'N=jID_+_>HGPJS`/GS<D/E$",-/r!sV\[M#3$a9-j1&i%;n_=,7BK%\?p?kK&2^XmU;8IT(POE:<=Be_R5Q*a-*e_(;`=p=>'ZJuKU1$QgfI_Hsd#_5MD%G]-k9[6bI(kC33ScCG2t@s`uj&d(AdW<Q"o`"HKfO<!fC),Z%j;*J5jK%Cq*n0-R?n^8d,h0ZMS3Ck&4/;Vi<NDU\U&7hrV-MEM@l9c9;Kgq70V1K<4]%ChdQ>;W%]<hL['f:k2Np9nd%*o4t589;fArK5^M=7X5eu#fNqp>/$&(WT`eZ"6SMK&BrPP2*3o4#sV)[;2[cG0Dfj'IB,N8#=QjpR43g:rm?+L3c^!?RP@,!OT$*7Y`#'V8&1?L"X6?N7t/26AU`>57%"S6-1Rm""\B'p#;g_]U.[:0r@u]l<r.bj'ho:YlhAO.!fA?o)9=C4Hm)Q+bjY`CZ_pHoTC&[U)?%^8uVH1/AX;,N?l=.lLI5(;HLBISAJ@G6EB/k4&VsTB\kef3Qdn2[T!?NOuZS*[ZEhZ%<Y*6d/DIhd1f/Y:Dhu1;)QQ!oH/Y4S9H)VjmLmT`Aso>4,ml?9\j*It2bP_)A8<0VBXl$(`J_/!BfF'*LmERt?:N]*(>iGU!=c$)/i=i)/M/#'5-Tq7HTM@HdD:HoJhuSj,bb7DOgt.`(l*R68dd;L]fLlS23(T"e"p-3E\CGF\fL7ed,gY$\mtH2QeFk-mucS/LaAr2_N/3q!=\+HeZ*QI?5fRXGp+S`4>4&Id2T*-)6^Lq!$s.,ZA]0)2Bf.K9AK]\f41$/k'#<T`i-jIQJ1GjKg1p_Eot:_Q6=eQ!3$gB+I"+Q0@3EM$Jn7iUGhT%qb!*->U'Z=*M(Lc,X^OJ"N;P];*H6Eg,N$EghK<)eEega$ha2gKb;\]X4ijpkk26'@+n*tUVXOiL31h]n.=?XjGY[gC\o-(#AL6pc]HkPcdiCm<lRlb.EmG>pOSl\j>%l6UB;NF9[`$ArPJ?XsW]0+m-0E5)B4Z?X:J[OlaodG?(MCf3!?\%<(h(DNXMTo&j]Nf-F1+f-Sgpsm"!Mrg[&:=\:UYcF.6Y_sZV.gA[pjK@(QH7hm:6h9G=3)#i,_r_MOCBtGm?"EqXR)_Sg'7RJbighnaDrp<@64>cF*3##[UPAh"LUo?mM(i9I/]q@)K[GdcZmIU'?OZ,fcIG)@QCeJ$g,leb?cJ0t-#`Jn`4)*]k,Qro2OGS-,c/f*6b++Uh=m;gqo)c-I-f_WX/[t'N9Y)n>?=?mJiD$i=-6ab!T4nCVf\YFLj=?G!;#VY4.I41,P3Co-NGn=U9NELGM?!U?IYcQ&K?En(#s97Arn+PH:Op`Haer.CV.3MRQh[U4.[bbBgeI',_fXkOb%"pm4t[H;>Drpq2h>IW2ajI*TMm@UnTkR?n0`2+l$+/$cN_;[`fa7J;(4:FA'o&,X6jA'/qJ0_GG2dZ_A3f>-dNT:\`YX%S)XdW="J8T+o'WV3VCoJ>*5`/`"&l]OS#THr"e9/XTEBn=B(0,rNp"'`i\Vn9OE3V!onZr#@*tRB&oiFdqOt^t1)\'[IXNA)c>X'`d.M6ao.Ff+F5$&ht9?.0aT8<s>LXWKt(mOUsjR0e&@B)$0*3qk^1J'#m';=,$kP1KR)dEI/2P_L-39NZ&2]R`j6g11*T/hTtV],[a4icTWMjRf]GgS@fgj*[:%/.VQQ)Dk0Yk-bspM@ZS=f%i^lM9MA*N+FI,(,c4t)4e5,JZPhO@^sdpPo7'd1X^aa70pd)@2K<SITQ"KB,=D7V/R>QU2Jd9/.CLuhZ,N:8(.eqKW?6+A]jNMh]!1RR!Sgt%YtrPe><JK*?t8U;>#sh9K(7$8@0cDVX5796:3?5Ddf?O5(.c`*q'P'I$%)#BZX\h@DB4&e^?\Bb"caln,n(M"&SF]<5"LMDB>n:2L<+X63/TRk/-HbUk"6(V!p;L5Lk[pB\BYQgNSAbHJIe=34i9Bf%nJf-D<EM5BI4_3/33!7d"hs(17`^DE_cAt=M/l!c*D0O8>5"\HOTg0!Nsjsd^%ZHjpRPY5<acq:FQ#7`[rKJS`#>sE.L$]8pieX?4gEY^]ad(IZ*se`s:E(2\pWsPF\.eZmp=\mZWb@m];=5]/mmH_'#T\dsX^@jVY$Km($j^_!\'EE(01#J4Ta]qG?#//-Ms);gP%n="`9d$1&4PM83p6/7ms8KmDArIZa,X*Q@&lY6]Tg>M@BsmplON\.i3`8;)a%?P33n&:PKdIc)5`YZCl?bN4\YX".EhfG+P_9Z.Ku3$S(H!.J2R&M>GaKP]BYpTP6K5CjcFpt7aIB8AME:!$0g'0LTA0iM:*!1uDLp^6Q)aq\KJh^0m(q'p*=-E]m\89<?V1uCF<[OEV;5$kR%Y&s.'>S/NHO5m9mJ]m.hO&i1d=H/HiH5#9#4?ImEnF:9=d@Kjrn?FH#GiZ/\o/Inr&/Sq],d:0"Qtu96BGBHgl,?A5@+*Eo7:]qlQjS`SU5*Vnn*Nms?ff;]#i7NoD<Jb$bZhKd4N.\clO$b#E`D;)#_DT1.KpDM37$7;Lb#uTWI!E=%]@ouq:tQEE6b,8bM$TTMjC=d=?L!p;U\m%Hl[W8n0i@f8aq!H,>:bG@0$C^6U@jg^s3]^b\dUB>4M</?G4eQYru]MJT+A3>:P]g/0;DQf/uK>>ur^J+'1G6,PXj<M%[pmZNP6q>UBHbG"rN?T&+L8R!:`56%1l;)I^%t+gbAdnL!"\g,#@cSF$mWbNUW>9*"[?!!fjl8r)JD>i:Pd[H!,0'\+0@nWS[dc(:2qgFr8JO?#rYb!^k+*>MepM8]a(fJ1E,#HT>n%`4pRf`BqoZX3a'(r.L*4T/eZo4A2%#su2&,$_F!W\\99H\_pqeo!qZCN&HCj&Eg/RY;d&*a1^><\RC"eBuJbN9T*BM?sNgpMf@OKe%eHbYu%WJ[[Q^F*5.(P/*rJ!ssusCQ:+]>hIIJa;IJqY8Ef(hBF(8!6:#j.KNmGE+3mVX(5PPWO\H(c2sc05E6'.7is>>(<LDC8$ToC^1/;n;(a#$DN4E7Kg?O_GD5iK_4I__='isjLFpd(Z++WgDbKNT?lndAm?n9j0C!$FWm)4$e[Rih4Q"BhMnj'63+6^^Pl,5`^ri0Yb\*?Z&b?537fHd*+b6Rf!.Tr8+^f4[H'gV\.k_e"d>o!$ND(2HRCq"TL\]\CI5VIr`riEMfQg7.!j&`%&4_cZ(W0#2'i/&L4AfZ)QTNk:S3#4HE_c27*B^?_SeAj51?N@KZ@g*Im3N4%?k@9Li-r*pTn#'.YU>J!H32@u>anq+KRsIrH#9l5(]ZoW+@sS$6F\mIn3mMQ:fYUl6MNYI#4[n?4!c4=&41V\0/6"&``EGUAM+Rudrr=7P/C0aOE^nP@ffEX[]WcK*GrD,Da#Gemd+Gd9e+]W;<IXS5]H8#*9(;aB*gg)\E;G0%AumkpB=l2EfT(I-?!$Vpo.I#\/s=o2aVc\%b<0RY1U]`gu`S3AB?@B4Wa&b`+pQkTuB?G6ST;&=C4E7XubI<n/oN#;pB/61W17j%BI_/mmF`_>S!F9A$rLij!@/.OV-ALJ3VneRchZ8Ws3L.K*?>"D0T1<QCV'<X-sob&0Z^\jK:aa4],IIeLi*g[tN"7KHYE6"De@]0jcD`?pMp\,Ynl1oG6+X9Us>`ElCFS<&$6O3C@VmN<$l#/T#S0X+Jk-0po!gL)oS[!_g_H.42o3k,m:Zgm[6ckql0PHO?.aA^rK4d1^.n&31>>Afah3XA=(Hn\Tu_8mA]s\I5f.Jp.BX'q2<s!13.(^q1ZR&E0DL><SYjRHpfXP-7F7FUP]m"6/M[gWn(S!dqb9R6-VV8:G:VB7pA=Puo,>#m&[7&/S,K51FL>cX(RMoATo*h-n%Aeub1(hN^u;0[bE@5@P>PHO2Cg8&UV9bZ1*'0?5[V/sVmEoTYc38:5%HnIR0[fOCZg(t\(^"T:e_8jgH/?!Met\BkND.W3kg"aCRJ@aSEM[\No[?pV#d>>6<C\Lr]0RTq5Ng3*\W<Oii8VoS\aO9!l<2N'E4:@P,B-/b1!`-2CS7L8M''b(A8gDUDFIu19@NX:b#Ito*W/.7@Coo]=,.ZJF*`)@FEg;UW6FK9hkNcTgV5V9g#&H^@I]Gn]N'4QMH(uC6V[iPo^UKBHK%#3gQKOJ)oCf+>C>qcg@JpGZV%8;.RZ%Q-]-_ku(4%qt/EQJdXj`=lKE$u<`a"8>d_uO,S=t$J_M6N?;d1R4KM9VKd)9.b7JLl=[LgN&bPBi36["Ll&%;a7\'+tEuEPDgMjN%J>,Y:BjKFslhOs^MXk,VRnc:e3X/1rJ#Jr,-t"m58^B)jOi3&<G6I7Dj#6ss`*"[STL_Dl-1S/O%>kr]$U#-D=OF<o`%U#Jd_Qiu&WR/iLD!!rWC3-G;*4iSI-0Ep;Go*te>$3l'Ks0J#A=62o*%:UX!W1/12";m;s'6B"iq0u['N+r<3iWXp6's1]sk6Af$Ui("E^ad?ijl1pf/E)TMKaIi?,CoZsbAte`4A,MSD\Va/PVslX%0_.@2Y/!$.?\:Z9/ku[#%-R=JCiI`^36\"PM@VYFXXo_0_0T^lQPe[`n<63f+m4;R`s6!"a0ot:d0)AG?GT"ht=Be.s@BDIE>qkK<$aKQs!ouD7/G\"j*,;^??Xo`3`3r,"P6;L4C@LgNPgp!';@nORUQOdeSX=RfV,@NNH1XKo5$7'd>si!&pBE`dJXbKV?3&?W!WE[C4,dCA/VtFbSG7bJ"BVNZ'*qJa)9%j,[+orrF"GLJr!HZZ<%Xlb\kBaGjXd`5Mt"Vq-Ge@uTDaA8GO<(E0%cN^a!,*\W[4>K_W)q&ONmPM@`d<2HYRE,P#m920k3KX2j;&%+gAE$V/e8E2uK/(Rh!LYu0)Is7!U4ssC@*5`Gi3?&7jg$!HGJ=Gm^poZOYW<hZg#T,4afJO"!#)aXPK6^&q*bq*0Zg$P=U8&i(Z=?ToXIdLr$/Q<"c0^Ys$0RTP\cnQl*m'A7B7OAt+Cj_pb:8+q/j/X]=:YnNYW<@2>4rk&Jj3E!_u&T`Hb=<,_3mJ[6S&]_"#F+p8bQ4"P*$;S-ftPe*]SX*?CB)4Wkj<jJ<dM&ZkJ_3(TDdE<=SHa$nne+>$L?E@1L=ECHTEE[?irj%6`\sS3!s*="q%spCn\5h;ODRDf'^3G2dJpK-/jq4LOk#klco1=?I!#_*U.CN[lEU/D5?K9CO<ar6c$CC^/@aZnsBl_YOWt&ODTmY+8g;``i'^(@-kF;>hY-0F<A$M+E7*")Fj8'_?nDE8jFQ9&npbX\1"'Z)V:3FQU9S'fmY?<)R:#\ut][K0F*,MA<#)&0dsLJ+?]R0i`08VBCX#6[6k>@SV.%RcueWY:3#("NnNB(`55mcqqpC4_V"F4J[bG(dhS7,^O9EUoFIAa/U=aBLkI)nLJUd?je4L`[FSkVbV2tegbj1nj3"_Z$:'cBs"W:aC=VoTaV<8m-`Q9AUNCgPh=q6"_'o.6M%9$8;NU&j@l2ko7CZ_,!e[<$><D`^A3JbK,\%2\fElLdGr>_D_s9lMbrc'=C\2mm4rhOr*XKA3>76=NfHZ[&]8%4JSk/_0+RFf=H#XA=+\Bupsbrk+s=iMXYhegaAqIJ*kp='oSt+m70j;LeqtXG\QphF%]^0LE.Y;r9S,R!j"B"RnQ91<AO=3?$!+BF8$omL.UKGDk+,AC,"-3S&r@On";0BO_13Q?fs>qX:k^A>l4p00lm0EG$<:POK(j,^I&Mqi:2DGD%8%eN!QI+mMBTpBK"Nh1NB`i"fdW5g?sAko;rd;ja"$YH0ir5H(iaZ:aY"""MT*;1_%=u9:aSD+gDkn_n&>FHiIGX\@.ti9\ZUg;m,;Hc7Z.Qd%Mi$J6`ME^MU4[DLj6B[6PKLK^W"fp4&@kfSJ]3&e;uZ`k]1Hj4(u8ONV>EK%Qbne0YoS@H_N<]p$&n@)\oEM)Z9LQ,)7T+7H!7PQU:`h.f#F-qk,ej=B3=JLu>oZ6\n0m+eH.I^tZ3'bN"M--HO9T$Pjko&Nb^9'#2'.#`bg]G&_-L=lSiT#&J8o;]V_IitX4KNVk[&RlrhiY(J6Dhf9D[<Q$AA_.O!eN=<nA`K14GCs4m_&VP^CL`)`=AZZ:t&g8f`=E_!Y/u,!'kZFo[S&MKSTfn*6iBb+]fb`"Ee?*Kt*uf)X@fTF]",dU%;ZmLs!jff)iOK.#_@Aqk8k#HYbN>eH)/cQPXPNar[jQ3b#-/)39S&9:SY'4/Y/[]CaM&)oBf^j:;'P@3:imNuJXYg,k:%^Y>;7$Fec7MAUIo>ZYnhpcc,)?a;p4OD,W*#E'b4]c(J@BYemLFV@s6F'Q3SQC%OlQnXI-"9>.\D),T^=0D+eP^:%:OsepB8pAhd?"M/UC-,d>pS<(e.h(e/qug7gd<rP"i7]e[M1X5JYQ>/tgJrm$a/fI]Ro'1WsNJ]EJF`5obFXi#p/<ga7`<@nt2JQTeMIJArIauf3\&dN=C`@qKfO!b/-EOTE%0Ga#6@k<3sM"1[<-D\J_Or,msJV">d(,r^:,_h2'kEY7f0JGCI?M*p7=uAdq<ZtpU$j]/;61'YNm?ImNZ,,^Xp\!H4NPe&D(SZL"_.$JnTnDjW!uP;XCIK;J>=UP.&WCLp4t;`4?;MbN6@A?sQUpWlm0Im88ua7q+.c[P41JOt_a\(AGf%$T]9;u*2Ot5&W+q:a=>38j@$+WgA7&Vc4E,)-DX@;nnGuQF%T>efWg>RR%QqaGEnQuT-=RMn<R;,$VE:dcP,h#F_,SS2c=R36&fVSmLe1=bM6LOmS1+Zp.,`/h;sKR%UaR^eG#>R:M(4fV]i^_,8L[<DqG4%L.p+m)g8J/oI3M2k&WTjm/uCVs<9bXHI0\2GVhq68-!'Y?kFiiQqpW+SiAO^27Oc4-I;+]G>8*ba.u7'=9XoCrD!m-2@H#;(IT9dfnF4@AM$FV&M[,187g*]4pSNsfmQ$-MQk<86c;V?L;0S<h2@_%9NXRN.Q_fc<U"ob\8j@c$XsMmm[2Wbi\(FE?9<6\%`T_uNe!mjqA$kVkk@%N"eN5mNYcW0Zn%mVr[d_f?anb^X?utE&C2Ji&#Hk.31Hi9\Enr(C.fqo+X^44RhRWR`:/cLaF7\m_3H4bl:,TUp:30K:P*n&\g=Wj1].iLl=hX5cp0GpD,7/SPcQn*tlVa4e)$<+<C]H[XG3IXsHaGl+ZZF.PjU^.qhVJbo]?t3cG^(neh@jE=s*k]==])bn=1 bo=nil cj=ci[2]==1 and-17516 or-11815 cj,ck=-11815,-11815 end continue end else if ck<=50273 then bt=nil cj=ci[3]~=1 and-29169 or-25588 cj,ck=-25588,-25588 continue end if(ck<=50273)and 2308>0 then continue end if ck>50273 then if ck~=51645 then return cg();end if ck==51645 then bc=w and w[(function(l,ba)local bm={}for bq=1,#l do local l=e(l,bq)bm[bq]=o(d(37,99),(l-(ba+bq))%256)end return i(bm)end)("\142\150\140\142\140\155",33)]or function(l,ba)if ba<0 then return bd(l,-ba)end return(l*2^ba)%x;end bd=w and w[(function(l,ba)local bm={}for bq=1,#l do local l=e(l,bq)bm[bq]=o(d(37,99),(l-(ba+bq))%256)end return i(bm)end)("\165\167\157\159\157\172",50)]or function(l,ba)if ba<0 then return bc(l,-ba)end return j(l%x/2^ba)end be=w and w[(function(l,ba)local bm={}for bq=1,#l do local l=e(l,bq)bm[bq]=o(d(37,99),(l-(ba+bq))%256)end return i(bm)end)("\205\205\219\210",106)]or function(l,ba)local bm=0 local bq=1 while l>0 and ba>0 do local cd=l%2 local cf=ba%2 if cd==1 and cf==1 then bm=bm+bq;end;l=j(l/2);ba=j(ba/2);bq=bq*2;end;return bm;end ck=24163 continue end continue end end continue end continue end if ck<50273 then if ck>=21685 then do if ck>=26335 then if ck<=26335 then bw=function(l)local l=bv(l)local ba=j(l/2)if(l%2)==0 then return ba;end;return-ba-1;end cj,ck=25115,25115 continue end if ck<34631 then by=nil cj,ck=-25137,-25137 else bv=function(l)local ba=0 local bm=1 repeat local l=e(l,bn,bn)ba=ba+(l>127 and l-128 or l)*bm bm=bm*128 bn=bn+1 until(l<128)return ba end cj,ck=57441,57441 end continue end if ck>=24163 then if ck<=24163 then bf=w and w[(function(l,ba)local bm={}for bq=1,#l do local l=e(l,bq)bm[bq]=o(d(37,99),(l-(ba+bq))%256)end return i(bm)end)("\110\123\125\131",11)]or function(l)l=l%x return(x-1)-l end bg=(if table.create~=nil then table.create else function(l)return{z({},1,l)};end)bh=ch[1166]ck=-17705 continue end if ck>24163 then bx=nil ci[1]=(ci[1]+1)%5 cj,ck=-20991,-20991 continue end else y=function(l,ba,bf)if(ba>bf)then return end local bh=bf-ba+1 do local bm=0 local bq=0 if bq==0 and bh>=8 then bm=43637 bq=1 end if bq==0 and bh>=7 then bm=66989 bq=1 end if bq==0 and bh>=6 then bm=93319 bq=1 end if bq==0 and bh>=5 then bm=34423 bq=1 end if bq==0 and bh>=4 then bm=18125 bq=1 end if bq==0 and bh>=3 then bm=94525 bq=1 end if bq==0 and bh>=2 then bm=92102 bq=1 end if bq==0 then bm=86329 bq=1 end if bm==43637 then return l[ba],l[ba+1],l[ba+2],l[ba+3],l[ba+4],l[ba+5],l[ba+6],l[ba+7],y(l,ba+8,bf)end if bm==66989 then return l[ba],l[ba+1],l[ba+2],l[ba+3],l[ba+4],l[ba+5],l[ba+6],y(l,ba+7,bf)end if bm==93319 then return l[ba],l[ba+1],l[ba+2],l[ba+3],l[ba+4],l[ba+5],y(l,ba+6,bf)end if bm==34423 then return l[ba],l[ba+1],l[ba+2],l[ba+3],l[ba+4],y(l,ba+5,bf)end if bm==18125 then return l[ba],l[ba+1],l[ba+2],l[ba+3],y(l,ba+4,bf)end if bm==94525 then return l[ba],l[ba+1],l[ba+2],y(l,ba+3,bf)end if bm==92102 then return l[ba],l[ba+1],y(l,ba+2,bf)end if bm==86329 then return l[ba],y(l,ba+1,bf)end end end cj,ck=-43369,-43369 end continue end end if ck<21685 then do if ck<=-14397 then if ck==-15642 then do bs=function(l)local ba=0 ba=bb(ba,bc(e(l,bn,bn),8));bn=bn+1;return ba;end cj,ck=50273,50273 continue end end if ck~=-15642 then do bz=nil cj,ck=-41632,-41632 continue end end else if ck>=-10233 then if ck~=20810 then ca=function(l)local ba={[1520]={},[162]={},[4461]={},[2908]={},[6512]={},[5434]={},[4350]={},}local bf={}do bi(bf,(function(bh)local bm=0 while true do if bh>=-49846 then do local bq=(not((bh)>(-49846)))if bq then bh=bh-8150 bm=bm+1 else if bh<-9197 then bh=bh+39231 do bm=bm+1 end else bh=bh-30024 bm=bm+1 end end end else if(-59578)<=(bh)then if(-59578)==(bh)then bh=bh+9732 do bm=bm+1 end else bh=bh+48799 bm=bm+1 end else bh=bh+38685 bm=bm+1 end end if(6)==(bm)then break end end return bh end)(-98263),bt(l))end bf[(function(bh)local bm bm=0 while true do if bh<=-73070 then if not((bh)>(-110037))then bh=bh+36967 bm=bm+1 else if bh==-86567 then bh=bh-23470 bm=bm+1 else bh=bh+38256 do bm=bm+1 end end end else do if bh>=-34814 then if bh==-34814 then bh=bh+34827 bm=bm+1 else bh=bh-41936 bm=bm+1 end else do bh=bh-13932 end do bm=bm+1 end end end end do local bm=(bm==6)if bm then break end end end do return bh end end)(-30699)]=bt(l);do bf[(function(bh)local bm=0 while true do do local bq=((117011)<=(bh))if bq then if bh>=120690 then if bh<=120690 then bh=bh-3679 bm=bm+1 else bh=bh-31421 bm=bm+1 end else bh=bh-18350 bm=bm+1 end else do if not((bh)<(91251))then if bh<=91251 then do bh=bh-44700 bm=bm+1 end else bh=bh-7410 bm=bm+1 end else bh=bh-46547 bm=bm+1 end end end end if not((bm)~=(6))then break end end do return bh end end)(152111)]=bt(l);end bf[(function(bh)local bm=0 repeat if not(true)then break end if not((bh)<(37608))then if not((bh)~=(37608))then bh=bh+2826 bm=bm+1 else bh=bh-40427 bm=bm+1 end else do local bq=(bh<26187)if bq then bh=bh+17972 bm=bm+1 else bh=bh-6551 bm=bm+1 end end end if bm==4 then break end until false return bh end)(26187)]=bt(l);bi(bf,(function(bh)local bm=0 while true do do local bq=((-8623)<=(bh))if bq then if not((bh)>(-2339))then if not((bh)>=(-2339))then bh=bh+6284 bm=bm+1 else do bh=bh-10821 bm=bm+1 end end else if not((bh)>(-2200))then bh=bh-29248 bm=bm+1 else do bh=bh-35020 bm=bm+1 end end end else if bh>=-23613 then if bh<=-23613 then bh=bh+23616 bm=bm+1 else bh=bh+24567 bm=bm+1 end else do bh=bh+22825 bm=bm+1 end end end end if(7)==(bm)then do break end end end return bh end)(-2200),bt(l))bf[(function(bh)local bm bm=0 do repeat if not(true)then break end if not((bh)<(93786))then if not((bh)~=(93786))then do bh=bh+16221 bm=bm+1 end else bh=bh-34577 bm=bm+1 end else if bh<75430 then bh=bh-40579 do bm=bm+1 end else do bh=bh-34839 bm=bm+1 end end end do local bm=(not((bm)~=(4)))if bm then break end end until false return bh end end)(93786)]=bt(l);bi(bf,(function(bh)local bm=0 do while true do do if bh<=-80939 then do local bq=((-80939)~=(bh))if bq then bh=bh+7134 bm=bm+1 else bh=bh+43978 bm=bm+1 end end else do local bq=(bh==-43423)if bq then do bh=bh+43437 bm=bm+1 end else do bh=bh-6462 bm=bm+1 end end end end if bm==4 then break end end end end return bh end)(-88073),bt(l))bf[(function(bh)local bm bm=0 while true do do if bh>=47949 then if bh>=74834 then do if bh~=75135 then bh=bh-26885 bm=bm+1 else bh=bh-42854 bm=bm+1 end end else if not((bh)==(68463))then bh=bh-23498 bm=bm+1 else bh=bh+6672 bm=bm+1 end end else if not((bh)<(32281))then if not((bh)~=(32281))then do bh=bh+42553 end bm=bm+1 else bh=bh+33198 bm=bm+1 end else bh=bh-24449 do bm=bm+1 end end end end if bm==7 then break end end return bh end)(35265)]=bt(l);bf[(function(bh)local bm=0 repeat if not(true)then break end do if bh<=-1066 then if bh<=-10257 then do bh=bh+21587 bm=bm+1 end else if not((bh)==(-1066))then bh=bh-9064 do bm=bm+1 end else bh=bh+34689 do bm=bm+1 end end end else if bh<=11330 then do bh=bh-12396 bm=bm+1 end else if bh<33623 then do bh=bh-21583 bm=bm+1 end else do bh=bh-12031 bm=bm+1 end end end end end if bm==6 then break end until false return bh end)(-1193)]=bt(l);bf[(function(bh)local bm=0 while true do do do local bq=(bh<=44765)if bq then if bh<=5839 then bh=bh-5834 bm=bm+1 else do bh=bh-38926 bm=bm+1 end end else do if bh<81231 then bh=bh+24124 bm=bm+1 else do bh=bh-36466 end bm=bm+1 end end end end if bm==4 then break end end end do return bh end end)(57107)]=bt(l);bi(bf,(function(bh)local bm bm=0 do repeat if not(true)then break end if bh<=6337 then do if bh>=4337 then if bh~=6337 then do bh=bh+2000 bm=bm+1 end else bh=bh+43437 bm=bm+1 end else if bh==-18078 then do bh=bh+22415 end bm=bm+1 else bh=bh+38200 bm=bm+1 end end end else if bh<=42502 then if not((bh)==(42502))then do bh=bh-32111 bm=bm+1 end else bh=bh+38671 bm=bm+1 end else if bh==49774 then bh=bh-45472 bm=bm+1 else bh=bh-49056 bm=bm+1 end end end if not(not(bm==8))then break end until false return bh end end)(-18078),bt(l))do bf[(function(bh)local bm=0 while true do do if bh>=81389 then if not((bh)~=(81389))then bh=bh+16633 bm=bm+1 else bh=bh-38633 bm=bm+1 end else if not((bh)>(9403))then do bh=bh-9395 end bm=bm+1 else bh=bh-49986 bm=bm+1 end end end do local bm=(not((bm)~=(4)))if bm then break end end end return bh end)(81389)]=bt(l);end bf[(function(bh)local bm=0 while true do if bh<=-46725 then if bh<-46725 then bh=bh+44260 bm=bm+1 else bh=bh-35399 bm=bm+1 end else if(-37864)==(bh)then bh=bh+37875 bm=bm+1 else bh=bh-32070 bm=bm+1 end end if bm==4 then break end end return bh end)(-14655)]=bt(l);do bf[(function(bh)local bm=0 while true do do do local bq=(bh>=-5811)if bq then if bh<35647 then bh=bh-6649 bm=bm+1 else bh=bh-43198 bm=bm+1 end else if bh~=-7551 then bh=bh+48107 bm=bm+1 else bh=bh+7552 bm=bm+1 end end end if bm==4 then break end end end return bh end)(-5811)]=bt(l);ba[4283]=bf;end local bh=bv(l)local bm bm={}local bq,cd,cf,cg bq,cd,cf,cg=0,0,0,0 local cl=bf[(function(cl)local cm=0 while true do if cl<=-73070 then if cl<=-110037 then cl=cl+36967 cm=cm+1 else if cl==-86567 then cl=cl-23470 cm=cm+1 else cl=cl+38256 cm=cm+1 end end else if cl>=-34814 then if cl==-34814 then cl=cl+34827 cm=cm+1 else cl=cl-41936 cm=cm+1 end else cl=cl-13932 cm=cm+1 end end if cm==6 then break end end return cl end)(-30699)]local cm=bf[(function(cm)local cn=0 while true do if cm<=-46725 then if cm<-46725 then cm=cm+44260 cn=cn+1 else cm=cm-35399 cn=cn+1 end else if cm==-37864 then cm=cm+37875 cn=cn+1 else cm=cm-32070 cn=cn+1 end end if cn==4 then break end end return cm end)(-14655)]local cn=bf[(function(cn)local co=0 while true do if cn<=6337 then if cn>=4337 then if cn~=6337 then cn=cn+2000 co=co+1 else cn=cn+43437 co=co+1 end else if cn==-18078 then cn=cn+22415 co=co+1 else cn=cn+38200 co=co+1 end end else if cn<=42502 then if cn~=42502 then cn=cn-32111 co=co+1 else cn=cn+38671 co=co+1 end else if cn==49774 then cn=cn-45472 co=co+1 else cn=cn-49056 co=co+1 end end end if co==8 then break end end return cn end)(-18078)]local co=bf[(function(co)local cp=0 while true do if co>=117011 then if co>=120690 then if co<=120690 then co=co-3679 cp=cp+1 else co=co-31421 cp=cp+1 end else co=co-18350 cp=cp+1 end else if co>=91251 then if co<=91251 then co=co-44700 cp=cp+1 else co=co-7410 cp=cp+1 end else co=co-46547 cp=cp+1 end end if cp==6 then break end end return co end)(152111)]local cp=bf[(function(cp)local cq=0 while true do if cp>=47949 then if cp>=74834 then if cp~=75135 then cp=cp-26885 cq=cq+1 else cp=cp-42854 cq=cq+1 end else if cp~=68463 then cp=cp-23498 cq=cq+1 else cp=cp+6672 cq=cq+1 end end else if cp>=32281 then if cp==32281 then cp=cp+42553 cq=cq+1 else cp=cp+33198 cq=cq+1 end else cp=cp-24449 cq=cq+1 end end if cq==7 then break end end return cp end)(35265)]do local cq=(1)local cr=(1)local bh=(bh)if cr>=0 then if cq<=bh then repeat local cs={}cs[cp]=bv(l);local ct=bt(l)==1 local cu=bt(l)==1 local cv cv=(1)==(bt(l))local cw cw=bt(l)if cw==1 then local cx=by(l)local cy={}local cz cz={}local da={}local db,dc,dd db,dc,dd=0,0,0 do local de=(1)local df=(1)local cx=(cx)if df>=0 then while de<=cx do db=db+bw(l);do dd=dd+bw(l);dc=dc+bw(l);end do bi(cy,de,db)end bi(da,de,dd)do cz[de]=dc;end de=de+df end else while de>=cx do db=db+bw(l);do dd=dd+bw(l);dc=dc+bw(l);end do bi(cy,de,db)end bi(da,de,dd)do cz[de]=dc;end de=de+df end end end bi(cs,cl,cy)cs[cm]=cz;cs[cn]=da;elseif not((cw)~=(2))then local cx cx=by(l)local cy={}local cz cz={}local da,db=0,0 for dc=1,cx do do da=da+bw(l);end do db=db+bw(l);cy[dc]=da;end bi(cz,dc,db)end;do cs[cl]=cy;cs[cm]=cz;end elseif cw==3 then local cx=by(l)local cy cy={}local cz=0 do for da=1,cx do cz=cz+bw(l);bi(cy,da,cz)end;bi(cs,cl,cy)end elseif cw==4 then local cw=by(l)local cx={}local cy={}local cz={}local da={}local db,dc,dd,de db,dc,dd,de=0,0,0,0 do for df=1,cw do do db=db+bw(l);end do dd=dd+bw(l);end dc=dc+bw(l);de=de+bw(l);cx[df]=db;bi(cz,df,dd)cy[df]=dc;do da[df]=de;end end;bi(cs,cl,cx)end cs[cm]=cy;cs[cn]=cz;bi(cs,co,da)else do bq=bq+bw(l);end do cf=cf+bw(l);end cd=cd+bw(l);cg=cg+bw(l);bi(cs,cl,bq)do bi(cs,cn,cf)end do bi(cs,cm,cd)bi(cs,co,cg)end end do cs[bf[(function(ct)local cw=0 while true do if ct>=93786 then if ct==93786 then ct=ct+16221 cw=cw+1 else ct=ct-34577 cw=cw+1 end else if ct<75430 then ct=ct-40579 cw=cw+1 else ct=ct-34839 cw=cw+1 end end if cw==4 then break end end return ct end)(93786)]]=ct;end cs[bf[(function(ct)local cu=0 while true do if ct<=-1066 then if ct<=-10257 then ct=ct+21587 cu=cu+1 else if ct~=-1066 then ct=ct-9064 cu=cu+1 else ct=ct+34689 cu=cu+1 end end else if ct<=11330 then ct=ct-12396 cu=cu+1 else if ct<33623 then ct=ct-21583 cu=cu+1 else ct=ct-12031 cu=cu+1 end end end if cu==6 then break end end return ct end)(-1193)]]=cu;cs[bf[(function(ct)local cu=0 while true do if ct<=-80939 then if ct~=-80939 then ct=ct+7134 cu=cu+1 else ct=ct+43978 cu=cu+1 end else if ct==-43423 then ct=ct+43437 cu=cu+1 else ct=ct-6462 cu=cu+1 end end if cu==4 then break end end return ct end)(-88073)]]=cv;do cs[bf[(function(ct)local cu=0 while true do if ct>=37608 then if ct==37608 then ct=ct+2826 cu=cu+1 else ct=ct-40427 cu=cu+1 end else if ct<26187 then ct=ct+17972 cu=cu+1 else ct=ct-6551 cu=cu+1 end end if cu==4 then break end end return ct end)(26187)]]=bm[cq-1];bi(bm,cq,cs)end cq=cq+cr until not(cq<=bh)end else if cq>=bh then repeat local cs={}cs[cp]=bv(l);local cp=bt(l)==1 local ct=bt(l)==1 local cu cu=(1)==(bt(l))local cv cv=bt(l)if cv==1 then local cw=by(l)local cx={}local cy cy={}local cz={}local da,db,dc da,db,dc=0,0,0 do local dd=(1)local de=(1)local cw=(cw)if de>=0 then while dd<=cw do da=da+bw(l);do dc=dc+bw(l);db=db+bw(l);end do bi(cx,dd,da)end bi(cz,dd,dc)do cy[dd]=db;end dd=dd+de end else while dd>=cw do da=da+bw(l);do dc=dc+bw(l);db=db+bw(l);end do bi(cx,dd,da)end bi(cz,dd,dc)do cy[dd]=db;end dd=dd+de end end end bi(cs,cl,cx)cs[cm]=cy;cs[cn]=cz;elseif not((cv)~=(2))then local cw cw=by(l)local cx={}local cy cy={}local cz,da=0,0 for db=1,cw do do cz=cz+bw(l);end do da=da+bw(l);cx[db]=cz;end bi(cy,db,da)end;do cs[cl]=cx;cs[cm]=cy;end elseif cv==3 then local cw=by(l)local cx cx={}local cy=0 do for cz=1,cw do cy=cy+bw(l);bi(cx,cz,cy)end;bi(cs,cl,cx)end elseif cv==4 then local cv=by(l)local cw={}local cx={}local cy={}local cz={}local da,db,dc,dd da,db,dc,dd=0,0,0,0 do for de=1,cv do do da=da+bw(l);end do dc=dc+bw(l);end db=db+bw(l);dd=dd+bw(l);cw[de]=da;bi(cy,de,dc)cx[de]=db;do cz[de]=dd;end end;bi(cs,cl,cw)end cs[cm]=cx;cs[cn]=cy;bi(cs,co,cz)else do bq=bq+bw(l);end do cf=cf+bw(l);end cd=cd+bw(l);cg=cg+bw(l);bi(cs,cl,bq)do bi(cs,cn,cf)end do bi(cs,cm,cd)bi(cs,co,cg)end end do cs[bf[(function(bq)local cd=0 while true do if bq>=93786 then if bq==93786 then bq=bq+16221 cd=cd+1 else bq=bq-34577 cd=cd+1 end else if bq<75430 then bq=bq-40579 cd=cd+1 else bq=bq-34839 cd=cd+1 end end if cd==4 then break end end return bq end)(93786)]]=cp;end cs[bf[(function(bq)local cd=0 while true do if bq<=-1066 then if bq<=-10257 then bq=bq+21587 cd=cd+1 else if bq~=-1066 then bq=bq-9064 cd=cd+1 else bq=bq+34689 cd=cd+1 end end else if bq<=11330 then bq=bq-12396 cd=cd+1 else if bq<33623 then bq=bq-21583 cd=cd+1 else bq=bq-12031 cd=cd+1 end end end if cd==6 then break end end return bq end)(-1193)]]=ct;cs[bf[(function(bq)local cd=0 while true do if bq<=-80939 then if bq~=-80939 then bq=bq+7134 cd=cd+1 else bq=bq+43978 cd=cd+1 end else if bq==-43423 then bq=bq+43437 cd=cd+1 else bq=bq-6462 cd=cd+1 end end if cd==4 then break end end return bq end)(-88073)]]=cu;do cs[bf[(function(bf)local bq=0 while true do if bf>=37608 then if bf==37608 then bf=bf+2826 bq=bq+1 else bf=bf-40427 bq=bq+1 end else if bf<26187 then bf=bf+17972 bq=bq+1 else bf=bf-6551 bq=bq+1 end end if bq==4 then break end end return bf end)(26187)]]=bm[cq-1];bi(bm,cq,cs)end cq=cq+cr until not(cq>=bh)end end end do ba[1520]=bm;end do for bf=1,bv(l)do ba[2908][bf]=ca(l);end;bi(ba,6512,bt(l)==1)end local bf bf=bv(l)local bh={}local bm bm=0 do local bq=(1)local cd=(1)local bf=(bf)if cd>=0 then if bq<=bf then repeat local cf=not((bt(l))==(0))local cf=cf and 1 or 0 local cg=bw(l)local cg=bm+cg bm=cg local cl=bt(l)c(bh,{cf,cg,cl})bq=bq+cd until not(bq<=bf)end else if bq>=bf then repeat local cf=not((bt(l))==(0))local cf=cf and 1 or 0 local cg=bw(l)local cg=bm+cg bm=cg local bm=bt(l)c(bh,{cf,cg,bm})bq=bq+cd until not(bq>=bf)end end end do ba[5434]=bh end do bi(ba,4461,bt(l))end local bf bf=bv(l)local bh={}for bm=1,bf do local bf bf=bt(l)do repeat if(bf==0)then local bq=bt(l)do if bq==0 then local bq=bv(l)local cd if bq==0 then do cd="";end else cd=b(l,bn,bn+bq-1);end;bn=bn+bq;do bh[bm]=cd;end end;end break end if(bf==1)then local bq=bt(l)bh[bm]=((bq==1)and(bw(l))or(bz(l)))break end if(bf==2)then local bq=bt(l)if bq==1 then bh[bm]=bv(l);else bh[bm]=bo(l);end;break end if(bf==3)then bh[bm]=bu(l);break end if(bf==4)then local bq=bt(l)if(1)==(bq)then bh[bm]=bw(l);else bh[bm]=bu(l);end;break end if(bf==5)then bh[bm]=not((bt(l))~=(1));break end bi(bh,bm,nil)until true end end;bi(ba,162,bh)local bf=bt(l)~=0 if bf then local bf=bv(l)local bh={}local bm=0 do for bq=1,bf do local bf bf=bt(l)~=0 local bf=bf and 1 or 0 local bq bq=bw(l)local bq=bm+bq do bm=bq end c(bh,{bf,bq})end end ba[4350]=bh;end;local c c=bv(l)local bf={}for bh=1,c do local c={}local bm bm=bv(l)for bq=1,bm do c[bq]=bv(l);end;bf[bh]=c;end;bi(ba,8228,bf)ba[8679]=bv(l);do return ba;end end ck=84796 else bs=nil cj=ci[1]==1 and 50273 or-15642 ci[3]=(ci[3]+1)%5 ck=-15642 end continue end bo=function(c)local l=0 local ba=0 for bf=0,3 do local bh=q(r(c),(bn)-1)l=bb(l,bc(bh,8*bf));bn=bn+1;end;for bf=0,3 do local c=q(r(c),(bn)-1)ba=bb(ba,bc(c,8*bf));bn=bn+1;end;return ba*4294967296+l;end ck=-41124 continue end continue end end continue end continue end if ck<-15642 then if ck<=-32875 then do if ck<=-41632 then if ck<=-43369 then if ck~=-43369 then ca=nil ci[2]=(ci[2]+1)%5 cj,ck=-10233,-10233 else z=function(c,l,ba)local bf=ba-l+1 if bf>7997 then return y(c,l,ba)else return m(c,l,ba)end end cj,ck=63147,63147 end else if ck<=-43252 then br=nil cj,ck=-38454,-38454 continue end if ck>-43252 then if ck~=-41632 then cc=function(c,...)local l=k('#',...);for m=1,l do c[m]=k(m,...);end;local m=if c[0]then c[0]else 0 if m>l then for y=l+1,m do c[y]=nil;end;end;c[0]=l;return l;end cj,ck=56315,56315 continue end if(ck~=-41632)and 7437>0 then continue end if ck==-41632 then bz=function(c)local l=bx(c)local c=bx(c)if c==0 then return l;elseif(c>=2147483648)then c=c-4294967296;end;return c*4294967296+l;end cj=ci[3]==0 and-10233 or-47128 ck=-47128 continue end continue end end continue end do if ck>=-38454 then if ck>=-34406 then if ck<-32875 then bl=function(c)local l,m,y,ba=nil,nil,nil,nil local bf={}for bh=0,255 do bf[bh]=(function()local bm=s(1)t(bm,0,bh)return u(bm)end)();end;local function bh(bm)local bo=-1 local bq=256 local bs=257 local bw=258 local bz=259 local ca=260 local cd=#bm local cf=1 local cg=0 local cl=0 local function cm(cn)while cl<cn and cf<=cd do local bm=q(r(bm),(cf)-1)cf=cf+1;cg=cg+bc(bm,cl);cl=cl+8;end;end;local function bm()if cl==0 then cm(1);end;local cd=be(cg,1)cg=bd(cg,1);cl=cl-1;return cd;end;local function cd(cf)if cf<=0 then return 0;end;cm(cf);local cm=bc(1,cf)-1 local cm=be(cg,cm)cg=bd(cg,cf);cl=cl-cf;return cm;end;local function cf()local cg=0 while bm()==0 do cg=cg+1;if cg>31 then break;end;end;if cg==0 then return 1;end;local cl=1 for cm=1,cg do cl=cl*2+bm();end;return cl;end;local function cg(cl)local cm=0 while bm()==0 do cm=cm+1;end;if cl==0 then return cm;end;local cn=cd(cl)return cm*(2^cl)+cn;end;local function cl(cm)local cn={}local function co(cp,cq,cr)local cs=cn for ct=cq-1,0,-1 do local cp=be(bd(cp,ct),1)if not cs[cp]then cs[cp]={};end;cs=cs[cp];end;cs[bo]=cr;end;local cp=cf()-1 if cp<=0 then return cn;end;local cq=0 local cr={}local cs=-1 local ct=0 for cu=1,cp do local cp if cm then if cu==1 then cp=cd(8);else local cm=cf()cp=cs+cm;end;else local cm=cf()if cu==1 then cp=cm-1;else cp=cs+cm;end;end;local cm if cu==1 then cm=cf();else local cu=bm()if cu==1 then cm=ct;else cm=cf();end;end;if cm>cq then cq=cm;end;local cf=cr[cm]if cf==nil then cf={};cr[cm]=cf;end;cf[#cf+1]=cp;cs=cp;ct=cm;end;local cf=0 local cm=0 for cp=1,cq do local cq=cr[cp]if cq~=nil then n(cq);if cp>cm then cf=bc(cf,cp-cm);cm=cp;end;for n=1,#cq do co(cf,cp,cq[n]);cf=cf+1;end;end;end;return cn;end;local function n(cf)local cf=cf while true do local cm=bm()cf=cf[cm];if not cf then return;end;local bo=cf[bo]if bo~=nil then return bo;end;end;end;local bo=cl(false)local cf=cl(false)local cm=cl(false)local cn=cl(true)local cl=cl(true)local co=cd(2)local cp,cq,cr,cs if co==0 then cp=if l then l else 0;cq=m or 0;cr=if y then y else 0;cs=if ba then ba else 0;elseif co==1 then local co={[-1]=0,[0]=1,[1]=2,[2]=3}local co={[0]=-1,[1]=0,[2]=1,[3]=2}local ct=co[cd(2)]local cu=co[cd(2)]local cv=co[cd(2)]local co=co[cd(2)]cp=(if l then l else 0)+ct;cq=(m or 0)+cu;cr=(if y then y else 0)+cv;cs=(if ba then ba else 0)+co;l,m,y,ba=cp,cq,cr,cs;else cp=cd(4);cq=cd(4);cr=cd(4);cs=cd(4);l,m,y,ba=cp,cq,cr,cs;end;local l={}local m=0 local y=false local ba=false while true do local bo=ba and cm or(y and cf or bo)local bo=n(bo)if bo==nil then break;end;if bo==ca then break;end;if bo==bq then local bq=y and cl or cn local bq=n(bq)if bq==nil then break;end;local ca=bm()local ca=cg(ca==0 and cr or cs)+1 local cf=bf[bq]m=m+1;l[m]=h(cf,ca);y=(bq==0);ba=true;elseif bo==bs then local bm=bm()local bm=cg(bm==0 and cp or cq)+1 local bq=bf[0]m=m+1;l[m]=h(bq,bm);y=true;ba=true;elseif bo==bw then local bm=2+cd(5)local bq=bf[0]m=m+1;l[m]=h(bq,bm);y=true;ba=true;elseif bo==bz then local bm=y and cl or cn local n=n(bm)if n==nil then break;end;local bm=2+cd(3)local bq=bf[n]m=m+1;l[m]=h(bq,bm);y=(n==0);ba=true;else m=m+1;l[m]=bf[bo];y=(bo==0);ba=false;end;end;return i(l);end;local function h(l)local m={}local n=256 local y={}for ba=1,n do y[ba]={};for n=0,255 do y[ba][n+1]=n;end;end;local n=0 local ba=#l for bm=1,ba do local ba=n+1 local y=y[ba]local l=q(r(l),(bm)-1)+1 local ba=y[l]m[bm]=bf[ba];if l>1 then v(y,1,l-1,2);y[1]=ba;end;n=ba;end;return i(m);end;local function l(m,n)local y=#m if y==0 then return"";end;n=n+1;local ba={}if y>0 then ba[y]=0;ba[y]=nil;end;local bm={}local bo={}bo[256]=0;bo[256]=nil;for bq=1,y do local bq=q(r(m),(bq)-1)bm[bq]=(if bm[bq]then bm[bq]else 0)+1;end;local bq=1 for bs=0,255 do local bm=if not(not bm[bs])then bm[bs]else 0 bo[bs]=bq;bq=bq+bm;end;for bm=1,y do local bq=q(r(m),(bm)-1)local bs=bo[bq]ba[bs]=bm;bo[bq]=bs+1;end;local bm={}if y>0 then bm[y]="";bm[y]=nil;end;local n=n for bo=1,y do n=ba[n];bm[bo]=bf[q(r(m),(n)-1)];end;return i(bm);end;local c=bk(c)local m={}local n=0 local y=1 local ba=#c while y+7<=ba do local bf,bm,bo,bq=e(c,y,y+3)local bf=bf+bm*256+bo*65536+bq*16777216 y=y+4;local bm,bo,bq,bs=e(c,y,y+3)local bm=bm+bo*256+bq*65536+bs*16777216 y=y+4;if y+bm-1>ba then break;end;local c=b(c,y,y+bm-1)y=y+bm;local c=bh(c)local c=h(c)local c=l(c,bf)n=n+1;m[n]=c;end;return i(m);end ck=58563 else ch[1166]={}cj,ck=-28712,-28712 end continue end if ck<-34406 then br=function(c)local h=0 for l=0,1 do h=bb(h,bc(e(c,bn,bn),8*l));bn=bn+1;end;return h;end ck=20810 continue end continue end if ck>=-41124 then if ck<=-41124 then do bp=nil ck=-17516 continue end end if ck>-41124 then do ce=function(c,h,l,...)local m=(c[1520])local n=c[4461]local y=c[6512]local y=c[2908]local ba=c[162]local bf=c[8228]local bh=c[4283]local bh,bl,bm,bo,bq=bh[(function(bl)local bm=0 while true do if bl<=-73070 then if bl<=-110037 then bl=bl+36967 bm=bm+1 else if bl==-86567 then bl=bl-23470 bm=bm+1 else bl=bl+38256 bm=bm+1 end end else if bl>=-34814 then if bl==-34814 then bl=bl+34827 bm=bm+1 else bl=bl-41936 bm=bm+1 end else bl=bl-13932 bm=bm+1 end end if bm==6 then break end end return bl end)(-30699)],bh[(function(bl)local bm=0 while true do if bl<=-46725 then if bl<-46725 then bl=bl+44260 bm=bm+1 else bl=bl-35399 bm=bm+1 end else if bl==-37864 then bl=bl+37875 bm=bm+1 else bl=bl-32070 bm=bm+1 end end if bm==4 then break end end return bl end)(-14655)],bh[(function(bl)local bm=0 while true do if bl>=47949 then if bl>=74834 then if bl~=75135 then bl=bl-26885 bm=bm+1 else bl=bl-42854 bm=bm+1 end else if bl~=68463 then bl=bl-23498 bm=bm+1 else bl=bl+6672 bm=bm+1 end end else if bl>=32281 then if bl==32281 then bl=bl+42553 bm=bm+1 else bl=bl+33198 bm=bm+1 end else bl=bl-24449 bm=bm+1 end end if bm==7 then break end end return bl end)(35265)],bh[(function(bl)local bm=0 while true do if bl>=117011 then if bl>=120690 then if bl<=120690 then bl=bl-3679 bm=bm+1 else bl=bl-31421 bm=bm+1 end else bl=bl-18350 bm=bm+1 end else if bl>=91251 then if bl<=91251 then bl=bl-44700 bm=bm+1 else bl=bl-7410 bm=bm+1 end else bl=bl-46547 bm=bm+1 end end if bm==6 then break end end return bl end)(152111)],bh[(function(bh)local bl=0 while true do if bh<=6337 then if bh>=4337 then if bh~=6337 then bh=bh+2000 bl=bl+1 else bh=bh+43437 bl=bl+1 end else if bh==-18078 then bh=bh+22415 bl=bl+1 else bh=bh+38200 bl=bl+1 end end else if bh<=42502 then if bh~=42502 then bh=bh-32111 bl=bl+1 else bh=bh+38671 bl=bl+1 end else if bh==49774 then bh=bh-45472 bl=bl+1 else bh=bh-49056 bl=bl+1 end end end if bl==8 then break end end return bh end)(-18078)]return function(...)local c=bg(c[8679])local bg={}local br={}local bs={}local bw=0 local bz=0 local ca={}local cd=0 local k=k('#',...)local cf=n+1 local cb,cf=cb(...);local cf={...};local cf=1 local cg=-1 for cl=1,k do if cl-1<=n then c[cl]=cb[cl];end;end;local k,n while true do k=m[cf];n=k[bm];if n>=5 then if n<=13 then if n<=8 then if n<=6 then if n~=6 then c[k[bh]]=h[k[bl]]else local bm=k[bl]for cb=1,#bm do local bm=bm[cb]local bm=ba[bm]bw=bw+((1)-0)bs[bw]=bm end end else if n<8 then cf=k[bl];else local bm=k[bl]local bm=ba[bm]bw=bw+1 bs[bw]=bm end end else if n<=(0+(11))then if n>=11 then local bm=k[bh]local cb=bs[bw]bs[bw]=nil bw=bw-1 local cl=bs[bw]bs[bw]=nil bw=bw-1 c[bm]=cl(cb)else if n~=((10)+0)then local bm=#k[bh]for cb=1,bm do c[k[bh][cb]]=ba[k[bl][cb]];end;else local bm=k[bh]local cb=k[bl]local bm=c[bm]if not bm then cf=cb;end;end end else if n==((12)-0)then c[k[bh]]=c[k[bl]];else do return end end end end else if not((n)>(22))then if n<=17 then if n<=15 then if n<=((14)+0)then local bm=k[bh]local cb=bs[bw]bs[bw]=nil bw=bw-1 local cl=bs[bw]bs[bw]=nil bw=bw-1 local cm=bs[bw]bs[bw]=nil bw=bw-1 local cn=bs[bw]bs[bw]=nil bw=bw-1 c[bm]=cn(cm,cl,cb)else local bm=y[k[bl]]local cb=bm[5434]local cl=#cb local cm={}for cn=1,cl do local cb=cb[cn]local cl=cb[2]local co=cb[3]if cb[((1)-0)]==((1)-0)then if co==(0+(0))then local cb=c[cl]bg[cl]=cb cm[cn]=cb else cm[cn]=c[cl]end else local cb=h[cl]if co==0 and cb[1]then cb=cb[1][cb[2]]end cm[cn]=cb end end c[k[bh]]=ce(bm,cm,l)end else if n<=16 then local bm,cb,cl=k[bh],k[bl],k[bq]local cb=bf[cb]local bm=c[bm]for cm=1,#cb do if bm==nil then break end bm=bm[ba[cb[cm]]]end c[cl]=bm else local bm=k[bh]local cb=k[bl]local cb=cb local cl=bw local cb=cl-cb+1 local cm=bs[cb]c[bm]=cm(z(bs,cb+1,cl))do local bm=(cl)local cl=(-1)local cm=(cb)if cl>=0 then while bm<=cm do bs[bm]=nil bm=bm+cl end else while bm>=cm do bs[bm]=nil bm=bm+cl end end end bw=cb-1 end end else if n<=20 then if n<=19 then if n~=19 then c[k[bh]]={};else local bm=k[bl]local bm=h[bm]c[k[bh]]=bm[1]end else local bm,cb=c[k[bl]],k[bh]c[cb+1]=bm;c[cb]=bm[c[k[bq]]];end else if n==21 then local bm=k[bh]for cb=1,#bm do local bm=c[bm[cb]]bw=bw+1 bs[bw]=bm end else local bm=k[bh]local cb=bs[bw]bs[bw]=nil bw=bw-1 local cl=bs[bw]bs[bw]=nil bw=bw-1 local cm=bs[bw]bs[bw]=nil bw=bw-1 c[bm]=cm(cl,cb)end end end else if(32)<=(n)then if n>=40 then if n>=50 then if n>=58 then if(66)<=(n)then if n<=((71)+0)then if not((n)<(69))then if n>=71 then local bm,cb,cl=k[bh],k[bl],k[bq]local cb=bf[cb]local bm=c[bm]local cm=true for cn=1,#cb-1 do if bm==nil then cm=false break end bm=bm[ba[cb[cn]]]end if cm and bm~=nil then bm[ba[cb[#cb]]]=c[cl]end else if n<=69 then local bm=k[bh]c[bm]=c[bm]();else c[k[bh]]=c[k[bl]]<c[k[bq]];end end else if not((n)>(67))then if not((n)~=(66))then local bm=k[bh]local bm=k[bl]local bm=bm local cb=bw local bm=cb-bm+((1)*1)local cl=bs[bm]cl(z(bs,bm+1,cb))do local cb=(cb)local cl=(-1)local cm=(bm)if cl>=0 then while cb<=cm do bs[cb]=nil cb=cb+cl end else while cb>=cm do bs[cb]=nil cb=cb+cl end end end bw=bm-1 else c[k[bh]]=ba end else c[k[bh]]=c[k[bl]]>c[k[bq]];end end else if n<=76 then if n<=73 then if n<=72 then local bm=k[bh]local cb=bw local cl=bz local cm=(1)+(cl)local cn=bs[cm]local cn=cc(br,cn(z(bs,cm+1,cb)))cg=(cn)+(bm)-(0+(1))for co=(cn),(1),-1 do c[(co)+(bm)-1]=br[co]end for bm=cb,cm,-1 do bs[bm]=nil end bw=cl local bm=ca[cd]ca[cd]=nil cd=cd-1 bz=bm or 0 else local bm=#k[bh]for cb=1,bm do c[k[bh][cb]]=nil;end;end else if(76)<=(n)then c[k[bh]]=c[k[bl]];else if n<75 then local bm=k[bh]local cb=k[bl]local cb=cb local cl=bw local cb=cl-cb+1 local cm=bs[cb]local cm=cc(br,cm(z(bs,cb+((1)-0),cl)))cg=bm+cm-1 for cn=1,cm do c[bm+cn-((1)*1)]=br[cn]end for bm=cl,cb,-1 do bs[bm]=nil end bw=cb-1 else local bm=k[bh]local cb=c[k[bo]]local cl=c[bm]local cb=cl[cb]c[bm]=cb c[(1)+(bm)]=cl c[bm]=c[bm](c[bm+1],c[bm+2],c[bm+3])end end end else if n<=79 then if n>=79 then local bm=k[bh]local cb=bw local cl=bz local cm=cl+1 local cn=bs[cm]c[bm]=cn(z(bs,(1)+(cm),cb))for bm=cb,cm,-1 do bs[bm]=nil end bw=cl local bm=ca[cd]ca[cd]=nil cd=cd-1 bz=if bm~=nil then bm else 0 else if n==77 then cf=c[k[bh]];else local bm=k[bh]local cb=bw local cl=bz local cm=cl+((1)-0)local cn=bs[cm]do local cn,co=cn(z(bs,(1)+(cm),cb))c[bm]=cn c[bm+((1)*1)]=co end for bm=cb,cm,-1 do bs[bm]=nil end bw=cl local bm=ca[cd]ca[cd]=nil cd=cd-1 bz=if bm~=nil then bm else 0 end end else if n>=((82)+0)then local bm,cb=k[bh],(k[bq]*100)local cl=c[bm]do local bm,cm,cn=c[bm+1],c[bm+2],c[bm+(0+(3))]cl[cb+1]=bm cl[cb+2]=cm cl[cb+3]=cn end else if n<=80 then local bm=k[bh]local cb=bs[bw]bs[bw]=nil bw=bw-1 local cl=bs[bw]bs[bw]=nil bw=bw-1 local cm=bs[bw]bs[bw]=nil bw=bw-1 do local cb,cl=cm(cl,cb)c[bm]=cb c[bm+1]=cl end else local bm,cb=k[bh],(k[bq]*100)local cl=c[bm]for cm=1,k[bl]do cl[cb+cm]=c[bm+cm]end end end end end end else if n>=62 then if n<=((63)*1)then if n==62 then local bm=k[bh]local cb=bs[bw]bs[bw]=nil bw=bw-1 local cl=bs[bw]bs[bw]=nil bw=bw-1 local cm=bs[bw]bs[bw]=nil bw=bw-1 local cn=bs[bw]bs[bw]=nil bw=bw-((1)*1)local cb=cc(br,cn(cm,cl,cb))cg=(cb)+(bm)-1 for cl=1,cb do c[bm+cl-1]=br[cl]end else local bm,cb=k[bh],(k[bq]*100)local cl=c[bm]do local bm,cm=c[bm+1],c[bm+2]cl[cb+1]=bm cl[cb+2]=cm end end else if n<=((64)-0)then c[k[bh]]=m else c[k[bh]]=c end end else if n>=60 then if n~=61 then local m=k[bh]local bm=c[k[bo]]local cb=c[m]local bm=cb[bm]c[m]=bm c[m+1]=cb c[m]=c[m](c[m+1],c[m+2])else local m=k[bh]local bm=c[k[bo]]local cb=c[m]local bm=cb[bm]c[m]=bm c[(1)+(m)]=cb c[m]=c[m](c[m+1])end else if n<=58 then local m=k[bh]local m=bw local bm=bz local cb=bm+(0+(1))local cl=bs[cb]cl(z(bs,cb+1,m))for cl=m,cb,-1 do bs[cl]=nil end bw=bm local m=ca[cd]ca[cd]=nil cd=cd-1 bz=if m~=nil then m else 0 else local m=k[bh]local bm=bs[bw]bs[bw]=nil bw=bw-1 c[m]=bm()end end end end else if n<=((53)*1)then if(52)<=(n)then if n<=52 then c[k[bh]]=#c[k[bl]];else local m,bm=k[bh],(k[bq]*100)local cb=c[m]cb[bm+1]=c[m+1]end else if n==50 then local m=k[bh]local bm=k[bl]local bm=(bm==0)and cg or(m+bm-1)do local m=(m)local cb=(1)local bm=(bm)if cb>=0 then while m<=bm do bw=bw+1 bs[bw]=c[m]m=m+cb end else while m>=bm do bw=bw+1 bs[bw]=c[m]m=m+cb end end end else local m=k[bh]local bm=bs[bw]bs[bw]=nil bw=bw-1 local cb=bs[bw]bs[bw]=nil bw=bw-(0+(1))local bm=cc(br,cb(bm))cg=(bm)+(m)-1 for cb=(bm),(1),-1 do c[m+cb-(0+(1))]=br[cb]end end end else if n>=56 then if n<=56 then local m=k[bh]local bm=bs[bw]bs[bw]=nil bw=bw-1 local cb=bs[bw]bs[bw]=nil bw=bw-1 local cl=bs[bw]bs[bw]=nil bw=bw-1 local bm=cc(br,cl(cb,bm))cg=m+bm-1 for cb=1,bm do c[m+cb-1]=br[cb]end else local m=bs[bw]bs[bw]=nil bw=bw-1 local bm=bs[bw]bs[bw]=nil bw=bw-1 local br=bs[bw]bs[bw]=nil bw=bw-1 local cb=bs[bw]bs[bw]=nil bw=bw-((1)*1)cb(br,bm,m)end else if n<55 then do for m,bm in a,bg do if not((bm[1])~=(c))and(0)<=(m)then bm[1]={c[m]}bm[2]=1 bg[m]=nil end end end local a=bs[bw]bs[bw]=nil bw=bw-1 local m=bs[bw]bs[bw]=nil bw=bw-1 do return m,a end else local a,m=k[bh],k[bl]local m=bf[m]local bf={}do local bg=(1)local bm=(2)local br=(#m)if bm>=0 then if bg<=br then repeat bf[ba[m[bg]]]=ba[m[(1)+(bg)]]bg=bg+bm until not(bg<=br)end else if bg>=br then repeat bf[ba[m[bg]]]=ba[m[(1)+(bg)]]bg=bg+bm until not(bg>=br)end end end c[a]=bf end end end end else if not((n)>(44))then if n<=((42)*1)then if n>=42 then local a=k[bh]local m=bs[bw]bs[bw]=nil bw=bw-1 local bf=bs[bw]bs[bw]=nil bw=bw-1 do local m,bf,bg=bf(m)c[a]=m c[a+1]=bf c[a+2]=bg end else if n<=40 then c[k[bh]]=c[k[bl]]~=c[k[bq]];else c[k[bh]]=c[k[bl]]+c[k[bq]];end end else if n==43 then do return z(c,k[bh],cg)end else local a=k[bh]local m,bf,bg=c[a]()do local m=(m)if m then do local bf,bg=bf,bg c[a+((3)+0)]=bf c[a+4]=bg end end cf=(m and(k[bl])or cf)end end end else if n>=48 then if not((n)>=(49))then c[k[bh]]=c[k[bl]]/c[k[bq]];else cd=cd+1 ca[cd]=bz bz=bw end else if n>=47 then local a=k[bh]local m=bs[bw]bs[bw]=nil bw=bw-((1)*1)local bf=bs[bw]bs[bw]=nil bw=bw-1 local m,bf=bf(m)do local m,bf=m,bf c[a]=m c[a+1]=bf end else if n==((45)*1)then local a=k[bh]local m,bf,bg=c[a],c[a+1],c[a+2]c[a]=g(function()for g,bm in m,bf,bg do f(true,g,bm);end;end);cg=a+2;cf=k[bl];else c[k[bh]]=c[k[bl]]-c[k[bq]];end end end end end else if n<=35 then if n>=((34)*1)then if n~=(0+(35))then h[k[bl]][1]=c[k[bh]]else local a=k[bh]local f=k[bl]local g=c[k[bo]]local h=c[a]local g=h[g]local f=a+f-1 c[a]=g c[((0+(1)))+(a)]=h c[a]=c[a](z(c,a+1,f))end else if n~=33 then local a,f=k[bh],k[bl]local f=c[f]c[a]=f[1]else c[k[bh]]=c[k[bl]]..c[k[bq]];end end else if n<=37 then if not((n)>(36))then c[k[bh]]=nil;else c[k[bh]]=not c[k[bl]];end else if n==38 then c[k[bh]]=(c[k[bq]])*(c[k[bl]]);else local a=k[bh]local a=bs[bw]bs[bw]=nil bw=bw-1 a()end end end end else if n<=26 then if n>=25 then if n==25 then local a=k[bh]c[a]={c[a]}else do return c[k[bh]]end end else if n==23 then local a=k[bh]local a=bs[bw]bs[bw]=nil bw=bw-1 local f=bs[bw]bs[bw]=nil bw=bw-((1)+0)f(a)else c[k[bh]][1]=c[k[bl]]end end else if n>=30 then if n==30 then if c[k[bh]]then cf=k[bl];end;else c[k[bh]]=c[k[bl]]==c[k[bq]];end else if n<=28 then if n==27 then local a=bs[bw]bs[bw]=nil bw=bw-1 local f=bs[bw]bs[bw]=nil bw=bw-((1)-0)local g=bs[bw]bs[bw]=nil bw=bw-1 g(f,a)else c[k[bh]]=-c[k[bl]];end else c[k[bh]]=ce(y[k[bl]],nil,l)end end end end end end else if n>=2 then if n<=3 then if n<=2 then local a=k[bh]local a=c[a]bw=bw+1 bs[bw]=a else c[k[bh]]=c[k[bl]][c[k[bq]]];end else c[k[bh]]=l[ba[k[bl]]];end else if n~=1 then c[k[bh]]=ba[k[bl]];else c[k[bh]][c[k[bl]]]=c[k[bq]];end end end cf=cf+1;end;end;end ck=74394 continue end end continue end if(ck>=-41124)and 2059>0 then continue end if ck<-41124 then q=p[(function(a,c)local f={}for g=1,#a do local a=e(a,g)f[g]=o(d(37,99),(a-(c+g))%256)end return i(f)end)("\172\160\157\161\179\119",57)]r=p[(function(a,c)local f={}for g=1,#a do local a=e(a,g)f[g]=o(d(37,99),(a-(c+g))%256)end return i(f)end)("\149\162\160\159\166\168\167\159\165\159",46)]s=p[(function(a,c)local f={}for g=1,#a do local a=e(a,g)f[g]=o(d(37,99),(a-(c+g))%256)end return i(f)end)("\193\209\197\194\214\200",93)]ck=-22775 continue end continue end continue end end if ck>-32875 then do if ck>=-23918 then if ck<=-20991 then if ck>=-22775 then if ck<-20991 then t=p[(function(a,c)local f={}for g=1,#a do local a=e(a,g)f[g]=o(d(37,99),(a-(c+g))%256)end return i(f)end)("\209\205\197\209\195\212\152",89)]u=p[(function(a,c)local f={}for g=1,#a do local a=e(a,g)f[g]=o(d(37,99),(a-(c+g))%256)end return i(f)end)("\213\209\214\216\215\207\213\207",96)]ch[1165]=table and table.move or function(a,c,f,g,h)h=if not(not h)then h else a;g=g+f;for k=f,c,-1 do g=g-1;h[g]=a[k];end;return h;end ck=-23918 continue end bx=function(a)local a,c,f,g=e(a,bn,bn+3)bn=bn+4;return((g*16777216)+(f*65536)+(c*256)+a);end cj,ck=33824,33824 continue end if ck<-22775 then v=ch[1165]w=if not(not bit32)then bit32 else bit x=2^32 ck=21685 continue end continue end if ck>-20991 then if ck<=-20820 then do bk=function(a)local c=33 local f=85 local g={}local h=#a local k=1 local l=1 while k<=h do local m=k+4 local h=(m<=h)and 5 or(h-k+1)if h==0 then break;end;local a,m,n,o,p=e(a,k,m)if h<5 then m=if not(not m)then m else 117;n=n or 117;o=if not(not o)then o else 117;p=p or 117;end;if(a<c or a>=c+f)then return"";end;if h>=2 and(m<c or m>=c+f)then return"";end;if h>=3 and(n<c or n>=c+f)then return"";end;if h>=4 and(o<c or o>=c+f)then return"";end;if h>=5 and(p<c or p>=c+f)then return"";end;local a=((((a-c)*f+(m-c))*f+(n-c))*f+(o-c))*f+(p-c)local c=be(bd(a,24),255)local f=be(bd(a,16),255)local m=be(bd(a,8),255)local a=be(a,255)local a=d(c,f,m,a)if h<5 then a=b(a,1,h-1);end;g[l]=a;l=l+1;k=k+5;end;return i(g);end ck=-34406 continue end end if ck>-20820 then do if ck<-17516 then bi=rawset bj=setfenv ck=-20820 else bp=function(a)local b=0 for c=0,3 do b=bb(b,bc(e(a,bn,bn),8*c));bn=bn+1;end;return b;end cj,ck=77981,77981 end continue end end continue end else if ck>=-28712 then if ck>=-25588 then if ck<=-25588 then bt=function(a)local b=0 b=q(r(a),(bn)-1);bn=bn+1;return b;end cj,ck=-29169,-29169 else by=function(a)local a,b=e(a,bn,bn+1)bn=bn+2;return((b*256)+a);end cj,ck=-14397,-14397 end continue end ch[1167]={}cj=ci[2]==0 and-22775 or-41403 ck=-41403 continue end if ck<-28712 then if ck>=-29429 then if ck<=-29429 then bv=nil ck=34631 continue end if(ck<=-29429)and 7602>0 then continue end if ck>-29429 then bu=nil cj,ck=-31779,-31779 continue end else bu=function(a)local a,b,c,d,e,f,g,h=e(a,bn,bn+7)bn=bn+8;local i=h>127 and-1 or 1 local h=(h%128)*16+j(g/16)local a=((g%16)*2^48+f*2^40+e*2^32+d*2^24+c*2^16+b*2^8+a)if h==0 then if a==0 then return i*0;else return i*a*2^(-1022-52);end;elseif h==2047 then if a==0 then return i*(1/0);else return 0/0;end;end;a=a+2^52;return i*a*2^(h-1023-52);end ck=-29429 end continue end end continue end end continue end end end)(error,next,string.match,tonumber,string.gsub,string.sub,table.insert,string.char,string.byte,coroutine.yield,coroutine.wrap,string.rep,table.concat,math.floor,select,(getfenv or function()return _ENV;end),setmetatable,next,(if table.unpack then table.unpack else unpack),(if not(not table.pack)then table.pack else function(...)return{...};end),math.min,(function(b)if b<=1 then return false end;if b<=3 then return true end;if b%2==0 or b%3==0 then return false end;local c=5;while c*c<=b do if b%c==0 or b%(c+2)==0 then return false end;c=c+6 end;return true end),string.len,table.remove,table.sort,(string.unpack),string.gmatch,string.find,string.reverse,tostring,math.abs,rawget,string.format,buffer);
+
+--[[ 
+	Custom how?
+	added a function that (barly) supports images in paragraph
+
+	Rayfield Interface Suite
+	by Sirius
+
+	shlex  | Designing + Programming
+	iRay   | Programming
+	Max    | Programming
+	Damian | Programming
+
+]]
+
+if debugX then
+	warn('Initialising Rayfield')
+end
+
+local function getService(name)
+	local service = game:GetService(name)
+	return if cloneref then cloneref(service) else service
+end
+
+-- Loads and executes a function hosted on a remote URL. Cancels the request if the requested URL takes too long to respond.
+-- Errors with the function are caught and logged to the output
+local function loadWithTimeout(url: string, timeout: number?): ...any
+	assert(type(url) == "string", "Expected string, got " .. type(url))
+	timeout = timeout or 5
+	local requestCompleted = false
+	local success, result = false, nil
+
+	local requestThread = task.spawn(function()
+		local fetchSuccess, fetchResult = pcall(game.HttpGet, game, url) -- game:HttpGet(url)
+		-- If the request fails the content can be empty, even if fetchSuccess is true
+		if not fetchSuccess or #fetchResult == 0 then
+			if #fetchResult == 0 then
+				fetchResult = "Empty response" -- Set the error message
+			end
+			success, result = false, fetchResult
+			requestCompleted = true
+			return
+		end
+		local content = fetchResult -- Fetched content
+		local execSuccess, execResult = pcall(function()
+			return loadstring(content)()
+		end)
+		success, result = execSuccess, execResult
+		requestCompleted = true
+	end)
+
+	local timeoutThread = task.delay(timeout, function()
+		if not requestCompleted then
+			warn(`Request for {url} timed out after {timeout} seconds`)
+			task.cancel(requestThread)
+			result = "Request timed out"
+			requestCompleted = true
+		end
+	end)
+
+	-- Wait for completion or timeout
+	while not requestCompleted do
+		task.wait()
+	end
+	-- Cancel timeout thread if still running when request completes
+	if coroutine.status(timeoutThread) ~= "dead" then
+		task.cancel(timeoutThread)
+	end
+	if not success then
+		warn(`Failed to process {url}: {result}`)
+	end
+	return if success then result else nil
+end
+
+local requestsDisabled = true --getgenv and getgenv().DISABLE_RAYFIELD_REQUESTS
+local InterfaceBuild = '3K3W'
+local Release = "Build 1.68"
+local RayfieldFolder = "Rayfield"
+local ConfigurationFolder = RayfieldFolder.."/Configurations"
+local ConfigurationExtension = ".rfld"
+local settingsTable = {
+	General = {
+		-- if needs be in order just make getSetting(name)
+		rayfieldOpen = {Type = 'bind', Value = 'K', Name = 'Rayfield Keybind'},
+		-- buildwarnings
+		-- rayfieldprompts
+
+	},
+	System = {
+		usageAnalytics = {Type = 'toggle', Value = true, Name = 'Anonymised Analytics'},
+	}
+}
+
+-- Settings that have been overridden by the developer. These will not be saved to the user's configuration file
+-- Overridden settings always take precedence over settings in the configuration file, and are cleared if the user changes the setting in the UI
+local overriddenSettings: { [string]: any } = {} -- For example, overriddenSettings["System.rayfieldOpen"] = "J"
+local function overrideSetting(category: string, name: string, value: any)
+	overriddenSettings[`{category}.{name}`] = value
+end
+
+local function getSetting(category: string, name: string): any
+	if overriddenSettings[`{category}.{name}`] ~= nil then
+		return overriddenSettings[`{category}.{name}`]
+	elseif settingsTable[category][name] ~= nil then
+		return settingsTable[category][name].Value
+	end
+end
+
+-- If requests/analytics have been disabled by developer, set the user-facing setting to false as well
+if requestsDisabled then
+	overrideSetting("System", "usageAnalytics", false)
+end
+
+local HttpService = getService('HttpService')
+local RunService = getService('RunService')
+
+-- Environment Check
+local useStudio = RunService:IsStudio() or false
+
+local settingsCreated = false
+local settingsInitialized = false -- Whether the UI elements in the settings page have been set to the proper values
+local cachedSettings
+local prompt = useStudio and require(script.Parent.prompt) or loadWithTimeout('https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua')
+local requestFunc = (syn and syn.request) or (fluxus and fluxus.request) or (http and http.request) or http_request or request
+
+-- Validate prompt loaded correctly
+if not prompt and not useStudio then
+	warn("Failed to load prompt library, using fallback")
+	prompt = {
+		create = function() end -- No-op fallback
+	}
+end
+
+-- The function below provides a safe alternative for calling error-prone functions
+-- Especially useful for filesystem function (writefile, makefolder, etc.)
+local function callSafely(func, ...)
+	if func then
+		local success, result = pcall(func, ...)
+		if not success then
+			warn("Rayfield | Function failed with error: ", result)
+			return false
+		else
+			return result
+		end
+	end
+end
+
+-- Ensures a folder exists by creating it if needed
+local function ensureFolder(folderPath)
+	if isfolder and not callSafely(isfolder, folderPath) then
+		callSafely(makefolder, folderPath)
+	end
+end
+
+local function loadSettings()
+	local file = nil
+
+	local success, result =	pcall(function()
+		task.spawn(function()
+			if callSafely(isfolder, RayfieldFolder) then
+				if callSafely(isfile, RayfieldFolder..'/settings'..ConfigurationExtension) then
+					file = callSafely(readfile, RayfieldFolder..'/settings'..ConfigurationExtension)
+				end
+			end
+
+			-- for debug in studio
+			if useStudio then
+				file = [[
+		{"General":{"rayfieldOpen":{"Value":"K","Type":"bind","Name":"Rayfield Keybind","Element":{"HoldToInteract":false,"Ext":true,"Name":"Rayfield Keybind","Set":null,"CallOnChange":true,"Callback":null,"CurrentKeybind":"K"}}},"System":{"usageAnalytics":{"Value":false,"Type":"toggle","Name":"Anonymised Analytics","Element":{"Ext":true,"Name":"Anonymised Analytics","Set":null,"CurrentValue":false,"Callback":null}}}}
+	]]
+			end
+
+
+			if file then
+				local success, decodedFile = pcall(function() return HttpService:JSONDecode(file) end)
+				if success then
+					file = decodedFile
+				else
+					file = {}
+				end
+			else
+				file = {}
+			end
+
+
+			if not settingsCreated then 
+				cachedSettings = file
+				return
+			end
+
+			if file ~= {} then
+				for categoryName, settingCategory in pairs(settingsTable) do
+					if file[categoryName] then
+						for settingName, setting in pairs(settingCategory) do
+							if file[categoryName][settingName] then
+								setting.Value = file[categoryName][settingName].Value
+								setting.Element:Set(getSetting(categoryName, settingName))
+							end
+						end
+					end
+				end
+			end
+			settingsInitialized = true
+		end)
+	end)
+
+	if not success then 
+		if writefile then
+			warn('Rayfield had an issue accessing configuration saving capability.')
+		end
+	end
+end
+
+if debugX then
+	warn('Now Loading Settings Configuration')
+end
+
+loadSettings()
+
+if debugX then
+	warn('Settings Loaded')
+end
+
+local analyticsLib
+local sendReport = function(ev_n, sc_n) warn("Failed to load report function") end
+if not requestsDisabled then
+	if debugX then
+		warn('Querying Settings for Reporter Information')
+	end	
+	analyticsLib = loadWithTimeout("https://analytics.sirius.menu/script")
+	if not analyticsLib then
+		warn("Failed to load analytics reporter")
+		analyticsLib = nil
+	elseif analyticsLib and type(analyticsLib.load) == "function" then
+		analyticsLib:load()
+	else
+		warn("Analytics library loaded but missing load function")
+		analyticsLib = nil
+	end
+	sendReport = function(ev_n, sc_n)
+		if not (type(analyticsLib) == "table" and type(analyticsLib.isLoaded) == "function" and analyticsLib:isLoaded()) then
+			warn("Analytics library not loaded")
+			return
+		end
+		if useStudio then
+			print('Sending Analytics')
+		else
+			if debugX then warn('Reporting Analytics') end
+			analyticsLib:report(
+				{
+					["name"] = ev_n,
+					["script"] = {["name"] = sc_n, ["version"] = Release}
+				},
+				{
+					["version"] = InterfaceBuild
+				}
+			)
+			if debugX then warn('Finished Report') end
+		end
+	end
+	if cachedSettings and (#cachedSettings == 0 or (cachedSettings.System and cachedSettings.System.usageAnalytics and cachedSettings.System.usageAnalytics.Value)) then
+		sendReport("execution", "Rayfield")
+	elseif not cachedSettings then
+		sendReport("execution", "Rayfield")
+	end
+end
+
+local promptUser = 2
+
+if promptUser == 1 and prompt and type(prompt.create) == "function" then
+	prompt.create(
+		'Be cautious when running scripts',
+	    [[Please be careful when running scripts from unknown developers. This script has already been ran.
+
+<font transparency='0.3'>Some scripts may steal your items or in-game goods.</font>]],
+		'Okay',
+		'',
+		function()
+
+		end
+	)
+end
+
+if debugX then
+	warn('Moving on to continue initialisation')
+end
+
+local RayfieldLibrary = {
+	Flags = {},
+	Theme = {
+		Default = {
+			TextColor = Color3.fromRGB(240, 240, 240),
+
+			Background = Color3.fromRGB(25, 25, 25),
+			Topbar = Color3.fromRGB(34, 34, 34),
+			Shadow = Color3.fromRGB(20, 20, 20),
+
+			NotificationBackground = Color3.fromRGB(20, 20, 20),
+			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
+
+			TabBackground = Color3.fromRGB(80, 80, 80),
+			TabStroke = Color3.fromRGB(85, 85, 85),
+			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
+			TabTextColor = Color3.fromRGB(240, 240, 240),
+			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+
+			ElementBackground = Color3.fromRGB(35, 35, 35),
+			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+			SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
+			ElementStroke = Color3.fromRGB(50, 50, 50),
+			SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+
+			SliderBackground = Color3.fromRGB(50, 138, 220),
+			SliderProgress = Color3.fromRGB(50, 138, 220),
+			SliderStroke = Color3.fromRGB(58, 163, 255),
+
+			ToggleBackground = Color3.fromRGB(30, 30, 30),
+			ToggleEnabled = Color3.fromRGB(0, 146, 214),
+			ToggleDisabled = Color3.fromRGB(100, 100, 100),
+			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+
+			DropdownSelected = Color3.fromRGB(40, 40, 40),
+			DropdownUnselected = Color3.fromRGB(30, 30, 30),
+
+			InputBackground = Color3.fromRGB(30, 30, 30),
+			InputStroke = Color3.fromRGB(65, 65, 65),
+			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+		},
+
+		Ocean = {
+			TextColor = Color3.fromRGB(230, 240, 240),
+
+			Background = Color3.fromRGB(20, 30, 30),
+			Topbar = Color3.fromRGB(25, 40, 40),
+			Shadow = Color3.fromRGB(15, 20, 20),
+
+			NotificationBackground = Color3.fromRGB(25, 35, 35),
+			NotificationActionsBackground = Color3.fromRGB(230, 240, 240),
+
+			TabBackground = Color3.fromRGB(40, 60, 60),
+			TabStroke = Color3.fromRGB(50, 70, 70),
+			TabBackgroundSelected = Color3.fromRGB(100, 180, 180),
+			TabTextColor = Color3.fromRGB(210, 230, 230),
+			SelectedTabTextColor = Color3.fromRGB(20, 50, 50),
+
+			ElementBackground = Color3.fromRGB(30, 50, 50),
+			ElementBackgroundHover = Color3.fromRGB(40, 60, 60),
+			SecondaryElementBackground = Color3.fromRGB(30, 45, 45),
+			ElementStroke = Color3.fromRGB(45, 70, 70),
+			SecondaryElementStroke = Color3.fromRGB(40, 65, 65),
+
+			SliderBackground = Color3.fromRGB(0, 110, 110),
+			SliderProgress = Color3.fromRGB(0, 140, 140),
+			SliderStroke = Color3.fromRGB(0, 160, 160),
+
+			ToggleBackground = Color3.fromRGB(30, 50, 50),
+			ToggleEnabled = Color3.fromRGB(0, 130, 130),
+			ToggleDisabled = Color3.fromRGB(70, 90, 90),
+			ToggleEnabledStroke = Color3.fromRGB(0, 160, 160),
+			ToggleDisabledStroke = Color3.fromRGB(85, 105, 105),
+			ToggleEnabledOuterStroke = Color3.fromRGB(50, 100, 100),
+			ToggleDisabledOuterStroke = Color3.fromRGB(45, 65, 65),
+
+			DropdownSelected = Color3.fromRGB(30, 60, 60),
+			DropdownUnselected = Color3.fromRGB(25, 40, 40),
+
+			InputBackground = Color3.fromRGB(30, 50, 50),
+			InputStroke = Color3.fromRGB(50, 70, 70),
+			PlaceholderColor = Color3.fromRGB(140, 160, 160)
+		},
+
+		AmberGlow = {
+			TextColor = Color3.fromRGB(255, 245, 230),
+
+			Background = Color3.fromRGB(45, 30, 20),
+			Topbar = Color3.fromRGB(55, 40, 25),
+			Shadow = Color3.fromRGB(35, 25, 15),
+
+			NotificationBackground = Color3.fromRGB(50, 35, 25),
+			NotificationActionsBackground = Color3.fromRGB(245, 230, 215),
+
+			TabBackground = Color3.fromRGB(75, 50, 35),
+			TabStroke = Color3.fromRGB(90, 60, 45),
+			TabBackgroundSelected = Color3.fromRGB(230, 180, 100),
+			TabTextColor = Color3.fromRGB(250, 220, 200),
+			SelectedTabTextColor = Color3.fromRGB(50, 30, 10),
+
+			ElementBackground = Color3.fromRGB(60, 45, 35),
+			ElementBackgroundHover = Color3.fromRGB(70, 50, 40),
+			SecondaryElementBackground = Color3.fromRGB(55, 40, 30),
+			ElementStroke = Color3.fromRGB(85, 60, 45),
+			SecondaryElementStroke = Color3.fromRGB(75, 50, 35),
+
+			SliderBackground = Color3.fromRGB(220, 130, 60),
+			SliderProgress = Color3.fromRGB(250, 150, 75),
+			SliderStroke = Color3.fromRGB(255, 170, 85),
+
+			ToggleBackground = Color3.fromRGB(55, 40, 30),
+			ToggleEnabled = Color3.fromRGB(240, 130, 30),
+			ToggleDisabled = Color3.fromRGB(90, 70, 60),
+			ToggleEnabledStroke = Color3.fromRGB(255, 160, 50),
+			ToggleDisabledStroke = Color3.fromRGB(110, 85, 75),
+			ToggleEnabledOuterStroke = Color3.fromRGB(200, 100, 50),
+			ToggleDisabledOuterStroke = Color3.fromRGB(75, 60, 55),
+
+			DropdownSelected = Color3.fromRGB(70, 50, 40),
+			DropdownUnselected = Color3.fromRGB(55, 40, 30),
+
+			InputBackground = Color3.fromRGB(60, 45, 35),
+			InputStroke = Color3.fromRGB(90, 65, 50),
+			PlaceholderColor = Color3.fromRGB(190, 150, 130)
+		},
+
+		Light = {
+			TextColor = Color3.fromRGB(40, 40, 40),
+
+			Background = Color3.fromRGB(245, 245, 245),
+			Topbar = Color3.fromRGB(230, 230, 230),
+			Shadow = Color3.fromRGB(200, 200, 200),
+
+			NotificationBackground = Color3.fromRGB(250, 250, 250),
+			NotificationActionsBackground = Color3.fromRGB(240, 240, 240),
+
+			TabBackground = Color3.fromRGB(235, 235, 235),
+			TabStroke = Color3.fromRGB(215, 215, 215),
+			TabBackgroundSelected = Color3.fromRGB(255, 255, 255),
+			TabTextColor = Color3.fromRGB(80, 80, 80),
+			SelectedTabTextColor = Color3.fromRGB(0, 0, 0),
+
+			ElementBackground = Color3.fromRGB(240, 240, 240),
+			ElementBackgroundHover = Color3.fromRGB(225, 225, 225),
+			SecondaryElementBackground = Color3.fromRGB(235, 235, 235),
+			ElementStroke = Color3.fromRGB(210, 210, 210),
+			SecondaryElementStroke = Color3.fromRGB(210, 210, 210),
+
+			SliderBackground = Color3.fromRGB(150, 180, 220),
+			SliderProgress = Color3.fromRGB(100, 150, 200), 
+			SliderStroke = Color3.fromRGB(120, 170, 220),
+
+			ToggleBackground = Color3.fromRGB(220, 220, 220),
+			ToggleEnabled = Color3.fromRGB(0, 146, 214),
+			ToggleDisabled = Color3.fromRGB(150, 150, 150),
+			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+			ToggleDisabledStroke = Color3.fromRGB(170, 170, 170),
+			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+			ToggleDisabledOuterStroke = Color3.fromRGB(180, 180, 180),
+
+			DropdownSelected = Color3.fromRGB(230, 230, 230),
+			DropdownUnselected = Color3.fromRGB(220, 220, 220),
+
+			InputBackground = Color3.fromRGB(240, 240, 240),
+			InputStroke = Color3.fromRGB(180, 180, 180),
+			PlaceholderColor = Color3.fromRGB(140, 140, 140)
+		},
+
+		Amethyst = {
+			TextColor = Color3.fromRGB(240, 240, 240),
+
+			Background = Color3.fromRGB(30, 20, 40),
+			Topbar = Color3.fromRGB(40, 25, 50),
+			Shadow = Color3.fromRGB(20, 15, 30),
+
+			NotificationBackground = Color3.fromRGB(35, 20, 40),
+			NotificationActionsBackground = Color3.fromRGB(240, 240, 250),
+
+			TabBackground = Color3.fromRGB(60, 40, 80),
+			TabStroke = Color3.fromRGB(70, 45, 90),
+			TabBackgroundSelected = Color3.fromRGB(180, 140, 200),
+			TabTextColor = Color3.fromRGB(230, 230, 240),
+			SelectedTabTextColor = Color3.fromRGB(50, 20, 50),
+
+			ElementBackground = Color3.fromRGB(45, 30, 60),
+			ElementBackgroundHover = Color3.fromRGB(50, 35, 70),
+			SecondaryElementBackground = Color3.fromRGB(40, 30, 55),
+			ElementStroke = Color3.fromRGB(70, 50, 85),
+			SecondaryElementStroke = Color3.fromRGB(65, 45, 80),
+
+			SliderBackground = Color3.fromRGB(100, 60, 150),
+			SliderProgress = Color3.fromRGB(130, 80, 180),
+			SliderStroke = Color3.fromRGB(150, 100, 200),
+
+			ToggleBackground = Color3.fromRGB(45, 30, 55),
+			ToggleEnabled = Color3.fromRGB(120, 60, 150),
+			ToggleDisabled = Color3.fromRGB(94, 47, 117),
+			ToggleEnabledStroke = Color3.fromRGB(140, 80, 170),
+			ToggleDisabledStroke = Color3.fromRGB(124, 71, 150),
+			ToggleEnabledOuterStroke = Color3.fromRGB(90, 40, 120),
+			ToggleDisabledOuterStroke = Color3.fromRGB(80, 50, 110),
+
+			DropdownSelected = Color3.fromRGB(50, 35, 70),
+			DropdownUnselected = Color3.fromRGB(35, 25, 50),
+
+			InputBackground = Color3.fromRGB(45, 30, 60),
+			InputStroke = Color3.fromRGB(80, 50, 110),
+			PlaceholderColor = Color3.fromRGB(178, 150, 200)
+		},
+
+		Green = {
+			TextColor = Color3.fromRGB(30, 60, 30),
+
+			Background = Color3.fromRGB(235, 245, 235),
+			Topbar = Color3.fromRGB(210, 230, 210),
+			Shadow = Color3.fromRGB(200, 220, 200),
+
+			NotificationBackground = Color3.fromRGB(240, 250, 240),
+			NotificationActionsBackground = Color3.fromRGB(220, 235, 220),
+
+			TabBackground = Color3.fromRGB(215, 235, 215),
+			TabStroke = Color3.fromRGB(190, 210, 190),
+			TabBackgroundSelected = Color3.fromRGB(245, 255, 245),
+			TabTextColor = Color3.fromRGB(50, 80, 50),
+			SelectedTabTextColor = Color3.fromRGB(20, 60, 20),
+
+			ElementBackground = Color3.fromRGB(225, 240, 225),
+			ElementBackgroundHover = Color3.fromRGB(210, 225, 210),
+			SecondaryElementBackground = Color3.fromRGB(235, 245, 235), 
+			ElementStroke = Color3.fromRGB(180, 200, 180),
+			SecondaryElementStroke = Color3.fromRGB(180, 200, 180),
+
+			SliderBackground = Color3.fromRGB(90, 160, 90),
+			SliderProgress = Color3.fromRGB(70, 130, 70),
+			SliderStroke = Color3.fromRGB(100, 180, 100),
+
+			ToggleBackground = Color3.fromRGB(215, 235, 215),
+			ToggleEnabled = Color3.fromRGB(60, 130, 60),
+			ToggleDisabled = Color3.fromRGB(150, 175, 150),
+			ToggleEnabledStroke = Color3.fromRGB(80, 150, 80),
+			ToggleDisabledStroke = Color3.fromRGB(130, 150, 130),
+			ToggleEnabledOuterStroke = Color3.fromRGB(100, 160, 100),
+			ToggleDisabledOuterStroke = Color3.fromRGB(160, 180, 160),
+
+			DropdownSelected = Color3.fromRGB(225, 240, 225),
+			DropdownUnselected = Color3.fromRGB(210, 225, 210),
+
+			InputBackground = Color3.fromRGB(235, 245, 235),
+			InputStroke = Color3.fromRGB(180, 200, 180),
+			PlaceholderColor = Color3.fromRGB(120, 140, 120)
+		},
+
+		Bloom = {
+			TextColor = Color3.fromRGB(60, 40, 50),
+
+			Background = Color3.fromRGB(255, 240, 245),
+			Topbar = Color3.fromRGB(250, 220, 225),
+			Shadow = Color3.fromRGB(230, 190, 195),
+
+			NotificationBackground = Color3.fromRGB(255, 235, 240),
+			NotificationActionsBackground = Color3.fromRGB(245, 215, 225),
+
+			TabBackground = Color3.fromRGB(240, 210, 220),
+			TabStroke = Color3.fromRGB(230, 200, 210),
+			TabBackgroundSelected = Color3.fromRGB(255, 225, 235),
+			TabTextColor = Color3.fromRGB(80, 40, 60),
+			SelectedTabTextColor = Color3.fromRGB(50, 30, 50),
+
+			ElementBackground = Color3.fromRGB(255, 235, 240),
+			ElementBackgroundHover = Color3.fromRGB(245, 220, 230),
+			SecondaryElementBackground = Color3.fromRGB(255, 235, 240), 
+			ElementStroke = Color3.fromRGB(230, 200, 210),
+			SecondaryElementStroke = Color3.fromRGB(230, 200, 210),
+
+			SliderBackground = Color3.fromRGB(240, 130, 160),
+			SliderProgress = Color3.fromRGB(250, 160, 180),
+			SliderStroke = Color3.fromRGB(255, 180, 200),
+
+			ToggleBackground = Color3.fromRGB(240, 210, 220),
+			ToggleEnabled = Color3.fromRGB(255, 140, 170),
+			ToggleDisabled = Color3.fromRGB(200, 180, 185),
+			ToggleEnabledStroke = Color3.fromRGB(250, 160, 190),
+			ToggleDisabledStroke = Color3.fromRGB(210, 180, 190),
+			ToggleEnabledOuterStroke = Color3.fromRGB(220, 160, 180),
+			ToggleDisabledOuterStroke = Color3.fromRGB(190, 170, 180),
+
+			DropdownSelected = Color3.fromRGB(250, 220, 225),
+			DropdownUnselected = Color3.fromRGB(240, 210, 220),
+
+			InputBackground = Color3.fromRGB(255, 235, 240),
+			InputStroke = Color3.fromRGB(220, 190, 200),
+			PlaceholderColor = Color3.fromRGB(170, 130, 140)
+		},
+
+		DarkBlue = {
+			TextColor = Color3.fromRGB(230, 230, 230),
+
+			Background = Color3.fromRGB(20, 25, 30),
+			Topbar = Color3.fromRGB(30, 35, 40),
+			Shadow = Color3.fromRGB(15, 20, 25),
+
+			NotificationBackground = Color3.fromRGB(25, 30, 35),
+			NotificationActionsBackground = Color3.fromRGB(45, 50, 55),
+
+			TabBackground = Color3.fromRGB(35, 40, 45),
+			TabStroke = Color3.fromRGB(45, 50, 60),
+			TabBackgroundSelected = Color3.fromRGB(40, 70, 100),
+			TabTextColor = Color3.fromRGB(200, 200, 200),
+			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+
+			ElementBackground = Color3.fromRGB(30, 35, 40),
+			ElementBackgroundHover = Color3.fromRGB(40, 45, 50),
+			SecondaryElementBackground = Color3.fromRGB(35, 40, 45), 
+			ElementStroke = Color3.fromRGB(45, 50, 60),
+			SecondaryElementStroke = Color3.fromRGB(40, 45, 55),
+
+			SliderBackground = Color3.fromRGB(0, 90, 180),
+			SliderProgress = Color3.fromRGB(0, 120, 210),
+			SliderStroke = Color3.fromRGB(0, 150, 240),
+
+			ToggleBackground = Color3.fromRGB(35, 40, 45),
+			ToggleEnabled = Color3.fromRGB(0, 120, 210),
+			ToggleDisabled = Color3.fromRGB(70, 70, 80),
+			ToggleEnabledStroke = Color3.fromRGB(0, 150, 240),
+			ToggleDisabledStroke = Color3.fromRGB(75, 75, 85),
+			ToggleEnabledOuterStroke = Color3.fromRGB(20, 100, 180), 
+			ToggleDisabledOuterStroke = Color3.fromRGB(55, 55, 65),
+
+			DropdownSelected = Color3.fromRGB(30, 70, 90),
+			DropdownUnselected = Color3.fromRGB(25, 30, 35),
+
+			InputBackground = Color3.fromRGB(25, 30, 35),
+			InputStroke = Color3.fromRGB(45, 50, 60), 
+			PlaceholderColor = Color3.fromRGB(150, 150, 160)
+		},
+
+		Serenity = {
+			TextColor = Color3.fromRGB(50, 55, 60),
+			Background = Color3.fromRGB(240, 245, 250),
+			Topbar = Color3.fromRGB(215, 225, 235),
+			Shadow = Color3.fromRGB(200, 210, 220),
+
+			NotificationBackground = Color3.fromRGB(210, 220, 230),
+			NotificationActionsBackground = Color3.fromRGB(225, 230, 240),
+
+			TabBackground = Color3.fromRGB(200, 210, 220),
+			TabStroke = Color3.fromRGB(180, 190, 200),
+			TabBackgroundSelected = Color3.fromRGB(175, 185, 200),
+			TabTextColor = Color3.fromRGB(50, 55, 60),
+			SelectedTabTextColor = Color3.fromRGB(30, 35, 40),
+
+			ElementBackground = Color3.fromRGB(210, 220, 230),
+			ElementBackgroundHover = Color3.fromRGB(220, 230, 240),
+			SecondaryElementBackground = Color3.fromRGB(200, 210, 220),
+			ElementStroke = Color3.fromRGB(190, 200, 210),
+			SecondaryElementStroke = Color3.fromRGB(180, 190, 200),
+
+			SliderBackground = Color3.fromRGB(200, 220, 235),  -- Lighter shade
+			SliderProgress = Color3.fromRGB(70, 130, 180),
+			SliderStroke = Color3.fromRGB(150, 180, 220),
+
+			ToggleBackground = Color3.fromRGB(210, 220, 230),
+			ToggleEnabled = Color3.fromRGB(70, 160, 210),
+			ToggleDisabled = Color3.fromRGB(180, 180, 180),
+			ToggleEnabledStroke = Color3.fromRGB(60, 150, 200),
+			ToggleDisabledStroke = Color3.fromRGB(140, 140, 140),
+			ToggleEnabledOuterStroke = Color3.fromRGB(100, 120, 140),
+			ToggleDisabledOuterStroke = Color3.fromRGB(120, 120, 130),
+
+			DropdownSelected = Color3.fromRGB(220, 230, 240),
+			DropdownUnselected = Color3.fromRGB(200, 210, 220),
+
+			InputBackground = Color3.fromRGB(220, 230, 240),
+			InputStroke = Color3.fromRGB(180, 190, 200),
+			PlaceholderColor = Color3.fromRGB(150, 150, 150)
+		},
+
+		-- Pulsar Hub Custom Theme (Console/Terminal Style)
+		Pulsar = {
+			TextColor = Color3.fromRGB(0, 255, 200),  -- Cyan terminal text
+
+			Background = Color3.fromRGB(8, 8, 12),   -- Deep dark background
+			Topbar = Color3.fromRGB(12, 12, 18),     -- Slightly lighter topbar
+			Shadow = Color3.fromRGB(0, 0, 0),        -- Pure black shadow
+
+			NotificationBackground = Color3.fromRGB(15, 15, 22),
+			NotificationActionsBackground = Color3.fromRGB(0, 255, 200),
+
+			TabBackground = Color3.fromRGB(18, 18, 25),
+			TabStroke = Color3.fromRGB(0, 180, 150),  -- Teal stroke
+			TabBackgroundSelected = Color3.fromRGB(0, 255, 200),
+			TabTextColor = Color3.fromRGB(100, 200, 180),
+			SelectedTabTextColor = Color3.fromRGB(8, 8, 12),
+
+			ElementBackground = Color3.fromRGB(15, 15, 22),
+			ElementBackgroundHover = Color3.fromRGB(20, 20, 30),
+			SecondaryElementBackground = Color3.fromRGB(12, 12, 18),
+			ElementStroke = Color3.fromRGB(0, 120, 100),
+			SecondaryElementStroke = Color3.fromRGB(0, 100, 80),
+
+			SliderBackground = Color3.fromRGB(0, 80, 65),
+			SliderProgress = Color3.fromRGB(0, 255, 200),
+			SliderStroke = Color3.fromRGB(0, 200, 160),
+
+			ToggleBackground = Color3.fromRGB(15, 15, 22),
+			ToggleEnabled = Color3.fromRGB(0, 255, 200),
+			ToggleDisabled = Color3.fromRGB(50, 50, 60),
+			ToggleEnabledStroke = Color3.fromRGB(0, 200, 160),
+			ToggleDisabledStroke = Color3.fromRGB(70, 70, 80),
+			ToggleEnabledOuterStroke = Color3.fromRGB(0, 150, 120),
+			ToggleDisabledOuterStroke = Color3.fromRGB(40, 40, 50),
+
+			DropdownSelected = Color3.fromRGB(20, 20, 30),
+			DropdownUnselected = Color3.fromRGB(12, 12, 18),
+
+			InputBackground = Color3.fromRGB(12, 12, 18),
+			InputStroke = Color3.fromRGB(0, 150, 120),
+			PlaceholderColor = Color3.fromRGB(0, 150, 120)
+		},
+
+		-- Pulsar Neon (Brighter, more vibrant variant)
+		PulsarNeon = {
+			TextColor = Color3.fromRGB(255, 255, 255),
+
+			Background = Color3.fromRGB(10, 10, 15),
+			Topbar = Color3.fromRGB(15, 15, 22),
+			Shadow = Color3.fromRGB(0, 0, 0),
+
+			NotificationBackground = Color3.fromRGB(18, 18, 25),
+			NotificationActionsBackground = Color3.fromRGB(0, 255, 180),
+
+			TabBackground = Color3.fromRGB(20, 20, 30),
+			TabStroke = Color3.fromRGB(0, 255, 200),
+			TabBackgroundSelected = Color3.fromRGB(0, 255, 180),
+			TabTextColor = Color3.fromRGB(0, 255, 200),
+			SelectedTabTextColor = Color3.fromRGB(10, 10, 15),
+
+			ElementBackground = Color3.fromRGB(18, 18, 28),
+			ElementBackgroundHover = Color3.fromRGB(25, 25, 38),
+			SecondaryElementBackground = Color3.fromRGB(15, 15, 22),
+			ElementStroke = Color3.fromRGB(0, 200, 160),
+			SecondaryElementStroke = Color3.fromRGB(0, 150, 120),
+
+			SliderBackground = Color3.fromRGB(0, 100, 80),
+			SliderProgress = Color3.fromRGB(0, 255, 180),
+			SliderStroke = Color3.fromRGB(0, 255, 200),
+
+			ToggleBackground = Color3.fromRGB(18, 18, 28),
+			ToggleEnabled = Color3.fromRGB(0, 255, 180),
+			ToggleDisabled = Color3.fromRGB(60, 60, 70),
+			ToggleEnabledStroke = Color3.fromRGB(0, 255, 220),
+			ToggleDisabledStroke = Color3.fromRGB(80, 80, 90),
+			ToggleEnabledOuterStroke = Color3.fromRGB(0, 180, 140),
+			ToggleDisabledOuterStroke = Color3.fromRGB(45, 45, 55),
+
+			DropdownSelected = Color3.fromRGB(25, 25, 38),
+			DropdownUnselected = Color3.fromRGB(15, 15, 22),
+
+			InputBackground = Color3.fromRGB(15, 15, 22),
+			InputStroke = Color3.fromRGB(0, 200, 160),
+			PlaceholderColor = Color3.fromRGB(0, 180, 140)
+		},
+
+		-- Pulsar Midnight (Deeper purple/blue variant)
+		PulsarMidnight = {
+			TextColor = Color3.fromRGB(180, 200, 255),
+
+			Background = Color3.fromRGB(8, 8, 16),
+			Topbar = Color3.fromRGB(12, 12, 24),
+			Shadow = Color3.fromRGB(4, 4, 8),
+
+			NotificationBackground = Color3.fromRGB(15, 15, 30),
+			NotificationActionsBackground = Color3.fromRGB(100, 150, 255),
+
+			TabBackground = Color3.fromRGB(18, 18, 35),
+			TabStroke = Color3.fromRGB(80, 120, 200),
+			TabBackgroundSelected = Color3.fromRGB(100, 150, 255),
+			TabTextColor = Color3.fromRGB(150, 180, 255),
+			SelectedTabTextColor = Color3.fromRGB(10, 10, 20),
+
+			ElementBackground = Color3.fromRGB(15, 15, 30),
+			ElementBackgroundHover = Color3.fromRGB(22, 22, 42),
+			SecondaryElementBackground = Color3.fromRGB(12, 12, 24),
+			ElementStroke = Color3.fromRGB(60, 90, 160),
+			SecondaryElementStroke = Color3.fromRGB(50, 75, 130),
+
+			SliderBackground = Color3.fromRGB(40, 60, 120),
+			SliderProgress = Color3.fromRGB(100, 150, 255),
+			SliderStroke = Color3.fromRGB(120, 170, 255),
+
+			ToggleBackground = Color3.fromRGB(15, 15, 30),
+			ToggleEnabled = Color3.fromRGB(100, 150, 255),
+			ToggleDisabled = Color3.fromRGB(50, 50, 70),
+			ToggleEnabledStroke = Color3.fromRGB(130, 180, 255),
+			ToggleDisabledStroke = Color3.fromRGB(70, 70, 90),
+			ToggleEnabledOuterStroke = Color3.fromRGB(70, 100, 180),
+			ToggleDisabledOuterStroke = Color3.fromRGB(40, 40, 60),
+
+			DropdownSelected = Color3.fromRGB(22, 22, 42),
+			DropdownUnselected = Color3.fromRGB(12, 12, 24),
+
+			InputBackground = Color3.fromRGB(12, 12, 24),
+			InputStroke = Color3.fromRGB(70, 100, 180),
+			PlaceholderColor = Color3.fromRGB(100, 130, 200)
+		},
+	}
+}
+
+
+-- Services
+local UserInputService = getService("UserInputService")
+local TweenService = getService("TweenService")
+local Players = getService("Players")
+local CoreGui = getService("CoreGui")
+
+-- Interface Management
+
+local Rayfield = useStudio and script.Parent:FindFirstChild('Rayfield') or game:GetObjects("rbxassetid://10804731440")[1]
+local buildAttempts = 0
+local correctBuild = false
+local warned
+local globalLoaded
+local rayfieldDestroyed = false -- True when RayfieldLibrary:Destroy() is called
+
+repeat
+	if Rayfield:FindFirstChild('Build') and Rayfield.Build.Value == InterfaceBuild then
+		correctBuild = true
+		break
+	end
+
+	correctBuild = false
+
+	if not warned then
+		warn('Rayfield | Build Mismatch')
+		print('Rayfield may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.')
+		warned = true
+	end
+
+	toDestroy, Rayfield = Rayfield, useStudio and script.Parent:FindFirstChild('Rayfield') or game:GetObjects("rbxassetid://10804731440")[1]
+	if toDestroy and not useStudio then toDestroy:Destroy() end
+
+	buildAttempts = buildAttempts + 1
+until buildAttempts >= 2
+
+Rayfield.Enabled = false
+
+if gethui then
+	Rayfield.Parent = gethui()
+elseif syn and syn.protect_gui then 
+	syn.protect_gui(Rayfield)
+	Rayfield.Parent = CoreGui
+elseif not useStudio and CoreGui:FindFirstChild("RobloxGui") then
+	Rayfield.Parent = CoreGui:FindFirstChild("RobloxGui")
+elseif not useStudio then
+	Rayfield.Parent = CoreGui
+end
+
+if gethui then
+	for _, Interface in ipairs(gethui():GetChildren()) do
+		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
+			Interface.Enabled = false
+			Interface.Name = "Rayfield-Old"
+		end
+	end
+elseif not useStudio then
+	for _, Interface in ipairs(CoreGui:GetChildren()) do
+		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
+			Interface.Enabled = false
+			Interface.Name = "Rayfield-Old"
+		end
+	end
+end
+
+
+local minSize = Vector2.new(1024, 768)
+local useMobileSizing
+
+if Rayfield.AbsoluteSize.X < minSize.X and Rayfield.AbsoluteSize.Y < minSize.Y then
+	useMobileSizing = true
+end
+
+if UserInputService.TouchEnabled then
+	useMobilePrompt = true
+end
+
+
+-- Object Variables
+
+local Main = Rayfield.Main
+local MPrompt = Rayfield:FindFirstChild('Prompt')
+local Topbar = Main.Topbar
+local Elements = Main.Elements
+local LoadingFrame = Main.LoadingFrame
+local TabList = Main.TabList
+local dragBar = Rayfield:FindFirstChild('Drag')
+local dragInteract = dragBar and dragBar.Interact or nil
+local dragBarCosmetic = dragBar and dragBar.Drag or nil
+
+local dragOffset = 255
+local dragOffsetMobile = 150
+
+Rayfield.DisplayOrder = 100
+LoadingFrame.Version.Text = Release
+
+-- Thanks to Latte Softworks for the Lucide integration for Roblox
+local Icons = useStudio and require(script.Parent.icons) or loadWithTimeout('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/refs/heads/main/icons.lua')
+-- Variables
+
+local CFileName = nil
+local CEnabled = false
+local Minimised = false
+local Hidden = false
+local Debounce = false
+local searchOpen = false
+local Notifications = Rayfield.Notifications
+local keybindConnections = {} -- For storing keybind connections to disconnect when Rayfield is destroyed
+
+local SelectedTheme = RayfieldLibrary.Theme.Default
+
+local function ChangeTheme(Theme)
+	if typeof(Theme) == 'string' then
+		SelectedTheme = RayfieldLibrary.Theme[Theme]
+	elseif typeof(Theme) == 'table' then
+		SelectedTheme = Theme
+	end
+
+	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
+	Rayfield.Main.Topbar.BackgroundColor3 = SelectedTheme.Topbar
+	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
+	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
+
+	Rayfield.Main.Topbar.ChangeSize.ImageColor3 = SelectedTheme.TextColor
+	Rayfield.Main.Topbar.Hide.ImageColor3 = SelectedTheme.TextColor
+	Rayfield.Main.Topbar.Search.ImageColor3 = SelectedTheme.TextColor
+	if Topbar:FindFirstChild('Settings') then
+		Rayfield.Main.Topbar.Settings.ImageColor3 = SelectedTheme.TextColor
+		Rayfield.Main.Topbar.Divider.BackgroundColor3 = SelectedTheme.ElementStroke
+	end
+
+	Main.Search.BackgroundColor3 = SelectedTheme.TextColor
+	Main.Search.Shadow.ImageColor3 = SelectedTheme.TextColor
+	Main.Search.Search.ImageColor3 = SelectedTheme.TextColor
+	Main.Search.Input.PlaceholderColor3 = SelectedTheme.TextColor
+	Main.Search.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+
+	if Main:FindFirstChild('Notice') then
+		Main.Notice.BackgroundColor3 = SelectedTheme.Background
+	end
+
+	for _, text in ipairs(Rayfield:GetDescendants()) do
+		if text.Parent.Parent ~= Notifications then
+			if text:IsA('TextLabel') or text:IsA('TextBox') then text.TextColor3 = SelectedTheme.TextColor end
+		end
+	end
+
+	for _, TabPage in ipairs(Elements:GetChildren()) do
+		for _, Element in ipairs(TabPage:GetChildren()) do
+			if Element.ClassName == "Frame" and Element.Name ~= "Placeholder" and Element.Name ~= "SectionSpacing" and Element.Name ~= "Divider" and Element.Name ~= "SectionTitle" and Element.Name ~= "SearchTitle-fsefsefesfsefesfesfThanks" then
+				Element.BackgroundColor3 = SelectedTheme.ElementBackground
+				Element.UIStroke.Color = SelectedTheme.ElementStroke
+			end
+		end
+	end
+end
+
+local function getIcon(name : string): {id: number, imageRectSize: Vector2, imageRectOffset: Vector2}
+	if not Icons then
+		warn("Lucide Icons: Cannot use icons as icons library is not loaded")
+		return
+	end
+	name = string.match(string.lower(name), "^%s*(.*)%s*$") :: string
+	local sizedicons = Icons['48px']
+	local r = sizedicons[name]
+	if not r then
+		error(`Lucide Icons: Failed to find icon by the name of "{name}"`, 2)
+	end
+
+	local rirs = r[2]
+	local riro = r[3]
+
+	if type(r[1]) ~= "number" or type(rirs) ~= "table" or type(riro) ~= "table" then
+		error("Lucide Icons: Internal error: Invalid auto-generated asset entry")
+	end
+
+	local irs = Vector2.new(rirs[1], rirs[2])
+	local iro = Vector2.new(riro[1], riro[2])
+
+	local asset = {
+		id = r[1],
+		imageRectSize = irs,
+		imageRectOffset = iro,
+	}
+
+	return asset
+end
+-- Converts ID to asset URI. Returns rbxassetid://0 if ID is not a number
+local function getAssetUri(id: any): string
+	local assetUri = "rbxassetid://0" -- Default to empty image
+	if type(id) == "number" then
+		assetUri = "rbxassetid://" .. id
+	elseif type(id) == "string" and not Icons then
+		warn("Rayfield | Cannot use Lucide icons as icons library is not loaded")
+	else
+		warn("Rayfield | The icon argument must either be an icon ID (number) or a Lucide icon name (string)")
+	end
+	return assetUri
+end
+
+local function makeDraggable(object, dragObject, enableTaptic, tapticOffset)
+	local dragging = false
+	local relative = nil
+
+	local offset = Vector2.zero
+	local screenGui = object:FindFirstAncestorWhichIsA("ScreenGui")
+	if screenGui and screenGui.IgnoreGuiInset then
+		offset += getService('GuiService'):GetGuiInset()
+	end
+
+	local function connectFunctions()
+		if dragBar and enableTaptic then
+			dragBar.MouseEnter:Connect(function()
+				if not dragging and not Hidden then
+					TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.5, Size = UDim2.new(0, 120, 0, 4)}):Play()
+				end
+			end)
+
+			dragBar.MouseLeave:Connect(function()
+				if not dragging and not Hidden then
+					TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.7, Size = UDim2.new(0, 100, 0, 4)}):Play()
+				end
+			end)
+		end
+	end
+
+	connectFunctions()
+
+	dragObject.InputBegan:Connect(function(input, processed)
+		if processed then return end
+
+		local inputType = input.UserInputType.Name
+		if inputType == "MouseButton1" or inputType == "Touch" then
+			dragging = true
+
+			relative = object.AbsolutePosition + object.AbsoluteSize * object.AnchorPoint - UserInputService:GetMouseLocation()
+			if enableTaptic and not Hidden then
+				TweenService:Create(dragBarCosmetic, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 110, 0, 4), BackgroundTransparency = 0}):Play()
+			end
+		end
+	end)
+
+	local inputEnded = UserInputService.InputEnded:Connect(function(input)
+		if not dragging then return end
+
+		local inputType = input.UserInputType.Name
+		if inputType == "MouseButton1" or inputType == "Touch" then
+			dragging = false
+
+			connectFunctions()
+
+			if enableTaptic and not Hidden then
+				TweenService:Create(dragBarCosmetic, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 100, 0, 4), BackgroundTransparency = 0.7}):Play()
+			end
+		end
+	end)
+
+	local renderStepped = RunService.RenderStepped:Connect(function()
+		if dragging and not Hidden then
+			local position = UserInputService:GetMouseLocation() + relative + offset
+			if enableTaptic and tapticOffset then
+				TweenService:Create(object, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = UDim2.fromOffset(position.X, position.Y)}):Play()
+				TweenService:Create(dragObject.Parent, TweenInfo.new(0.05, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = UDim2.fromOffset(position.X, position.Y + ((useMobileSizing and tapticOffset[2]) or tapticOffset[1]))}):Play()
+			else
+				if dragBar and tapticOffset then
+					dragBar.Position = UDim2.fromOffset(position.X, position.Y + ((useMobileSizing and tapticOffset[2]) or tapticOffset[1]))
+				end
+				object.Position = UDim2.fromOffset(position.X, position.Y)
+			end
+		end
+	end)
+
+	object.Destroying:Connect(function()
+		if inputEnded then inputEnded:Disconnect() end
+		if renderStepped then renderStepped:Disconnect() end
+	end)
+end
+
+
+local function PackColor(Color)
+	return {R = Color.R * 255, G = Color.G * 255, B = Color.B * 255}
+end    
+
+local function UnpackColor(Color)
+	return Color3.fromRGB(Color.R, Color.G, Color.B)
+end
+
+local function LoadConfiguration(Configuration)
+	local success, Data = pcall(function() return HttpService:JSONDecode(Configuration) end)
+	local changed
+
+	if not success then warn('Rayfield had an issue decoding the configuration file, please try delete the file and reopen Rayfield.') return end
+
+	-- Iterate through current UI elements' flags
+	for FlagName, Flag in pairs(RayfieldLibrary.Flags) do
+		local FlagValue = Data[FlagName]
+
+		if (typeof(FlagValue) == 'boolean' and FlagValue == false) or FlagValue then
+			task.spawn(function()
+				if Flag.Type == "ColorPicker" then
+					changed = true
+					Flag:Set(UnpackColor(FlagValue))
+				else
+					if (Flag.CurrentValue or Flag.CurrentKeybind or Flag.CurrentOption or Flag.Color) ~= FlagValue then 
+						changed = true
+						Flag:Set(FlagValue) 	
+					end
+				end
+			end)
+		else
+			warn("Rayfield | Unable to find '"..FlagName.. "' in the save file.")
+			print("The error above may not be an issue if new elements have been added or not been set values.")
+			--RayfieldLibrary:Notify({Title = "Rayfield Flags", Content = "Rayfield was unable to find '"..FlagName.. "' in the save file. Check sirius.menu/discord for help.", Image = 3944688398})
+		end
+	end
+
+	return changed
+end
+
+local function SaveConfiguration()
+	if not CEnabled or not globalLoaded then return end
+
+	if debugX then
+		print('Saving')
+	end
+
+	local Data = {}
+	for i, v in pairs(RayfieldLibrary.Flags) do
+		if v.Type == "ColorPicker" then
+			Data[i] = PackColor(v.Color)
+		else
+			if typeof(v.CurrentValue) == 'boolean' then
+				if v.CurrentValue == false then
+					Data[i] = false
+				else
+					Data[i] = v.CurrentValue or v.CurrentKeybind or v.CurrentOption or v.Color
+				end
+			else
+				Data[i] = v.CurrentValue or v.CurrentKeybind or v.CurrentOption or v.Color
+			end
+		end
+	end
+
+	if useStudio then
+		if script.Parent:FindFirstChild('configuration') then script.Parent.configuration:Destroy() end
+
+		local ScreenGui = Instance.new("ScreenGui")
+		ScreenGui.Parent = script.Parent
+		ScreenGui.Name = 'configuration'
+
+		local TextBox = Instance.new("TextBox")
+		TextBox.Parent = ScreenGui
+		TextBox.Size = UDim2.new(0, 800, 0, 50)
+		TextBox.AnchorPoint = Vector2.new(0.5, 0)
+		TextBox.Position = UDim2.new(0.5, 0, 0, 30)
+		TextBox.Text = HttpService:JSONEncode(Data)
+		TextBox.ClearTextOnFocus = false
+	end
+
+	if debugX then
+		warn(HttpService:JSONEncode(Data))
+	end
+
+
+	callSafely(writefile, ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension, tostring(HttpService:JSONEncode(Data)))
+end
+
+function RayfieldLibrary:Notify(data) -- action e.g open messages
+	task.spawn(function()
+
+		-- Notification Object Creation
+		local newNotification = Notifications.Template:Clone()
+		newNotification.Name = data.Title or 'No Title Provided'
+		newNotification.Parent = Notifications
+		newNotification.LayoutOrder = #Notifications:GetChildren()
+		newNotification.Visible = false
+
+		-- Set Data
+		newNotification.Title.Text = data.Title or "Unknown Title"
+		newNotification.Description.Text = data.Content or "Unknown Content"
+
+		if data.Image then
+			if typeof(data.Image) == 'string' and Icons then
+				local asset = getIcon(data.Image)
+
+				newNotification.Icon.Image = 'rbxassetid://'..asset.id
+				newNotification.Icon.ImageRectOffset = asset.imageRectOffset
+				newNotification.Icon.ImageRectSize = asset.imageRectSize
+			else
+				newNotification.Icon.Image = getAssetUri(data.Image)
+			end
+		else
+			newNotification.Icon.Image = "rbxassetid://" .. 0
+		end
+
+		-- Set initial transparency values
+
+		newNotification.Title.TextColor3 = SelectedTheme.TextColor
+		newNotification.Description.TextColor3 = SelectedTheme.TextColor
+		newNotification.BackgroundColor3 = SelectedTheme.Background
+		newNotification.UIStroke.Color = SelectedTheme.TextColor
+		newNotification.Icon.ImageColor3 = SelectedTheme.TextColor
+
+		newNotification.BackgroundTransparency = 1
+		newNotification.Title.TextTransparency = 1
+		newNotification.Description.TextTransparency = 1
+		newNotification.UIStroke.Transparency = 1
+		newNotification.Shadow.ImageTransparency = 1
+		newNotification.Size = UDim2.new(1, 0, 0, 800)
+		newNotification.Icon.ImageTransparency = 1
+		newNotification.Icon.BackgroundTransparency = 1
+
+		task.wait()
+
+		newNotification.Visible = true
+
+		if data.Actions then
+			warn('Rayfield | Not seeing your actions in notifications?')
+			print("Notification Actions are being sunset for now, keep up to date on when they're back in the discord. (sirius.menu/discord)")
+		end
+
+		-- Calculate textbounds and set initial values
+		local bounds = {newNotification.Title.TextBounds.Y, newNotification.Description.TextBounds.Y}
+		newNotification.Size = UDim2.new(1, -60, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)
+
+		newNotification.Icon.Size = UDim2.new(0, 32, 0, 32)
+		newNotification.Icon.Position = UDim2.new(0, 20, 0.5, 0)
+
+		TweenService:Create(newNotification, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 0, math.max(bounds[1] + bounds[2] + 31, 60))}):Play()
+
+		task.wait(0.15)
+		TweenService:Create(newNotification, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.45}):Play()
+		TweenService:Create(newNotification.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+		task.wait(0.05)
+
+		TweenService:Create(newNotification.Icon, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+
+		task.wait(0.05)
+		TweenService:Create(newNotification.Description, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.35}):Play()
+		TweenService:Create(newNotification.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 0.95}):Play()
+		TweenService:Create(newNotification.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.82}):Play()
+
+		local waitDuration = math.min(math.max((#newNotification.Description.Text * 0.1) + 2.5, 3), 10)
+		task.wait(data.Duration or waitDuration)
+
+		newNotification.Icon.Visible = false
+		TweenService:Create(newNotification, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+		TweenService:Create(newNotification.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+		TweenService:Create(newNotification.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+		TweenService:Create(newNotification.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+		TweenService:Create(newNotification.Description, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+
+		TweenService:Create(newNotification, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -90, 0, 0)}):Play()
+
+		task.wait(1)
+
+		TweenService:Create(newNotification, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -90, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)}):Play()
+
+		newNotification.Visible = false
+		newNotification:Destroy()
+	end)
+end
+
+local function openSearch()
+	searchOpen = true
+
+	Main.Search.BackgroundTransparency = 1
+	Main.Search.Shadow.ImageTransparency = 1
+	Main.Search.Input.TextTransparency = 1
+	Main.Search.Search.ImageTransparency = 1
+	Main.Search.UIStroke.Transparency = 1
+	Main.Search.Size = UDim2.new(1, 0, 0, 80)
+	Main.Search.Position = UDim2.new(0.5, 0, 0, 70)
+
+	Main.Search.Input.Interactable = true
+
+	Main.Search.Visible = true
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			tabbtn.Interact.Visible = false
+			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+		end
+	end
+
+	Main.Search.Input:CaptureFocus()
+	TweenService:Create(Main.Search.Shadow, TweenInfo.new(0.05, Enum.EasingStyle.Quint), {ImageTransparency = 0.95}):Play()
+	TweenService:Create(Main.Search, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.5, 0, 0, 57), BackgroundTransparency = 0.9}):Play()
+	TweenService:Create(Main.Search.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.8}):Play()
+	TweenService:Create(Main.Search.Input, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+	TweenService:Create(Main.Search.Search, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.5}):Play()
+	TweenService:Create(Main.Search, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -35, 0, 35)}):Play()
+end
+
+local function closeSearch()
+	searchOpen = false
+
+	TweenService:Create(Main.Search, TweenInfo.new(0.35, Enum.EasingStyle.Quint), {BackgroundTransparency = 1, Size = UDim2.new(1, -55, 0, 30)}):Play()
+	TweenService:Create(Main.Search.Search, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+	TweenService:Create(Main.Search.Shadow, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+	TweenService:Create(Main.Search.UIStroke, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+	TweenService:Create(Main.Search.Input, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			tabbtn.Interact.Visible = true
+			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+			else
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			end
+		end
+	end
+
+	Main.Search.Input.Text = ''
+	Main.Search.Input.Interactable = false
+end
+
+local function Hide(notify: boolean?)
+	if MPrompt then
+		MPrompt.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+		MPrompt.Position = UDim2.new(0.5, 0, 0, -50)
+		MPrompt.Size = UDim2.new(0, 40, 0, 10)
+		MPrompt.BackgroundTransparency = 1
+		MPrompt.Title.TextTransparency = 1
+		MPrompt.Visible = true
+	end
+
+	task.spawn(closeSearch)
+
+	Debounce = true
+	if notify then
+		if useMobilePrompt then 
+			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping 'Show'.", Duration = 7, Image = 4400697855})
+		else
+			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = `The interface has been hidden, you can unhide the interface by tapping {getSetting("General", "rayfieldOpen")}.`, Duration = 7, Image = 4400697855})
+		end
+	end
+
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 470, 0, 0)}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 470, 0, 45)}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar.CornerRepair, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+
+	if useMobilePrompt and MPrompt then
+		TweenService:Create(MPrompt, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 120, 0, 30), Position = UDim2.new(0.5, 0, 0, 20), BackgroundTransparency = 0.3}):Play()
+		TweenService:Create(MPrompt.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0.3}):Play()
+	end
+
+	for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+		if TopbarButton.ClassName == "ImageButton" then
+			TweenService:Create(TopbarButton, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+		end
+	end
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+		end
+	end
+
+	dragInteract.Visible = false
+
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						elseif element.Name == 'Divider' then
+							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	task.wait(0.5)
+	Main.Visible = false
+	Debounce = false
+end
+
+local function Maximise()
+	Debounce = true
+	Topbar.ChangeSize.Image = "rbxassetid://"..10137941941
+
+	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.7}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)}):Play()
+	TweenService:Create(Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 45)}):Play()
+	TabList.Visible = true
+	task.wait(0.2)
+
+	Elements.Visible = true
+
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.4}):Play()
+						elseif element.Name == 'Divider' then
+							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.85}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	task.wait(0.1)
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+			else
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			end
+
+		end
+	end
+
+	task.wait(0.5)
+	Debounce = false
+end
+
+
+local function Unhide()
+	Debounce = true
+	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+	Main.Visible = true
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 45)}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+	if MPrompt then
+		TweenService:Create(MPrompt, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 40, 0, 10), Position = UDim2.new(0.5, 0, 0, -50), BackgroundTransparency = 1}):Play()
+		TweenService:Create(MPrompt.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+
+		task.spawn(function()
+			task.wait(0.5)
+			MPrompt.Visible = false
+		end)
+	end
+
+	if Minimised then
+		task.spawn(Maximise)
+	end
+
+	dragBar.Position = useMobileSizing and UDim2.new(0.5, 0, 0.5, dragOffsetMobile) or UDim2.new(0.5, 0, 0.5, dragOffset)
+
+	dragInteract.Visible = true
+
+	for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+		if TopbarButton.ClassName == "ImageButton" then
+			if TopbarButton.Name == 'Icon' then
+				TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+			else
+				TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+			end
+
+		end
+	end
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+			else
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+			end
+		end
+	end
+
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.4}):Play()
+						elseif element.Name == 'Divider' then
+							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.85}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.5}):Play()
+
+	task.wait(0.5)
+	Minimised = false
+	Debounce = false
+end
+
+local function Minimise()
+	Debounce = true
+	Topbar.ChangeSize.Image = "rbxassetid://"..11036884234
+
+	Topbar.UIStroke.Color = SelectedTheme.ElementStroke
+
+	task.spawn(closeSearch)
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+		end
+	end
+
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						elseif element.Name == 'Divider' then
+							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 495, 0, 45)}):Play()
+	TweenService:Create(Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 495, 0, 45)}):Play()
+
+	task.wait(0.3)
+
+	Elements.Visible = false
+	TabList.Visible = false
+
+	task.wait(0.2)
+	Debounce = false
+end
+
+local function saveSettings() -- Save settings to config file
+	local encoded
+	local success, err = pcall(function()
+		encoded = HttpService:JSONEncode(settingsTable)
+	end)
+
+	if success then
+		if useStudio then
+			if script.Parent['get.val'] then
+				script.Parent['get.val'].Value = encoded
+			end
+		end
+		callSafely(writefile, RayfieldFolder..'/settings'..ConfigurationExtension, encoded)
+	end
+end
+
+local function updateSetting(category: string, setting: string, value: any)
+	if not settingsInitialized then
+		return
+	end
+	settingsTable[category][setting].Value = value
+	overriddenSettings[`{category}.{setting}`] = nil -- If user changes an overriden setting, remove the override
+	saveSettings()
+end
+
+local function createSettings(window)
+	if not (writefile and isfile and readfile and isfolder and makefolder) and not useStudio then
+		if Topbar['Settings'] then Topbar.Settings.Visible = false end
+		Topbar['Search'].Position = UDim2.new(1, -75, 0.5, 0)
+		warn('Can\'t create settings as no file-saving functionality is available.')
+		return
+	end
+
+	local newTab = window:CreateTab('Rayfield Settings', 0, true)
+
+	if TabList['Rayfield Settings'] then
+		TabList['Rayfield Settings'].LayoutOrder = 1000
+	end
+
+	if Elements['Rayfield Settings'] then
+		Elements['Rayfield Settings'].LayoutOrder = 1000
+	end
+
+	-- Create sections and elements
+	for categoryName, settingCategory in pairs(settingsTable) do
+		newTab:CreateSection(categoryName)
+
+		for settingName, setting in pairs(settingCategory) do
+			if setting.Type == 'input' then
+				setting.Element = newTab:CreateInput({
+					Name = setting.Name,
+					CurrentValue = setting.Value,
+					PlaceholderText = setting.Placeholder,
+					Ext = true,
+					RemoveTextAfterFocusLost = setting.ClearOnFocus,
+					Callback = function(Value)
+						updateSetting(categoryName, settingName, Value)
+					end,
+				})
+			elseif setting.Type == 'toggle' then
+				setting.Element = newTab:CreateToggle({
+					Name = setting.Name,
+					CurrentValue = setting.Value,
+					Ext = true,
+					Callback = function(Value)
+						updateSetting(categoryName, settingName, Value)
+					end,
+				})
+			elseif setting.Type == 'bind' then
+				setting.Element = newTab:CreateKeybind({
+					Name = setting.Name,
+					CurrentKeybind = setting.Value,
+					HoldToInteract = false,
+					Ext = true,
+					CallOnChange = true,
+					Callback = function(Value)
+						updateSetting(categoryName, settingName, Value)
+					end,
+				})
+			end
+		end
+	end
+
+	settingsCreated = true
+	loadSettings()
+	saveSettings()
+end
+
+-- PULSAR OVERLAY (Custom Feature)
+local Overlay = nil
+local OverlayConnection = nil
+local OverlayFPSConnection = nil
+
+function RayfieldLibrary:CreateOverlay(Settings)
+	-- Settings: { Name = "Pulsar Hub", Game = "Fish It", Position = "TopLeft/TopRight/BottomLeft/BottomRight", Scale = number }
+	Settings = Settings or {}
+	local overlayName = Settings.Name or "Pulsar Hub"
+	local gameName = Settings.Game or "Unknown"
+	local position = Settings.Position or "TopLeft"
+	
+	-- Destroy existing overlay if any
+	if Overlay then
+		if OverlayConnection then OverlayConnection:Disconnect() end
+		if OverlayFPSConnection then OverlayFPSConnection:Disconnect() end
+		Overlay:Destroy()
+	end
+	
+	-- Mobile detection
+	local isMobile = UserInputService.TouchEnabled or useMobileSizing
+	local scale = Settings.Scale or (isMobile and 1.3 or 1)
+	
+	-- Base dimensions (scaled for mobile)
+	local baseWidth = math.floor(150 * scale)
+	local baseHeight = math.floor(65 * scale)
+	local basePadding = math.floor(8 * scale)
+	local baseMargin = isMobile and 15 or 10
+	local titleSize = math.floor(12 * scale)
+	local labelSize = math.floor(10 * scale)
+	
+	-- Create ScreenGui
+	local OverlayGui = Instance.new("ScreenGui")
+	OverlayGui.Name = "PulsarOverlay"
+	OverlayGui.ResetOnSpawn = false
+	OverlayGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	OverlayGui.DisplayOrder = 999
+	OverlayGui.IgnoreGuiInset = true  -- Better positioning on mobile
+	
+	if gethui then
+		OverlayGui.Parent = gethui()
+	elseif syn and syn.protect_gui then
+		syn.protect_gui(OverlayGui)
+		OverlayGui.Parent = CoreGui
+	elseif not useStudio and CoreGui:FindFirstChild("RobloxGui") then
+		OverlayGui.Parent = CoreGui:FindFirstChild("RobloxGui")
+	elseif not useStudio then
+		OverlayGui.Parent = CoreGui
+	else
+		OverlayGui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
+	end
+	
+	-- Position mapping (adjusted for mobile safe zones)
+	local mobileTopOffset = isMobile and 50 or 10  -- Account for notch/status bar
+	local positionMap = {
+		TopLeft = UDim2.new(0, baseMargin, 0, mobileTopOffset),
+		TopRight = UDim2.new(1, -(baseWidth + baseMargin), 0, mobileTopOffset),
+		BottomLeft = UDim2.new(0, baseMargin, 1, -(baseHeight + baseMargin + (isMobile and 30 or 0))),
+		BottomRight = UDim2.new(1, -(baseWidth + baseMargin), 1, -(baseHeight + baseMargin + (isMobile and 30 or 0)))
+	}
+	
+	-- Main container
+	local Container = Instance.new("Frame")
+	Container.Name = "Container"
+	Container.Size = UDim2.new(0, baseWidth, 0, baseHeight)
+	Container.Position = positionMap[position] or positionMap.TopLeft
+	Container.BackgroundColor3 = Color3.fromRGB(8, 8, 12)
+	Container.BackgroundTransparency = 0.15
+	Container.BorderSizePixel = 0
+	Container.Active = true  -- Allows touch interaction
+	Container.Parent = OverlayGui
+	
+	local ContainerCorner = Instance.new("UICorner")
+	ContainerCorner.CornerRadius = UDim.new(0, math.floor(6 * scale))
+	ContainerCorner.Parent = Container
+	
+	local ContainerStroke = Instance.new("UIStroke")
+	ContainerStroke.Color = Color3.fromRGB(0, 255, 200)
+	ContainerStroke.Transparency = 0.6
+	ContainerStroke.Thickness = isMobile and 2 or 1
+	ContainerStroke.Parent = Container
+	
+	local Padding = Instance.new("UIPadding")
+	Padding.PaddingLeft = UDim.new(0, basePadding)
+	Padding.PaddingRight = UDim.new(0, basePadding)
+	Padding.PaddingTop = UDim.new(0, math.floor(6 * scale))
+	Padding.PaddingBottom = UDim.new(0, math.floor(6 * scale))
+	Padding.Parent = Container
+	
+	-- Use UIListLayout for better scaling
+	local Layout = Instance.new("UIListLayout")
+	Layout.SortOrder = Enum.SortOrder.LayoutOrder
+	Layout.Padding = UDim.new(0, math.floor(2 * scale))
+	Layout.Parent = Container
+	
+	-- Title (Hub Name)
+	local Title = Instance.new("TextLabel")
+	Title.Name = "Title"
+	Title.Size = UDim2.new(1, 0, 0, math.floor(14 * scale))
+	Title.LayoutOrder = 1
+	Title.BackgroundTransparency = 1
+	Title.Text = overlayName
+	Title.TextColor3 = Color3.fromRGB(0, 255, 200)
+	Title.TextSize = titleSize
+	Title.Font = Enum.Font.GothamBold
+	Title.TextXAlignment = Enum.TextXAlignment.Left
+	Title.TextScaled = isMobile  -- Auto-scale text on mobile
+	Title.Parent = Container
+	
+	if isMobile then
+		local titleConstraint = Instance.new("UITextSizeConstraint")
+		titleConstraint.MaxTextSize = titleSize
+		titleConstraint.MinTextSize = 8
+		titleConstraint.Parent = Title
+	end
+	
+	-- Game Name
+	local GameLabel = Instance.new("TextLabel")
+	GameLabel.Name = "Game"
+	GameLabel.Size = UDim2.new(1, 0, 0, math.floor(12 * scale))
+	GameLabel.LayoutOrder = 2
+	GameLabel.BackgroundTransparency = 1
+	GameLabel.Text = "Game: " .. gameName
+	GameLabel.TextColor3 = Color3.fromRGB(150, 200, 190)
+	GameLabel.TextSize = labelSize
+	GameLabel.Font = Enum.Font.GothamMedium
+	GameLabel.TextXAlignment = Enum.TextXAlignment.Left
+	GameLabel.TextScaled = isMobile
+	GameLabel.Parent = Container
+	
+	if isMobile then
+		local gameConstraint = Instance.new("UITextSizeConstraint")
+		gameConstraint.MaxTextSize = labelSize
+		gameConstraint.MinTextSize = 7
+		gameConstraint.Parent = GameLabel
+	end
+	
+	-- FPS Display
+	local FPSLabel = Instance.new("TextLabel")
+	FPSLabel.Name = "FPS"
+	FPSLabel.Size = UDim2.new(1, 0, 0, math.floor(12 * scale))
+	FPSLabel.LayoutOrder = 3
+	FPSLabel.BackgroundTransparency = 1
+	FPSLabel.Text = "FPS: --"
+	FPSLabel.TextColor3 = Color3.fromRGB(120, 180, 170)
+	FPSLabel.TextSize = labelSize
+	FPSLabel.Font = Enum.Font.GothamMedium
+	FPSLabel.TextXAlignment = Enum.TextXAlignment.Left
+	FPSLabel.TextScaled = isMobile
+	FPSLabel.Parent = Container
+	
+	if isMobile then
+		local fpsConstraint = Instance.new("UITextSizeConstraint")
+		fpsConstraint.MaxTextSize = labelSize
+		fpsConstraint.MinTextSize = 7
+		fpsConstraint.Parent = FPSLabel
+	end
+	
+	-- Ping Display
+	local PingLabel = Instance.new("TextLabel")
+	PingLabel.Name = "Ping"
+	PingLabel.Size = UDim2.new(1, 0, 0, math.floor(12 * scale))
+	PingLabel.LayoutOrder = 4
+	PingLabel.BackgroundTransparency = 1
+	PingLabel.Text = "Ping: -- ms"
+	PingLabel.TextColor3 = Color3.fromRGB(120, 180, 170)
+	PingLabel.TextSize = labelSize
+	PingLabel.Font = Enum.Font.GothamMedium
+	PingLabel.TextXAlignment = Enum.TextXAlignment.Left
+	PingLabel.TextScaled = isMobile
+	PingLabel.Parent = Container
+	
+	if isMobile then
+		local pingConstraint = Instance.new("UITextSizeConstraint")
+		pingConstraint.MaxTextSize = labelSize
+		pingConstraint.MinTextSize = 7
+		pingConstraint.Parent = PingLabel
+	end
+	
+	-- FPS Counter variables
+	local frameCount = 0
+	local lastTime = tick()
+	local fps = 0
+	
+	-- FPS counting loop
+	OverlayFPSConnection = RunService.RenderStepped:Connect(function()
+		frameCount = frameCount + 1
+	end)
+	
+	-- Update loop (every 0.5 seconds)
+	OverlayConnection = RunService.Heartbeat:Connect(function()
+		local currentTime = tick()
+		if currentTime - lastTime >= 0.5 then
+			fps = math.floor(frameCount / (currentTime - lastTime))
+			frameCount = 0
+			lastTime = currentTime
+			
+			-- Update FPS
+			FPSLabel.Text = "FPS: " .. tostring(fps)
+			
+			-- Color code FPS
+			if fps >= 60 then
+				FPSLabel.TextColor3 = Color3.fromRGB(0, 255, 150)  -- Green
+			elseif fps >= 30 then
+				FPSLabel.TextColor3 = Color3.fromRGB(255, 200, 0)  -- Yellow
+			else
+				FPSLabel.TextColor3 = Color3.fromRGB(255, 80, 80)  -- Red
+			end
+			
+			-- Update Ping
+			local ping = math.floor(Players.LocalPlayer:GetNetworkPing() * 1000)
+			PingLabel.Text = "Ping: " .. tostring(ping) .. " ms"
+			
+			-- Color code Ping
+			if ping <= 80 then
+				PingLabel.TextColor3 = Color3.fromRGB(0, 255, 150)  -- Green
+			elseif ping <= 150 then
+				PingLabel.TextColor3 = Color3.fromRGB(255, 200, 0)  -- Yellow
+			else
+				PingLabel.TextColor3 = Color3.fromRGB(255, 80, 80)  -- Red
+			end
+		end
+	end)
+	
+	-- Mobile: Add tap to toggle visibility (double tap)
+	local lastTapTime = 0
+	if isMobile then
+		Container.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.Touch then
+				local currentTime = tick()
+				if currentTime - lastTapTime < 0.3 then
+					-- Double tap - minimize to just title
+					if Container.Size.Y.Offset > math.floor(20 * scale) then
+						TweenService:Create(Container, TweenInfo.new(0.3, Enum.EasingStyle.Quart), {
+							Size = UDim2.new(0, baseWidth, 0, math.floor(20 * scale))
+						}):Play()
+						GameLabel.Visible = false
+						FPSLabel.Visible = false
+						PingLabel.Visible = false
+					else
+						TweenService:Create(Container, TweenInfo.new(0.3, Enum.EasingStyle.Quart), {
+							Size = UDim2.new(0, baseWidth, 0, baseHeight)
+						}):Play()
+						GameLabel.Visible = true
+						FPSLabel.Visible = true
+						PingLabel.Visible = true
+					end
+				end
+				lastTapTime = currentTime
+			end
+		end)
+	end
+	
+	Overlay = OverlayGui
+	
+	-- Return overlay object with methods
+	local OverlayObj = {}
+	
+	function OverlayObj:SetGame(newGame)
+		GameLabel.Text = "Game: " .. newGame
+	end
+	
+	function OverlayObj:SetName(newName)
+		Title.Text = newName
+	end
+	
+	function OverlayObj:SetVisible(visible)
+		OverlayGui.Enabled = visible
+	end
+	
+	function OverlayObj:Destroy()
+		if OverlayConnection then OverlayConnection:Disconnect() end
+		if OverlayFPSConnection then OverlayFPSConnection:Disconnect() end
+		OverlayGui:Destroy()
+		Overlay = nil
+	end
+	
+	function OverlayObj:SetPosition(newPosition)
+		Container.Position = positionMap[newPosition] or positionMap.TopLeft
+	end
+	
+	function OverlayObj:IsMobile()
+		return isMobile
+	end
+	
+	return OverlayObj
+end
+
+
+function RayfieldLibrary:CreateWindow(Settings)
+	if Rayfield:FindFirstChild('Loading') then
+		if getgenv and not getgenv().rayfieldCached then
+			Rayfield.Enabled = true
+			Rayfield.Loading.Visible = true
+
+			task.wait(1.4)
+			Rayfield.Loading.Visible = false
+		end
+	end
+
+	if getgenv then getgenv().rayfieldCached = true end
+
+	if not correctBuild and not Settings.DisableBuildWarnings then
+		task.delay(3, 
+			function() 
+				RayfieldLibrary:Notify({Title = 'Build Mismatch', Content = 'Rayfield may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.\n\nTry rejoining and then run the script twice.', Image = 4335487866, Duration = 15})		
+			end)
+	end
+
+	if Settings.ToggleUIKeybind then -- Can either be a string or an Enum.KeyCode
+		local keybind = Settings.ToggleUIKeybind
+		if type(keybind) == "string" then
+			keybind = string.upper(keybind)
+			assert(pcall(function()
+				return Enum.KeyCode[keybind]
+			end), "ToggleUIKeybind must be a valid KeyCode")
+			overrideSetting("General", "rayfieldOpen", keybind)
+		elseif typeof(keybind) == "EnumItem" then
+			assert(keybind.EnumType == Enum.KeyCode, "ToggleUIKeybind must be a KeyCode enum")
+			overrideSetting("General", "rayfieldOpen", keybind.Name)
+		else
+			error("ToggleUIKeybind must be a string or KeyCode enum")
+		end
+	end
+
+	ensureFolder(RayfieldFolder)
+
+	-- Attempt to report an event to analytics
+	if not requestsDisabled then
+		sendReport("window_created", Settings.Name or "Unknown")
+	end
+	local Passthrough = false
+	Topbar.Title.Text = Settings.Name
+
+	Main.Size = UDim2.new(0, 420, 0, 100)
+	Main.Visible = true
+	Main.BackgroundTransparency = 1
+	if Main:FindFirstChild('Notice') then Main.Notice.Visible = false end
+	Main.Shadow.Image.ImageTransparency = 1
+
+	LoadingFrame.Title.TextTransparency = 1
+	LoadingFrame.Subtitle.TextTransparency = 1
+
+	if Settings.ShowText then
+		MPrompt.Title.Text = 'Show '..Settings.ShowText
+	end
+
+	LoadingFrame.Version.TextTransparency = 1
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "Pulsar Hub"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "By Fatigue"
+
+	if Settings.LoadingTitle ~= "Pulsar Hub" then
+		LoadingFrame.Version.Text = "By Fatigue"
+	end
+
+	if Settings.Icon and Settings.Icon ~= 0 and Topbar:FindFirstChild('Icon') then
+		Topbar.Icon.Visible = true
+		Topbar.Title.Position = UDim2.new(0, 47, 0.5, 0)
+
+		if Settings.Icon then
+			if typeof(Settings.Icon) == 'string' and Icons then
+				local asset = getIcon(Settings.Icon)
+
+				Topbar.Icon.Image = 'rbxassetid://'..asset.id
+				Topbar.Icon.ImageRectOffset = asset.imageRectOffset
+				Topbar.Icon.ImageRectSize = asset.imageRectSize
+			else
+				Topbar.Icon.Image = getAssetUri(Settings.Icon)
+			end
+		else
+			Topbar.Icon.Image = "rbxassetid://" .. 0
+		end
+	end
+
+	if dragBar then
+		dragBar.Visible = false
+		dragBarCosmetic.BackgroundTransparency = 1
+		dragBar.Visible = true
+	end
+
+	if Settings.Theme then
+		local success, result = pcall(ChangeTheme, Settings.Theme)
+		if not success then
+			local success, result2 = pcall(ChangeTheme, 'Default')
+			if not success then
+				warn('CRITICAL ERROR - NO DEFAULT THEME')
+				print(result2)
+			end
+			warn('issue rendering theme. no theme on file')
+			print(result)
+		end
+	end
+
+	Topbar.Visible = false
+	Elements.Visible = false
+	LoadingFrame.Visible = true
+
+	if not Settings.DisableRayfieldPrompts then
+		task.spawn(function()
+			while true do
+				task.wait(math.random(100, 450))
+				RayfieldLibrary:Notify({
+					Title = "Pulsar Hub",
+					Content = "Enjoying Pulsar?",
+					Duration = 7,
+					Image = 2867270,
+				})
+			end
+		end)
+	end
+
+	pcall(function()
+		if not Settings.ConfigurationSaving.FileName then
+			Settings.ConfigurationSaving.FileName = tostring(game.PlaceId)
+		end
+
+		if Settings.ConfigurationSaving.Enabled == nil then
+			Settings.ConfigurationSaving.Enabled = false
+		end
+
+		CFileName = Settings.ConfigurationSaving.FileName
+		ConfigurationFolder = Settings.ConfigurationSaving.FolderName or ConfigurationFolder
+		CEnabled = Settings.ConfigurationSaving.Enabled
+
+		if Settings.ConfigurationSaving.Enabled then
+			ensureFolder(ConfigurationFolder)
+		end
+	end)
+
+
+	makeDraggable(Main, Topbar, false, {dragOffset, dragOffsetMobile})
+	if dragBar then dragBar.Position = useMobileSizing and UDim2.new(0.5, 0, 0.5, dragOffsetMobile) or UDim2.new(0.5, 0, 0.5, dragOffset) makeDraggable(Main, dragInteract, true, {dragOffset, dragOffsetMobile}) end
+
+	for _, TabButton in ipairs(TabList:GetChildren()) do
+		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
+			TabButton.BackgroundTransparency = 1
+			TabButton.Title.TextTransparency = 1
+			TabButton.Image.ImageTransparency = 1
+			TabButton.UIStroke.Transparency = 1
+		end
+	end
+
+	if Settings.Discord and Settings.Discord.Enabled and not useStudio then
+		ensureFolder(RayfieldFolder.."/Discord Invites")
+
+		if callSafely(isfile, RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension) then
+			if requestFunc then
+				pcall(function()
+					requestFunc({
+						Url = 'http://127.0.0.1:6463/rpc?v=1',
+						Method = 'POST',
+						Headers = {
+							['Content-Type'] = 'application/json',
+							Origin = 'https://discord.com'
+						},
+						Body = HttpService:JSONEncode({
+							cmd = 'INVITE_BROWSER',
+							nonce = HttpService:GenerateGUID(false),
+							args = {code = Settings.Discord.Invite}
+						})
+					})
+				end)
+			end
+
+			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
+				callSafely(writefile, RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"Rayfield RememberJoins is true for this invite, this invite will not ask you to join again")
+			end
+		end
+	end
+
+	if (Settings.KeySystem) then
+		if not Settings.KeySettings then
+			Passthrough = true
+			return
+		end
+
+		ensureFolder(RayfieldFolder.."/Key System")
+
+		if typeof(Settings.KeySettings.Key) == "string" then Settings.KeySettings.Key = {Settings.KeySettings.Key} end
+
+		if Settings.KeySettings.GrabKeyFromSite then
+			for i, Key in ipairs(Settings.KeySettings.Key) do
+				local Success, Response = pcall(function()
+					Settings.KeySettings.Key[i] = tostring(game:HttpGet(Key):gsub("[\n\r]", " "))
+					Settings.KeySettings.Key[i] = string.gsub(Settings.KeySettings.Key[i], " ", "")
+				end)
+				if not Success then
+					print("Rayfield | "..Key.." Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+				end
+			end
+		end
+
+		if not Settings.KeySettings.FileName then
+			Settings.KeySettings.FileName = "No file name specified"
+		end
+
+		if callSafely(isfile, RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension) then
+			for _, MKey in ipairs(Settings.KeySettings.Key) do
+				local savedKeys = callSafely(readfile, RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension)
+				if keyFileContents and string.find(savedKeys, MKey) then
+					Passthrough = true
+				end
+			end
+		end
+
+		if not Passthrough then
+			local AttemptsRemaining = math.random(2, 5)
+			Rayfield.Enabled = false
+			local KeyUI = useStudio and script.Parent:FindFirstChild('Key') or game:GetObjects("rbxassetid://11380036235")[1]
+
+			KeyUI.Enabled = true
+
+			if gethui then
+				KeyUI.Parent = gethui()
+			elseif syn and syn.protect_gui then 
+				syn.protect_gui(KeyUI)
+				KeyUI.Parent = CoreGui
+			elseif not useStudio and CoreGui:FindFirstChild("RobloxGui") then
+				KeyUI.Parent = CoreGui:FindFirstChild("RobloxGui")
+			elseif not useStudio then
+				KeyUI.Parent = CoreGui
+			end
+
+			if gethui then
+				for _, Interface in ipairs(gethui():GetChildren()) do
+					if Interface.Name == KeyUI.Name and Interface ~= KeyUI then
+						Interface.Enabled = false
+						Interface.Name = "KeyUI-Old"
+					end
+				end
+			elseif not useStudio then
+				for _, Interface in ipairs(CoreGui:GetChildren()) do
+					if Interface.Name == KeyUI.Name and Interface ~= KeyUI then
+						Interface.Enabled = false
+						Interface.Name = "KeyUI-Old"
+					end
+				end
+			end
+
+			local KeyMain = KeyUI.Main
+			KeyMain.Title.Text = Settings.KeySettings.Title or Settings.Name
+			KeyMain.Subtitle.Text = Settings.KeySettings.Subtitle or "Key System"
+			KeyMain.NoteMessage.Text = Settings.KeySettings.Note or "No instructions"
+
+			KeyMain.Size = UDim2.new(0, 467, 0, 175)
+			KeyMain.BackgroundTransparency = 1
+			KeyMain.Shadow.Image.ImageTransparency = 1
+			KeyMain.Title.TextTransparency = 1
+			KeyMain.Subtitle.TextTransparency = 1
+			KeyMain.KeyNote.TextTransparency = 1
+			KeyMain.Input.BackgroundTransparency = 1
+			KeyMain.Input.UIStroke.Transparency = 1
+			KeyMain.Input.InputBox.TextTransparency = 1
+			KeyMain.NoteTitle.TextTransparency = 1
+			KeyMain.NoteMessage.TextTransparency = 1
+			KeyMain.Hide.ImageTransparency = 1
+
+			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 187)}):Play()
+			TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 0.5}):Play()
+			task.wait(0.05)
+			TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			task.wait(0.05)
+			TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			task.wait(0.05)
+			TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			task.wait(0.15)
+			TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 0.3}):Play()
+
+
+			KeyUI.Main.Input.InputBox.FocusLost:Connect(function()
+				if #KeyUI.Main.Input.InputBox.Text == 0 then return end
+				local KeyFound = false
+				local FoundKey = ''
+				for _, MKey in ipairs(Settings.KeySettings.Key) do
+					--if string.find(KeyMain.Input.InputBox.Text, MKey) then
+					--	KeyFound = true
+					--	FoundKey = MKey
+					--end
+
+
+					-- stricter key check
+					if KeyMain.Input.InputBox.Text == MKey then
+						KeyFound = true
+						FoundKey = MKey
+					end
+				end
+				if KeyFound then 
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+					TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+					task.wait(0.51)
+					Passthrough = true
+					KeyMain.Visible = false
+					if Settings.KeySettings.SaveKey then
+						callSafely(writefile, RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension, FoundKey)
+						RayfieldLibrary:Notify({Title = "Key System", Content = "The key for this script has been saved successfully.", Image = 3605522284})
+					end
+				else
+					if AttemptsRemaining == 0 then
+						TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+						TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+						TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+						TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+						task.wait(0.45)
+						Players.LocalPlayer:Kick("No Attempts Remaining")
+						game:Shutdown()
+					end
+					KeyMain.Input.InputBox.Text = ""
+					AttemptsRemaining = AttemptsRemaining - 1
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Elastic), {Position = UDim2.new(0.495,0,0.5,0)}):Play()
+					task.wait(0.1)
+					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Elastic), {Position = UDim2.new(0.505,0,0.5,0)}):Play()
+					task.wait(0.1)
+					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.5,0,0.5,0)}):Play()
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 187)}):Play()
+				end
+			end)
+
+			KeyMain.Hide.MouseButton1Click:Connect(function()
+				TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+				TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+				TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+				TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+				task.wait(0.51)
+				RayfieldLibrary:Destroy()
+				KeyUI:Destroy()
+			end)
+		else
+			Passthrough = true
+		end
+	end
+	if Settings.KeySystem then
+		repeat task.wait() until Passthrough
+	end
+
+	Notifications.Template.Visible = false
+	Notifications.Visible = true
+	Rayfield.Enabled = true
+
+	task.wait(0.5)
+	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+	task.wait(0.1)
+	TweenService:Create(LoadingFrame.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+	task.wait(0.05)
+	TweenService:Create(LoadingFrame.Subtitle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+	task.wait(0.05)
+	TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+
+	Elements.Template.LayoutOrder = 100000
+	Elements.Template.Visible = false
+
+	Elements.UIPageLayout.FillDirection = Enum.FillDirection.Horizontal
+	TabList.Template.Visible = false
+
+	-- Tab
+	local FirstTab = false
+	local Window = {}
+	function Window:CreateTab(Name, Image, Ext)
+		local SDone = false
+		local TabButton = TabList.Template:Clone()
+		TabButton.Name = Name
+		TabButton.Title.Text = Name
+		TabButton.Parent = TabList
+		TabButton.Title.TextWrapped = false
+		TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 30, 0, 30)
+
+		if Image and Image ~= 0 then
+			if typeof(Image) == 'string' and Icons then
+				local asset = getIcon(Image)
+
+				TabButton.Image.Image = 'rbxassetid://'..asset.id
+				TabButton.Image.ImageRectOffset = asset.imageRectOffset
+				TabButton.Image.ImageRectSize = asset.imageRectSize
+			else
+				TabButton.Image.Image = getAssetUri(Image)
+			end
+
+			TabButton.Title.AnchorPoint = Vector2.new(0, 0.5)
+			TabButton.Title.Position = UDim2.new(0, 37, 0.5, 0)
+			TabButton.Image.Visible = true
+			TabButton.Title.TextXAlignment = Enum.TextXAlignment.Left
+			TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 52, 0, 30)
+		end
+
+
+
+		TabButton.BackgroundTransparency = 1
+		TabButton.Title.TextTransparency = 1
+		TabButton.Image.ImageTransparency = 1
+		TabButton.UIStroke.Transparency = 1
+
+		TabButton.Visible = not Ext or false
+
+		-- Create Elements Page
+		local TabPage = Elements.Template:Clone()
+		TabPage.Name = Name
+		TabPage.Visible = true
+
+		TabPage.LayoutOrder = #Elements:GetChildren() or Ext and 10000
+
+		for _, TemplateElement in ipairs(TabPage:GetChildren()) do
+			if TemplateElement.ClassName == "Frame" and TemplateElement.Name ~= "Placeholder" then
+				TemplateElement:Destroy()
+			end
+		end
+
+		TabPage.Parent = Elements
+		if not FirstTab and not Ext then
+			Elements.UIPageLayout.Animated = false
+			Elements.UIPageLayout:JumpTo(TabPage)
+			Elements.UIPageLayout.Animated = true
+		end
+
+		TabButton.UIStroke.Color = SelectedTheme.TabStroke
+
+		if Elements.UIPageLayout.CurrentPage == TabPage then
+			TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+			TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+			TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+		else
+			TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+			TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+			TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+		end
+
+
+		-- Animate
+		task.wait(0.1)
+		if FirstTab or Ext then
+			TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+			TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+			TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+			TweenService:Create(TabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+		elseif not Ext then
+			FirstTab = Name
+			TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+			TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+			TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+		end
+
+
+		TabButton.Interact.MouseButton1Click:Connect(function()
+			if Minimised then return end
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(TabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.TabBackgroundSelected}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextColor3 = SelectedTheme.SelectedTabTextColor}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageColor3 = SelectedTheme.SelectedTabTextColor}):Play()
+
+			for _, OtherTabButton in ipairs(TabList:GetChildren()) do
+				if OtherTabButton.Name ~= "Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= TabButton and OtherTabButton.Name ~= "Placeholder" then
+					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.TabBackground}):Play()
+					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextColor3 = SelectedTheme.TabTextColor}):Play()
+					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageColor3 = SelectedTheme.TabTextColor}):Play()
+					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+					TweenService:Create(OtherTabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+			end
+
+			if Elements.UIPageLayout.CurrentPage ~= TabPage then
+				Elements.UIPageLayout:JumpTo(TabPage)
+			end
+		end)
+
+		local Tab = {}
+
+		-- Button
+		function Tab:CreateButton(ButtonSettings)
+			local ButtonValue = {}
+
+			local Button = Elements.Template.Button:Clone()
+			Button.Name = ButtonSettings.Name
+			Button.Title.Text = ButtonSettings.Name
+			Button.Visible = true
+			Button.Parent = TabPage
+
+			Button.BackgroundTransparency = 1
+			Button.UIStroke.Transparency = 1
+			Button.Title.TextTransparency = 1
+
+			TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(Button.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+
+			Button.Interact.MouseButton1Click:Connect(function()
+				local Success, Response = pcall(ButtonSettings.Callback)
+				-- Prevents animation from trying to play if the button's callback called RayfieldLibrary:Destroy()
+				if rayfieldDestroyed then
+					return
+				end
+				if not Success then
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Button.Title.Text = "Callback Error"
+					print("Rayfield | "..ButtonSettings.Name.." Callback Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+					task.wait(0.5)
+					Button.Title.Text = ButtonSettings.Name
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.9}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				else
+					if not ButtonSettings.Ext then
+						SaveConfiguration(ButtonSettings.Name..'\n')
+					end
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					task.wait(0.2)
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.9}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end
+			end)
+
+			Button.MouseEnter:Connect(function()
+				TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+				TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.7}):Play()
+			end)
+
+			Button.MouseLeave:Connect(function()
+				TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+				TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.9}):Play()
+			end)
+
+			function ButtonValue:Set(NewButton)
+				Button.Title.Text = NewButton
+				Button.Name = NewButton
+			end
+
+			return ButtonValue
+		end
+
+		-- ColorPicker
+		function Tab:CreateColorPicker(ColorPickerSettings) -- by Throit
+			ColorPickerSettings.Type = "ColorPicker"
+			local ColorPicker = Elements.Template.ColorPicker:Clone()
+			local Background = ColorPicker.CPBackground
+			local Display = Background.Display
+			local Main = Background.MainCP
+			local Slider = ColorPicker.ColorSlider
+			ColorPicker.ClipsDescendants = true
+			ColorPicker.Name = ColorPickerSettings.Name
+			ColorPicker.Title.Text = ColorPickerSettings.Name
+			ColorPicker.Visible = true
+			ColorPicker.Parent = TabPage
+			ColorPicker.Size = UDim2.new(1, -10, 0, 45)
+			Background.Size = UDim2.new(0, 39, 0, 22)
+			Display.BackgroundTransparency = 0
+			Main.MainPoint.ImageTransparency = 1
+			ColorPicker.Interact.Size = UDim2.new(1, 0, 1, 0)
+			ColorPicker.Interact.Position = UDim2.new(0.5, 0, 0.5, 0)
+			ColorPicker.RGB.Position = UDim2.new(0, 17, 0, 70)
+			ColorPicker.HexInput.Position = UDim2.new(0, 17, 0, 90)
+			Main.ImageTransparency = 1
+			Background.BackgroundTransparency = 1
+
+			for _, rgbinput in ipairs(ColorPicker.RGB:GetChildren()) do
+				if rgbinput:IsA("Frame") then
+					rgbinput.BackgroundColor3 = SelectedTheme.InputBackground
+					rgbinput.UIStroke.Color = SelectedTheme.InputStroke
+				end
+			end
+
+			ColorPicker.HexInput.BackgroundColor3 = SelectedTheme.InputBackground
+			ColorPicker.HexInput.UIStroke.Color = SelectedTheme.InputStroke
+
+			local opened = false 
+			local mouse = Players.LocalPlayer:GetMouse()
+			Main.Image = "http://www.roblox.com/asset/?id=11415645739"
+			local mainDragging = false 
+			local sliderDragging = false 
+			ColorPicker.Interact.MouseButton1Down:Connect(function()
+				task.spawn(function()
+					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					task.wait(0.2)
+					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end)
+
+				if not opened then
+					opened = true 
+					TweenService:Create(Background, TweenInfo.new(0.45, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 18, 0, 15)}):Play()
+					task.wait(0.1)
+					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 120)}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 173, 0, 86)}):Play()
+					TweenService:Create(Display, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.289, 0, 0.5, 0)}):Play()
+					TweenService:Create(ColorPicker.RGB, TweenInfo.new(0.8, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 40)}):Play()
+					TweenService:Create(ColorPicker.HexInput, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 73)}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0.574, 0, 1, 0)}):Play()
+					TweenService:Create(Main.MainPoint, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+					TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = SelectedTheme ~= RayfieldLibrary.Theme.Default and 0.25 or 0.1}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+				else
+					opened = false
+					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 39, 0, 22)}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 1, 0)}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.5, 0, 0.5, 0)}):Play()
+					TweenService:Create(ColorPicker.RGB, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 70)}):Play()
+					TweenService:Create(ColorPicker.HexInput, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 90)}):Play()
+					TweenService:Create(Display, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Main.MainPoint, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+					TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+				end
+
+			end)
+
+			UserInputService.InputEnded:Connect(function(input, gameProcessed) if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then 
+					mainDragging = false
+					sliderDragging = false
+				end end)
+			Main.MouseButton1Down:Connect(function()
+				if opened then
+					mainDragging = true 
+				end
+			end)
+			Main.MainPoint.MouseButton1Down:Connect(function()
+				if opened then
+					mainDragging = true 
+				end
+			end)
+			Slider.MouseButton1Down:Connect(function()
+				sliderDragging = true 
+			end)
+			Slider.SliderPoint.MouseButton1Down:Connect(function()
+				sliderDragging = true 
+			end)
+			local h,s,v = ColorPickerSettings.Color:ToHSV()
+			local color = Color3.fromHSV(h,s,v) 
+			local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+			ColorPicker.HexInput.InputBox.Text = hex
+			local function setDisplay()
+				--Main
+				Main.MainPoint.Position = UDim2.new(s,-Main.MainPoint.AbsoluteSize.X/2,1-v,-Main.MainPoint.AbsoluteSize.Y/2)
+				Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+				Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+				Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+				--Slider 
+				local x = h * Slider.AbsoluteSize.X
+				Slider.SliderPoint.Position = UDim2.new(0,x-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+				Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+				local color = Color3.fromHSV(h,s,v) 
+				local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+				ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+				ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+				hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+				ColorPicker.HexInput.InputBox.Text = hex
+			end
+			setDisplay()
+			ColorPicker.HexInput.InputBox.FocusLost:Connect(function()
+				if not pcall(function()
+						local r, g, b = string.match(ColorPicker.HexInput.InputBox.Text, "^#?(%w%w)(%w%w)(%w%w)$")
+						local rgbColor = Color3.fromRGB(tonumber(r, 16),tonumber(g, 16), tonumber(b, 16))
+						h,s,v = rgbColor:ToHSV()
+						hex = ColorPicker.HexInput.InputBox.Text
+						setDisplay()
+						ColorPickerSettings.Color = rgbColor
+					end) 
+				then 
+					ColorPicker.HexInput.InputBox.Text = hex 
+				end
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+				if not ColorPickerSettings.Ext then
+					SaveConfiguration()
+				end
+			end)
+			--RGB
+			local function rgbBoxes(box,toChange)
+				local value = tonumber(box.Text) 
+				local color = Color3.fromHSV(h,s,v) 
+				local oldR,oldG,oldB = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				local save 
+				if toChange == "R" then save = oldR;oldR = value elseif toChange == "G" then save = oldG;oldG = value else save = oldB;oldB = value end
+				if value then 
+					value = math.clamp(value,0,255)
+					h,s,v = Color3.fromRGB(oldR,oldG,oldB):ToHSV()
+
+					setDisplay()
+				else 
+					box.Text = tostring(save)
+				end
+				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+				if not ColorPickerSettings.Ext then
+					SaveConfiguration(ColorPickerSettings.Flag..'\n'..tostring(ColorPickerSettings.Color))
+				end
+			end
+			ColorPicker.RGB.RInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RGB.RInput.InputBox,"R")
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+			end)
+			ColorPicker.RGB.GInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RGB.GInput.InputBox,"G")
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+			end)
+			ColorPicker.RGB.BInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RGB.BInput.InputBox,"B")
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+			end)
+
+			RunService.RenderStepped:connect(function()
+				if mainDragging then 
+					local localX = math.clamp(mouse.X-Main.AbsolutePosition.X,0,Main.AbsoluteSize.X)
+					local localY = math.clamp(mouse.Y-Main.AbsolutePosition.Y,0,Main.AbsoluteSize.Y)
+					Main.MainPoint.Position = UDim2.new(0,localX-Main.MainPoint.AbsoluteSize.X/2,0,localY-Main.MainPoint.AbsoluteSize.Y/2)
+					s = localX / Main.AbsoluteSize.X
+					v = 1 - (localY / Main.AbsoluteSize.Y)
+					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+					ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+					ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					if not ColorPickerSettings.Ext then
+						SaveConfiguration()
+					end
+				end
+				if sliderDragging then 
+					local localX = math.clamp(mouse.X-Slider.AbsolutePosition.X,0,Slider.AbsoluteSize.X)
+					h = localX / Slider.AbsoluteSize.X
+					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+					Slider.SliderPoint.Position = UDim2.new(0,localX-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+					Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+					ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+					ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					if not ColorPickerSettings.Ext then
+						SaveConfiguration()
+					end
+				end
+			end)
+
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and ColorPickerSettings.Flag then
+					RayfieldLibrary.Flags[ColorPickerSettings.Flag] = ColorPickerSettings
+				end
+			end
+
+			function ColorPickerSettings:Set(RGBColor)
+				ColorPickerSettings.Color = RGBColor
+				h,s,v = ColorPickerSettings.Color:ToHSV()
+				color = Color3.fromHSV(h,s,v)
+				setDisplay()
+			end
+
+			ColorPicker.MouseEnter:Connect(function()
+				TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			ColorPicker.MouseLeave:Connect(function()
+				TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				for _, rgbinput in ipairs(ColorPicker.RGB:GetChildren()) do
+					if rgbinput:IsA("Frame") then
+						rgbinput.BackgroundColor3 = SelectedTheme.InputBackground
+						rgbinput.UIStroke.Color = SelectedTheme.InputStroke
+					end
+				end
+
+				ColorPicker.HexInput.BackgroundColor3 = SelectedTheme.InputBackground
+				ColorPicker.HexInput.UIStroke.Color = SelectedTheme.InputStroke
+			end)
+
+			return ColorPickerSettings
+		end
+
+		-- Section
+		function Tab:CreateSection(SectionName)
+
+			local SectionValue = {}
+
+			if SDone then
+				local SectionSpace = Elements.Template.SectionSpacing:Clone()
+				SectionSpace.Visible = true
+				SectionSpace.Parent = TabPage
+			end
+
+			local Section = Elements.Template.SectionTitle:Clone()
+			Section.Title.Text = SectionName
+			Section.Visible = true
+			Section.Parent = TabPage
+
+			Section.Title.TextTransparency = 1
+			TweenService:Create(Section.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.4}):Play()
+
+			function SectionValue:Set(NewSection)
+				Section.Title.Text = NewSection
+			end
+
+			SDone = true
+
+			return SectionValue
+		end
+
+		-- Divider
+		function Tab:CreateDivider()
+			local DividerValue = {}
+
+			local Divider = Elements.Template.Divider:Clone()
+			Divider.Visible = true
+			Divider.Parent = TabPage
+
+			Divider.Divider.BackgroundTransparency = 1
+			TweenService:Create(Divider.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.85}):Play()
+
+			function DividerValue:Set(Value)
+				Divider.Visible = Value
+			end
+
+			return DividerValue
+		end
+
+		-- Label
+		function Tab:CreateLabel(LabelText : string, Icon: number, Color : Color3, IgnoreTheme : boolean)
+			local LabelValue = {}
+
+			local Label = Elements.Template.Label:Clone()
+			Label.Title.Text = LabelText
+			Label.Visible = true
+			Label.Parent = TabPage
+
+			Label.BackgroundColor3 = Color or SelectedTheme.SecondaryElementBackground
+			Label.UIStroke.Color = Color or SelectedTheme.SecondaryElementStroke
+
+			if Icon then
+				if typeof(Icon) == 'string' and Icons then
+					local asset = getIcon(Icon)
+
+					Label.Icon.Image = 'rbxassetid://'..asset.id
+					Label.Icon.ImageRectOffset = asset.imageRectOffset
+					Label.Icon.ImageRectSize = asset.imageRectSize
+				else
+					Label.Icon.Image = getAssetUri(Icon)
+				end
+			else
+				Label.Icon.Image = "rbxassetid://" .. 0
+			end
+
+			if Icon and Label:FindFirstChild('Icon') then
+				Label.Title.Position = UDim2.new(0, 45, 0.5, 0)
+				Label.Title.Size = UDim2.new(1, -100, 0, 14)
+
+				if Icon then
+					if typeof(Icon) == 'string' and Icons then
+						local asset = getIcon(Icon)
+
+						Label.Icon.Image = 'rbxassetid://'..asset.id
+						Label.Icon.ImageRectOffset = asset.imageRectOffset
+						Label.Icon.ImageRectSize = asset.imageRectSize
+					else
+						Label.Icon.Image = getAssetUri(Icon)
+					end
+				else
+					Label.Icon.Image = "rbxassetid://" .. 0
+				end
+
+				Label.Icon.Visible = true
+			end
+
+			Label.Icon.ImageTransparency = 1
+			Label.BackgroundTransparency = 1
+			Label.UIStroke.Transparency = 1
+			Label.Title.TextTransparency = 1
+
+			TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = Color and 0.8 or 0}):Play()
+			TweenService:Create(Label.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = Color and 0.7 or 0}):Play()
+			TweenService:Create(Label.Icon, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+			TweenService:Create(Label.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = Color and 0.2 or 0}):Play()	
+
+			function LabelValue:Set(NewLabel, Icon, Color)
+				Label.Title.Text = NewLabel
+
+				if Color then
+					Label.BackgroundColor3 = Color or SelectedTheme.SecondaryElementBackground
+					Label.UIStroke.Color = Color or SelectedTheme.SecondaryElementStroke
+				end
+
+				if Icon and Label:FindFirstChild('Icon') then
+					Label.Title.Position = UDim2.new(0, 45, 0.5, 0)
+					Label.Title.Size = UDim2.new(1, -100, 0, 14)
+
+					if Icon then
+						if typeof(Icon) == 'string' and Icons then
+							local asset = getIcon(Icon)
+
+							Label.Icon.Image = 'rbxassetid://'..asset.id
+							Label.Icon.ImageRectOffset = asset.imageRectOffset
+							Label.Icon.ImageRectSize = asset.imageRectSize
+						else
+							Label.Icon.Image = getAssetUri(Icon)
+						end
+					else
+						Label.Icon.Image = "rbxassetid://" .. 0
+					end
+
+					Label.Icon.Visible = true
+				end
+			end
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				Label.BackgroundColor3 = IgnoreTheme and (Color or Label.BackgroundColor3) or SelectedTheme.SecondaryElementBackground
+				Label.UIStroke.Color = IgnoreTheme and (Color or Label.BackgroundColor3) or SelectedTheme.SecondaryElementStroke
+			end)
+
+			return LabelValue
+		end
+
+-- Paragraph
+function Tab:CreateParagraph(ParagraphSettings)
+    local ParagraphValue = {}
+
+    local Paragraph = Elements.Template.Paragraph:Clone()
+    Paragraph.Title.Text = ParagraphSettings.Title
+    Paragraph.Content.Text = ParagraphSettings.Content
+    Paragraph.Visible = true
+    Paragraph.Parent = TabPage
+
+    Paragraph.BackgroundTransparency = 1
+    Paragraph.UIStroke.Transparency = 1
+    Paragraph.Title.TextTransparency = 1
+    Paragraph.Content.TextTransparency = 1
+
+    Paragraph.BackgroundColor3 = SelectedTheme.SecondaryElementBackground
+    Paragraph.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+
+    -- Avatar support
+    local Avatar
+    if ParagraphSettings.AvatarUserId then
+        Avatar = Instance.new("ImageLabel")
+        Avatar.Size = UDim2.fromOffset(48, 48)
+        Avatar.Position = UDim2.fromOffset(10, 10)
+        Avatar.BackgroundTransparency = 1
+        Avatar.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=" ..
+                       ParagraphSettings.AvatarUserId .. "&width=420&height=420&format=png"
+        Avatar.Parent = Paragraph
+
+        local AvatarCorner = Instance.new("UICorner")
+        AvatarCorner.CornerRadius = UDim.new(1, 0)
+        AvatarCorner.Parent = Avatar
+
+        -- Adjust text positions
+        Paragraph.Title.Position = UDim2.new(0, 65, 0, 5)
+        Paragraph.Title.Size = UDim2.new(1, -70, 0, 18)
+
+        Paragraph.Content.Position = UDim2.new(0, 65, 0, 28)
+        Paragraph.Content.Size = UDim2.new(1, -70, 0, 16)
+    end
+
+    -- Tween in
+    TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    TweenService:Create(Paragraph.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    TweenService:Create(Paragraph.Content, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+
+    function ParagraphValue:Set(NewParagraphSettings)
+        Paragraph.Title.Text = NewParagraphSettings.Title or Paragraph.Title.Text
+        Paragraph.Content.Text = NewParagraphSettings.Content or Paragraph.Content.Text
+        if NewParagraphSettings.AvatarUserId and Avatar then
+            Avatar.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=" ..
+                           NewParagraphSettings.AvatarUserId .. "&width=420&height=420&format=png"
+        end
+    end
+
+    Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+        Paragraph.BackgroundColor3 = SelectedTheme.SecondaryElementBackground
+        Paragraph.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+    end)
+
+    return ParagraphValue
+end
+
+		-- Input
+		function Tab:CreateInput(InputSettings)
+			local Input = Elements.Template.Input:Clone()
+			Input.Name = InputSettings.Name
+			Input.Title.Text = InputSettings.Name
+			Input.Visible = true
+			Input.Parent = TabPage
+
+			Input.BackgroundTransparency = 1
+			Input.UIStroke.Transparency = 1
+			Input.Title.TextTransparency = 1
+
+			Input.InputFrame.InputBox.Text = InputSettings.CurrentValue or ''
+
+			Input.InputFrame.BackgroundColor3 = SelectedTheme.InputBackground
+			Input.InputFrame.UIStroke.Color = SelectedTheme.InputStroke
+
+			TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(Input.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			Input.InputFrame.InputBox.PlaceholderText = InputSettings.PlaceholderText
+			Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 24, 0, 30)
+
+			Input.InputFrame.InputBox.FocusLost:Connect(function()
+				local Success, Response = pcall(function()
+					InputSettings.Callback(Input.InputFrame.InputBox.Text)
+					InputSettings.CurrentValue = Input.InputFrame.InputBox.Text
+				end)
+
+				if not Success then
+					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Input.Title.Text = "Callback Error"
+					print("Rayfield | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+					task.wait(0.5)
+					Input.Title.Text = InputSettings.Name
+					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end
+
+				if InputSettings.RemoveTextAfterFocusLost then
+					Input.InputFrame.InputBox.Text = ""
+				end
+
+				if not InputSettings.Ext then
+					SaveConfiguration()
+				end
+			end)
+
+			Input.MouseEnter:Connect(function()
+				TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Input.MouseLeave:Connect(function()
+				TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+				TweenService:Create(Input.InputFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 24, 0, 30)}):Play()
+			end)
+
+			function InputSettings:Set(text)
+				Input.InputFrame.InputBox.Text = text
+				InputSettings.CurrentValue = text
+
+				local Success, Response = pcall(function()
+					InputSettings.Callback(text)
+				end)
+
+				if not InputSettings.Ext then
+					SaveConfiguration()
+				end
+			end
+
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and InputSettings.Flag then
+					RayfieldLibrary.Flags[InputSettings.Flag] = InputSettings
+				end
+			end
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				Input.InputFrame.BackgroundColor3 = SelectedTheme.InputBackground
+				Input.InputFrame.UIStroke.Color = SelectedTheme.InputStroke
+			end)
+
+			return InputSettings
+		end
+
+function Tab:CreateAvatarParagraph(Settings)
+    local ParagraphValue = {}
+
+    -- Clone template
+    local Paragraph = Elements.Template.Paragraph:Clone()
+    Paragraph.Visible = true
+    Paragraph.Parent = TabPage
+    Paragraph.BackgroundTransparency = 1
+    Paragraph.UIStroke.Transparency = 1
+    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
+
+    -- Hide default text but keep objects to preserve layout
+    Paragraph.Title.Text = ""
+    Paragraph.Content.Text = ""
+    Paragraph.Title.TextTransparency = 1
+    Paragraph.Content.TextTransparency = 1
+
+    -- Create container for avatar + text
+    local Container = Instance.new("Frame")
+    Container.BackgroundTransparency = 1
+    Container.Size = UDim2.new(1, -20, 0, 0)
+    Container.Position = UDim2.fromOffset(10, 10)
+    Container.AutomaticSize = Enum.AutomaticSize.Y
+    Container.Parent = Paragraph
+
+    -- Avatar Image
+    local Image = Instance.new("ImageLabel")
+    Image.Size = UDim2.fromOffset(48, 48)
+    Image.Position = UDim2.fromOffset(0, 0)
+    Image.BackgroundTransparency = 1
+    Image.Image = Settings.ImageUrl or "rbxassetid://0"
+    Image.Parent = Container
+    local ImageCorner = Instance.new("UICorner")
+    ImageCorner.CornerRadius = UDim.new(1, 0)
+    ImageCorner.Parent = Image
+
+    -- Text lines
+    local TextLabels = {}
+    local lineHeight = 20
+    local maxWidth = 0
+    for i, line in ipairs(Settings.Lines or {}) do
+        local TextLabel = Instance.new("TextLabel")
+        TextLabel.Text = line
+        TextLabel.Position = UDim2.fromOffset(58, (i-1)*lineHeight)
+        TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
+        TextLabel.BackgroundTransparency = 1
+        TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+        TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
+        TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
+        TextLabel.TextSize = i == 1 and 18 or 14
+        TextLabel.Parent = Container
+        table.insert(TextLabels, TextLabel)
+
+        -- Update max width for sizing the paragraph
+        local textBounds = TextLabel.TextBounds.X
+        if textBounds > maxWidth then
+            maxWidth = textBounds
+        end
+    end
+
+    -- Fix paragraph size width-wise
+    local paragraphPadding = 20 + 48 -- left margin + avatar
+    Paragraph.Size = UDim2.new(0, paragraphPadding + maxWidth, 0, 0)
+    Paragraph.AutomaticSize = Enum.AutomaticSize.Y
+
+    -- Update function
+    function ParagraphValue:Set(NewSettings)
+        if NewSettings.ImageUrl then
+            Image.Image = NewSettings.ImageUrl
+        end
+        if NewSettings.Lines then
+            local maxWidth = 0
+            for i, line in ipairs(NewSettings.Lines) do
+                if TextLabels[i] then
+                    TextLabels[i].Text = line
+                else
+                    local TextLabel = Instance.new("TextLabel")
+                    TextLabel.Text = line
+                    TextLabel.Position = UDim2.fromOffset(58, (i-1)*lineHeight)
+                    TextLabel.Size = UDim2.new(1, -58, 0, lineHeight)
+                    TextLabel.BackgroundTransparency = 1
+                    TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+                    TextLabel.TextColor3 = i == 1 and Color3.new(1,1,1) or Color3.fromRGB(170,170,170)
+                    TextLabel.Font = i == 1 and Enum.Font.GothamSemibold or Enum.Font.Gotham
+                    TextLabel.TextSize = i == 1 and 18 or 14
+                    TextLabel.Parent = Container
+                    table.insert(TextLabels, TextLabel)
+                end
+                -- Update width
+                local textBounds = TextLabels[i].TextBounds.X
+                if textBounds > maxWidth then
+                    maxWidth = textBounds
+                end
+            end
+            Paragraph.Size = UDim2.new(0, paragraphPadding + maxWidth, 0, 0)
+        end
+    end
+
+    return ParagraphValue, Paragraph
+end
+
+		-- Dropdown
+		function Tab:CreateDropdown(DropdownSettings)
+			local Dropdown = Elements.Template.Dropdown:Clone()
+			if string.find(DropdownSettings.Name,"closed") then
+				Dropdown.Name = "Dropdown"
+			else
+				Dropdown.Name = DropdownSettings.Name
+			end
+			Dropdown.Title.Text = DropdownSettings.Name
+			Dropdown.Visible = true
+			Dropdown.Parent = TabPage
+
+			Dropdown.List.Visible = false
+			if DropdownSettings.CurrentOption then
+				if type(DropdownSettings.CurrentOption) == "string" then
+					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+				end
+				if not DropdownSettings.MultipleOptions and type(DropdownSettings.CurrentOption) == "table" then
+					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+				end
+			else
+				DropdownSettings.CurrentOption = {}
+			end
+
+			if DropdownSettings.MultipleOptions then
+				if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+					if #DropdownSettings.CurrentOption == 1 then
+						Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+					elseif #DropdownSettings.CurrentOption == 0 then
+						Dropdown.Selected.Text = "None"
+					else
+						Dropdown.Selected.Text = "Various"
+					end
+				else
+					DropdownSettings.CurrentOption = {}
+					Dropdown.Selected.Text = "None"
+				end
+			else
+				Dropdown.Selected.Text = DropdownSettings.CurrentOption[1] or "None"
+			end
+
+			Dropdown.Toggle.ImageColor3 = SelectedTheme.TextColor
+			TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+
+			Dropdown.BackgroundTransparency = 1
+			Dropdown.UIStroke.Transparency = 1
+			Dropdown.Title.TextTransparency = 1
+
+			Dropdown.Size = UDim2.new(1, -10, 0, 45)
+
+			TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(Dropdown.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			for _, ununusedoption in ipairs(Dropdown.List:GetChildren()) do
+				if ununusedoption.ClassName == "Frame" and ununusedoption.Name ~= "Placeholder" then
+					ununusedoption:Destroy()
+				end
+			end
+
+			Dropdown.Toggle.Rotation = 180
+
+			Dropdown.Interact.MouseButton1Click:Connect(function()
+				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+				TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+				task.wait(0.1)
+				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+				TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				if Debounce then return end
+				if Dropdown.List.Visible then
+					Debounce = true
+					TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+					for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+						if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+							TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+							TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+						end
+					end
+					TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ScrollBarImageTransparency = 1}):Play()
+					TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Rotation = 180}):Play()	
+					task.wait(0.35)
+					Dropdown.List.Visible = false
+					Debounce = false
+				else
+					TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 180)}):Play()
+					Dropdown.List.Visible = true
+					TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ScrollBarImageTransparency = 0.7}):Play()
+					TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Rotation = 0}):Play()	
+					for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+						if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+							if DropdownOpt.Name ~= Dropdown.Selected.Text then
+								TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+							end
+							TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+						end
+					end
+				end
+			end)
+
+			Dropdown.MouseEnter:Connect(function()
+				if not Dropdown.List.Visible then
+					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+				end
+			end)
+
+			Dropdown.MouseLeave:Connect(function()
+				TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			local function SetDropdownOptions()
+				for _, Option in ipairs(DropdownSettings.Options) do
+					local DropdownOption = Elements.Template.Dropdown.List.Template:Clone()
+					DropdownOption.Name = Option
+					DropdownOption.Title.Text = Option
+					DropdownOption.Parent = Dropdown.List
+					DropdownOption.Visible = true
+
+					DropdownOption.BackgroundTransparency = 1
+					DropdownOption.UIStroke.Transparency = 1
+					DropdownOption.Title.TextTransparency = 1
+
+					--local Dropdown = Tab:CreateDropdown({
+					--	Name = "Dropdown Example",
+					--	Options = {"Option 1","Option 2"},
+					--	CurrentOption = {"Option 1"},
+					--  MultipleOptions = true,
+					--	Flag = "Dropdown1",
+					--	Callback = function(TableOfOptions)
+
+					--	end,
+					--})
+
+
+					DropdownOption.Interact.ZIndex = 50
+					DropdownOption.Interact.MouseButton1Click:Connect(function()
+						if not DropdownSettings.MultipleOptions and table.find(DropdownSettings.CurrentOption, Option) then 
+							return
+						end
+
+						if table.find(DropdownSettings.CurrentOption, Option) then
+							table.remove(DropdownSettings.CurrentOption, table.find(DropdownSettings.CurrentOption, Option))
+							if DropdownSettings.MultipleOptions then
+								if #DropdownSettings.CurrentOption == 1 then
+									Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+								elseif #DropdownSettings.CurrentOption == 0 then
+									Dropdown.Selected.Text = "None"
+								else
+									Dropdown.Selected.Text = "Various"
+								end
+							else
+								Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+							end
+						else
+							if not DropdownSettings.MultipleOptions then
+								table.clear(DropdownSettings.CurrentOption)
+							end
+							table.insert(DropdownSettings.CurrentOption, Option)
+							if DropdownSettings.MultipleOptions then
+								if #DropdownSettings.CurrentOption == 1 then
+									Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+								elseif #DropdownSettings.CurrentOption == 0 then
+									Dropdown.Selected.Text = "None"
+								else
+									Dropdown.Selected.Text = "Various"
+								end
+							else
+								Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+							end
+							TweenService:Create(DropdownOption.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.DropdownSelected}):Play()
+							Debounce = true
+						end
+
+
+						local Success, Response = pcall(function()
+							DropdownSettings.Callback(DropdownSettings.CurrentOption)
+						end)
+
+						if not Success then
+							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Dropdown.Title.Text = "Callback Error"
+							print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+							warn('Check docs.sirius.menu for help with Rayfield specific development.')
+							task.wait(0.5)
+							Dropdown.Title.Text = DropdownSettings.Name
+							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+						end
+
+						for _, droption in ipairs(Dropdown.List:GetChildren()) do
+							if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" and not table.find(DropdownSettings.CurrentOption, droption.Name) then
+								TweenService:Create(droption, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.DropdownUnselected}):Play()
+							end
+						end
+						if not DropdownSettings.MultipleOptions then
+							task.wait(0.1)
+							TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+							for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+								if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+									TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+									TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+									TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+								end
+							end
+							TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ScrollBarImageTransparency = 1}):Play()
+							TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Rotation = 180}):Play()	
+							task.wait(0.35)
+							Dropdown.List.Visible = false
+						end
+						Debounce = false
+						if not DropdownSettings.Ext then
+							SaveConfiguration()
+						end
+					end)
+
+					Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+						DropdownOption.UIStroke.Color = SelectedTheme.ElementStroke
+					end)
+				end
+			end
+			SetDropdownOptions()
+
+			for _, droption in ipairs(Dropdown.List:GetChildren()) do
+				if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" then
+					if not table.find(DropdownSettings.CurrentOption, droption.Name) then
+						droption.BackgroundColor3 = SelectedTheme.DropdownUnselected
+					else
+						droption.BackgroundColor3 = SelectedTheme.DropdownSelected
+					end
+
+					Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+						if not table.find(DropdownSettings.CurrentOption, droption.Name) then
+							droption.BackgroundColor3 = SelectedTheme.DropdownUnselected
+						else
+							droption.BackgroundColor3 = SelectedTheme.DropdownSelected
+						end
+					end)
+				end
+			end
+
+			function DropdownSettings:Set(NewOption)
+				DropdownSettings.CurrentOption = NewOption
+
+				if typeof(DropdownSettings.CurrentOption) == "string" then
+					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+				end
+
+				if not DropdownSettings.MultipleOptions then
+					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+				end
+
+				if DropdownSettings.MultipleOptions then
+					if #DropdownSettings.CurrentOption == 1 then
+						Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+					elseif #DropdownSettings.CurrentOption == 0 then
+						Dropdown.Selected.Text = "None"
+					else
+						Dropdown.Selected.Text = "Various"
+					end
+				else
+					Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+				end
+
+
+				local Success, Response = pcall(function()
+					DropdownSettings.Callback(NewOption)
+				end)
+				if not Success then
+					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Dropdown.Title.Text = "Callback Error"
+					print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+					task.wait(0.5)
+					Dropdown.Title.Text = DropdownSettings.Name
+					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end
+
+				for _, droption in ipairs(Dropdown.List:GetChildren()) do
+					if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" then
+						if not table.find(DropdownSettings.CurrentOption, droption.Name) then
+							droption.BackgroundColor3 = SelectedTheme.DropdownUnselected
+						else
+							droption.BackgroundColor3 = SelectedTheme.DropdownSelected
+						end
+					end
+				end
+				--SaveConfiguration()
+			end
+
+			function DropdownSettings:Refresh(optionsTable: table) -- updates a dropdown with new options from optionsTable
+				DropdownSettings.Options = optionsTable
+				for _, option in Dropdown.List:GetChildren() do
+					if option.ClassName == "Frame" and option.Name ~= "Placeholder" then
+						option:Destroy()
+					end
+				end
+				SetDropdownOptions()
+			end
+
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and DropdownSettings.Flag then
+					RayfieldLibrary.Flags[DropdownSettings.Flag] = DropdownSettings
+				end
+			end
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				Dropdown.Toggle.ImageColor3 = SelectedTheme.TextColor
+				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			return DropdownSettings
+		end
+
+		-- Keybind
+		function Tab:CreateKeybind(KeybindSettings)
+			local CheckingForKey = false
+			local Keybind = Elements.Template.Keybind:Clone()
+			Keybind.Name = KeybindSettings.Name
+			Keybind.Title.Text = KeybindSettings.Name
+			Keybind.Visible = true
+			Keybind.Parent = TabPage
+
+			Keybind.BackgroundTransparency = 1
+			Keybind.UIStroke.Transparency = 1
+			Keybind.Title.TextTransparency = 1
+
+			Keybind.KeybindFrame.BackgroundColor3 = SelectedTheme.InputBackground
+			Keybind.KeybindFrame.UIStroke.Color = SelectedTheme.InputStroke
+
+			TweenService:Create(Keybind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(Keybind.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
+			Keybind.KeybindFrame.Size = UDim2.new(0, Keybind.KeybindFrame.KeybindBox.TextBounds.X + 24, 0, 30)
+
+			Keybind.KeybindFrame.KeybindBox.Focused:Connect(function()
+				CheckingForKey = true
+				Keybind.KeybindFrame.KeybindBox.Text = ""
+			end)
+			Keybind.KeybindFrame.KeybindBox.FocusLost:Connect(function()
+				CheckingForKey = false
+				if Keybind.KeybindFrame.KeybindBox.Text == nil or Keybind.KeybindFrame.KeybindBox.Text == "" then
+					Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
+					if not KeybindSettings.Ext then
+						SaveConfiguration()
+					end
+				end
+			end)
+
+			Keybind.MouseEnter:Connect(function()
+				TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Keybind.MouseLeave:Connect(function()
+				TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			local connection = UserInputService.InputBegan:Connect(function(input, processed)
+				if CheckingForKey then
+					if input.KeyCode ~= Enum.KeyCode.Unknown then
+						local SplitMessage = string.split(tostring(input.KeyCode), ".")
+						local NewKeyNoEnum = SplitMessage[3]
+						Keybind.KeybindFrame.KeybindBox.Text = tostring(NewKeyNoEnum)
+						KeybindSettings.CurrentKeybind = tostring(NewKeyNoEnum)
+						Keybind.KeybindFrame.KeybindBox:ReleaseFocus()
+						if not KeybindSettings.Ext then
+							SaveConfiguration()
+						end
+
+						if KeybindSettings.CallOnChange then
+							KeybindSettings.Callback(tostring(NewKeyNoEnum))
+						end
+					end
+				elseif not KeybindSettings.CallOnChange and KeybindSettings.CurrentKeybind ~= nil and (input.KeyCode == Enum.KeyCode[KeybindSettings.CurrentKeybind] and not processed) then -- Test
+					local Held = true
+					local Connection
+					Connection = input.Changed:Connect(function(prop)
+						if prop == "UserInputState" then
+							Connection:Disconnect()
+							Held = false
+						end
+					end)
+
+					if not KeybindSettings.HoldToInteract then
+						local Success, Response = pcall(KeybindSettings.Callback)
+						if not Success then
+							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+							Keybind.Title.Text = "Callback Error"
+							print("Rayfield | "..KeybindSettings.Name.." Callback Error " ..tostring(Response))
+							warn('Check docs.sirius.menu for help with Rayfield specific development.')
+							task.wait(0.5)
+							Keybind.Title.Text = KeybindSettings.Name
+							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+						end
+					else
+						task.wait(0.25)
+						if Held then
+							local Loop; Loop = RunService.Stepped:Connect(function()
+								if not Held then
+									KeybindSettings.Callback(false) -- maybe pcall this
+									Loop:Disconnect()
+								else
+									KeybindSettings.Callback(true) -- maybe pcall this
+								end
+							end)
+						end
+					end
+				end
+			end)
+			table.insert(keybindConnections, connection)
+
+			Keybind.KeybindFrame.KeybindBox:GetPropertyChangedSignal("Text"):Connect(function()
+				TweenService:Create(Keybind.KeybindFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Keybind.KeybindFrame.KeybindBox.TextBounds.X + 24, 0, 30)}):Play()
+			end)
+
+			function KeybindSettings:Set(NewKeybind)
+				Keybind.KeybindFrame.KeybindBox.Text = tostring(NewKeybind)
+				KeybindSettings.CurrentKeybind = tostring(NewKeybind)
+				Keybind.KeybindFrame.KeybindBox:ReleaseFocus()
+				if not KeybindSettings.Ext then
+					SaveConfiguration()
+				end
+
+				if KeybindSettings.CallOnChange then
+					KeybindSettings.Callback(tostring(NewKeybind))
+				end
+			end
+
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and KeybindSettings.Flag then
+					RayfieldLibrary.Flags[KeybindSettings.Flag] = KeybindSettings
+				end
+			end
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				Keybind.KeybindFrame.BackgroundColor3 = SelectedTheme.InputBackground
+				Keybind.KeybindFrame.UIStroke.Color = SelectedTheme.InputStroke
+			end)
+
+			return KeybindSettings
+		end
+
+		-- Toggle
+		function Tab:CreateToggle(ToggleSettings)
+			local ToggleValue = {}
+
+			local Toggle = Elements.Template.Toggle:Clone()
+			Toggle.Name = ToggleSettings.Name
+			Toggle.Title.Text = ToggleSettings.Name
+			Toggle.Visible = true
+			Toggle.Parent = TabPage
+
+			Toggle.BackgroundTransparency = 1
+			Toggle.UIStroke.Transparency = 1
+			Toggle.Title.TextTransparency = 1
+			Toggle.Switch.BackgroundColor3 = SelectedTheme.ToggleBackground
+
+			if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+				Toggle.Switch.Shadow.Visible = false
+			end
+
+			TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(Toggle.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			if ToggleSettings.CurrentValue == true then
+				Toggle.Switch.Indicator.Position = UDim2.new(1, -20, 0.5, 0)
+				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleEnabledStroke
+				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleEnabled
+				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleEnabledOuterStroke
+			else
+				Toggle.Switch.Indicator.Position = UDim2.new(1, -40, 0.5, 0)
+				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleDisabledStroke
+				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleDisabled
+				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleDisabledOuterStroke
+			end
+
+			Toggle.MouseEnter:Connect(function()
+				TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Toggle.MouseLeave:Connect(function()
+				TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			Toggle.Interact.MouseButton1Click:Connect(function()
+				if ToggleSettings.CurrentValue == true then
+					ToggleSettings.CurrentValue = false
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -40, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleDisabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledOuterStroke}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()	
+				else
+					ToggleSettings.CurrentValue = true
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -20, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleEnabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledOuterStroke}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()		
+				end
+
+				local Success, Response = pcall(function()
+					if debugX then warn('Running toggle \''..ToggleSettings.Name..'\' (Interact)') end
+
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+					task.wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end
+
+				if not ToggleSettings.Ext then
+					SaveConfiguration()
+				end
+			end)
+
+			function ToggleSettings:Set(NewToggleValue)
+				if NewToggleValue == true then
+					ToggleSettings.CurrentValue = true
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -20, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleEnabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledOuterStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()	
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()	
+				else
+					ToggleSettings.CurrentValue = false
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -40, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleDisabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledOuterStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()	
+				end
+
+				local Success, Response = pcall(function()
+					if debugX then warn('Running toggle \''..ToggleSettings.Name..'\' (:Set)') end
+
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+					task.wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end
+
+				if not ToggleSettings.Ext then
+					SaveConfiguration()
+				end
+			end
+
+			if not ToggleSettings.Ext then
+				if Settings.ConfigurationSaving then
+					if Settings.ConfigurationSaving.Enabled and ToggleSettings.Flag then
+						RayfieldLibrary.Flags[ToggleSettings.Flag] = ToggleSettings
+					end
+				end
+			end
+
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				Toggle.Switch.BackgroundColor3 = SelectedTheme.ToggleBackground
+
+				if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+					Toggle.Switch.Shadow.Visible = false
+				end
+
+				task.wait()
+
+				if not ToggleSettings.CurrentValue then
+					Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleDisabledStroke
+					Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleDisabled
+					Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleDisabledOuterStroke
+				else
+					Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleEnabledStroke
+					Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleEnabled
+					Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleEnabledOuterStroke
+				end
+			end)
+
+			return ToggleSettings
+		end
+
+		-- Slider
+		function Tab:CreateSlider(SliderSettings)
+			local SLDragging = false
+			local Slider = Elements.Template.Slider:Clone()
+			Slider.Name = SliderSettings.Name
+			Slider.Title.Text = SliderSettings.Name
+			Slider.Visible = true
+			Slider.Parent = TabPage
+
+			Slider.BackgroundTransparency = 1
+			Slider.UIStroke.Transparency = 1
+			Slider.Title.TextTransparency = 1
+
+			if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+				Slider.Main.Shadow.Visible = false
+			end
+
+			Slider.Main.BackgroundColor3 = SelectedTheme.SliderBackground
+			Slider.Main.UIStroke.Color = SelectedTheme.SliderStroke
+			Slider.Main.Progress.UIStroke.Color = SelectedTheme.SliderStroke
+			Slider.Main.Progress.BackgroundColor3 = SelectedTheme.SliderProgress
+
+			TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+			TweenService:Create(Slider.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
+
+			Slider.Main.Progress.Size =	UDim2.new(0, Slider.Main.AbsoluteSize.X * ((SliderSettings.CurrentValue + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (SliderSettings.CurrentValue / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)
+
+			if not SliderSettings.Suffix then
+				Slider.Main.Information.Text = tostring(SliderSettings.CurrentValue)
+			else
+				Slider.Main.Information.Text = tostring(SliderSettings.CurrentValue) .. " " .. SliderSettings.Suffix
+			end
+
+			Slider.MouseEnter:Connect(function()
+				TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Slider.MouseLeave:Connect(function()
+				TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			Slider.Main.Interact.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then 
+					TweenService:Create(Slider.Main.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					TweenService:Create(Slider.Main.Progress.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					SLDragging = true 
+				end 
+			end)
+
+			Slider.Main.Interact.InputEnded:Connect(function(Input) 
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then 
+					TweenService:Create(Slider.Main.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0.4}):Play()
+					TweenService:Create(Slider.Main.Progress.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+					SLDragging = false 
+				end 
+			end)
+
+			Slider.Main.Interact.MouseButton1Down:Connect(function(X)
+				local Current = Slider.Main.Progress.AbsolutePosition.X + Slider.Main.Progress.AbsoluteSize.X
+				local Start = Current
+				local Location = X
+				local Loop; Loop = RunService.Stepped:Connect(function()
+					if SLDragging then
+						Location = UserInputService:GetMouseLocation().X
+						Current = Current + 0.025 * (Location - Start)
+
+						if Location < Slider.Main.AbsolutePosition.X then
+							Location = Slider.Main.AbsolutePosition.X
+						elseif Location > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+							Location = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+						end
+
+						if Current < Slider.Main.AbsolutePosition.X + 5 then
+							Current = Slider.Main.AbsolutePosition.X + 5
+						elseif Current > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+							Current = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+						end
+
+						if Current <= Location and (Location - Start) < 0 then
+							Start = Location
+						elseif Current >= Location and (Location - Start) > 0 then
+							Start = Location
+						end
+						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.45, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Current - Slider.Main.AbsolutePosition.X, 1, 0)}):Play()
+						local NewValue = SliderSettings.Range[1] + (Location - Slider.Main.AbsolutePosition.X) / Slider.Main.AbsoluteSize.X * (SliderSettings.Range[2] - SliderSettings.Range[1])
+
+						NewValue = math.floor(NewValue / SliderSettings.Increment + 0.5) * (SliderSettings.Increment * 10000000) / 10000000
+						NewValue = math.clamp(NewValue, SliderSettings.Range[1], SliderSettings.Range[2])
+
+						if not SliderSettings.Suffix then
+							Slider.Main.Information.Text = tostring(NewValue)
+						else
+							Slider.Main.Information.Text = tostring(NewValue) .. " " .. SliderSettings.Suffix
+						end
+
+						if SliderSettings.CurrentValue ~= NewValue then
+							local Success, Response = pcall(function()
+								SliderSettings.Callback(NewValue)
+							end)
+							if not Success then
+								TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+								Slider.Title.Text = "Callback Error"
+								print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+								warn('Check docs.sirius.menu for help with Rayfield specific development.')
+								task.wait(0.5)
+								Slider.Title.Text = SliderSettings.Name
+								TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+							end
+
+							SliderSettings.CurrentValue = NewValue
+							if not SliderSettings.Ext then
+								SaveConfiguration()
+							end
+						end
+					else
+						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.3, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X > 5 and Location - Slider.Main.AbsolutePosition.X or 5, 1, 0)}):Play()
+						Loop:Disconnect()
+					end
+				end)
+			end)
+
+			function SliderSettings:Set(NewVal)
+				local NewVal = math.clamp(NewVal, SliderSettings.Range[1], SliderSettings.Range[2])
+
+				TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.45, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Slider.Main.AbsoluteSize.X * ((NewVal + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (NewVal / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)}):Play()
+				Slider.Main.Information.Text = tostring(NewVal) .. " " .. (SliderSettings.Suffix or "")
+
+				local Success, Response = pcall(function()
+					SliderSettings.Callback(NewVal)
+				end)
+
+				if not Success then
+					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+					Slider.Title.Text = "Callback Error"
+					print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+					task.wait(0.5)
+					Slider.Title.Text = SliderSettings.Name
+					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+				end
+
+				SliderSettings.CurrentValue = NewVal
+				if not SliderSettings.Ext then
+					SaveConfiguration()
+				end
+			end
+
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and SliderSettings.Flag then
+					RayfieldLibrary.Flags[SliderSettings.Flag] = SliderSettings
+				end
+			end
+
+			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+				if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+					Slider.Main.Shadow.Visible = false
+				end
+
+				Slider.Main.BackgroundColor3 = SelectedTheme.SliderBackground
+				Slider.Main.UIStroke.Color = SelectedTheme.SliderStroke
+				Slider.Main.Progress.UIStroke.Color = SelectedTheme.SliderStroke
+				Slider.Main.Progress.BackgroundColor3 = SelectedTheme.SliderProgress
+			end)
+
+			return SliderSettings
+		end
+
+		Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+			TabButton.UIStroke.Color = SelectedTheme.TabStroke
+
+			if Elements.UIPageLayout.CurrentPage == TabPage then
+				TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+				TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+				TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+			else
+				TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+				TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+				TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+			end
+		end)
+
+		return Tab
+	end
+
+	Elements.Visible = true
+
+
+	task.wait(1.1)
+	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 390, 0, 90)}):Play()
+	task.wait(0.3)
+	TweenService:Create(LoadingFrame.Title, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+	TweenService:Create(LoadingFrame.Subtitle, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+	TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+	task.wait(0.1)
+	TweenService:Create(Main, TweenInfo.new(0.6, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+
+	Topbar.BackgroundTransparency = 1
+	Topbar.Divider.Size = UDim2.new(0, 0, 0, 1)
+	Topbar.Divider.BackgroundColor3 = SelectedTheme.ElementStroke
+	Topbar.CornerRepair.BackgroundTransparency = 1
+	Topbar.Title.TextTransparency = 1
+	Topbar.Search.ImageTransparency = 1
+	if Topbar:FindFirstChild('Settings') then
+		Topbar.Settings.ImageTransparency = 1
+	end
+	Topbar.ChangeSize.ImageTransparency = 1
+	Topbar.Hide.ImageTransparency = 1
+
+
+	task.wait(0.5)
+	Topbar.Visible = true
+	TweenService:Create(Topbar, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+	task.wait(0.1)
+	TweenService:Create(Topbar.Divider, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 0, 1)}):Play()
+	TweenService:Create(Topbar.Title, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+	task.wait(0.05)
+	TweenService:Create(Topbar.Search, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+	task.wait(0.05)
+	if Topbar:FindFirstChild('Settings') then
+		TweenService:Create(Topbar.Settings, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+		task.wait(0.05)
+	end
+	TweenService:Create(Topbar.ChangeSize, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+	task.wait(0.05)
+	TweenService:Create(Topbar.Hide, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+	task.wait(0.3)
+
+	if dragBar then
+		TweenService:Create(dragBarCosmetic, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+	end
+
+	function Window.ModifyTheme(NewTheme)
+		local success = pcall(ChangeTheme, NewTheme)
+		if not success then
+			RayfieldLibrary:Notify({Title = 'Unable to Change Theme', Content = 'We are unable find a theme on file.', Image = 4400704299})
+		else
+			RayfieldLibrary:Notify({Title = 'Theme Changed', Content = 'Successfully changed theme to '..(typeof(NewTheme) == 'string' and NewTheme or 'Custom Theme')..'.', Image = 4483362748})
+		end
+	end
+
+	local success, result = pcall(function()
+		createSettings(Window)
+	end)
+
+	if not success then warn('Rayfield had an issue creating settings.') end
+
+	return Window
+end
+
+local function setVisibility(visibility: boolean, notify: boolean?)
+	if Debounce then return end
+	if visibility then
+		Hidden = false
+		Unhide()
+	else
+		Hidden = true
+		Hide(notify)
+	end
+end
+
+function RayfieldLibrary:SetVisibility(visibility: boolean)
+	setVisibility(visibility, false)
+end
+
+function RayfieldLibrary:IsVisible(): boolean
+	return not Hidden
+end
+
+local hideHotkeyConnection -- Has to be initialized here since the connection is made later in the script
+function RayfieldLibrary:Destroy()
+	rayfieldDestroyed = true
+	hideHotkeyConnection:Disconnect()
+	for _, connection in keybindConnections do
+		connection:Disconnect()
+	end
+	Rayfield:Destroy()
+end
+
+Topbar.ChangeSize.MouseButton1Click:Connect(function()
+	if Debounce then return end
+	if Minimised then
+		Minimised = false
+		Maximise()
+	else
+		Minimised = true
+		Minimise()
+	end
+end)
+
+Main.Search.Input:GetPropertyChangedSignal('Text'):Connect(function()
+	if #Main.Search.Input.Text > 0 then
+		if not Elements.UIPageLayout.CurrentPage:FindFirstChild('SearchTitle-fsefsefesfsefesfesfThanks') then 
+			local searchTitle = Elements.Template.SectionTitle:Clone()
+			searchTitle.Parent = Elements.UIPageLayout.CurrentPage
+			searchTitle.Name = 'SearchTitle-fsefsefesfsefesfesfThanks'
+			searchTitle.LayoutOrder = -100
+			searchTitle.Title.Text = "Results from '"..Elements.UIPageLayout.CurrentPage.Name.."'"
+			searchTitle.Visible = true
+		end
+	else
+		local searchTitle = Elements.UIPageLayout.CurrentPage:FindFirstChild('SearchTitle-fsefsefesfsefesfesfThanks')
+
+		if searchTitle then
+			searchTitle:Destroy()
+		end
+	end
+
+	for _, element in ipairs(Elements.UIPageLayout.CurrentPage:GetChildren()) do
+		if element.ClassName ~= 'UIListLayout' and element.Name ~= 'Placeholder' and element.Name ~= 'SearchTitle-fsefsefesfsefesfesfThanks' then
+			if element.Name == 'SectionTitle' then
+				if #Main.Search.Input.Text == 0 then
+					element.Visible = true
+				else
+					element.Visible = false
+				end
+			else
+				if string.lower(element.Name):find(string.lower(Main.Search.Input.Text), 1, true) then
+					element.Visible = true
+				else
+					element.Visible = false
+				end
+			end
+		end
+	end
+end)
+
+Main.Search.Input.FocusLost:Connect(function(enterPressed)
+	if #Main.Search.Input.Text == 0 and searchOpen then
+		task.wait(0.12)
+		closeSearch()
+	end
+end)
+
+Topbar.Search.MouseButton1Click:Connect(function()
+	task.spawn(function()
+		if searchOpen then
+			closeSearch()
+		else
+			openSearch()
+		end
+	end)
+end)
+
+if Topbar:FindFirstChild('Settings') then
+	Topbar.Settings.MouseButton1Click:Connect(function()
+		task.spawn(function()
+			for _, OtherTabButton in ipairs(TabList:GetChildren()) do
+				if OtherTabButton.Name ~= "Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= TabButton and OtherTabButton.Name ~= "Placeholder" then
+					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.TabBackground}):Play()
+					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextColor3 = SelectedTheme.TabTextColor}):Play()
+					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageColor3 = SelectedTheme.TabTextColor}):Play()
+					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+					TweenService:Create(OtherTabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+				end
+			end
+
+			Elements.UIPageLayout:JumpTo(Elements['Rayfield Settings'])
+		end)
+	end)
+
+end
+
+
+Topbar.Hide.MouseButton1Click:Connect(function()
+	setVisibility(Hidden, not useMobileSizing)
+end)
+
+hideHotkeyConnection = UserInputService.InputBegan:Connect(function(input, processed)
+	if (input.KeyCode == Enum.KeyCode[getSetting("General", "rayfieldOpen")]) and not processed then
+		if Debounce then return end
+		if Hidden then
+			Hidden = false
+			Unhide()
+		else
+			Hidden = true
+			Hide()
+		end
+	end
+end)
+
+if MPrompt then
+	MPrompt.Interact.MouseButton1Click:Connect(function()
+		if Debounce then return end
+		if Hidden then
+			Hidden = false
+			Unhide()
+		end
+	end)
+end
+
+for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+	if TopbarButton.ClassName == "ImageButton" and TopbarButton.Name ~= 'Icon' then
+		TopbarButton.MouseEnter:Connect(function()
+			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+		end)
+
+		TopbarButton.MouseLeave:Connect(function()
+			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+		end)
+	end
+end
+
+
+function RayfieldLibrary:LoadConfiguration()
+	local config
+
+	if debugX then
+		warn('Loading Configuration')
+	end
+
+	if useStudio then
+		config = [[{"Toggle1adwawd":true,"ColorPicker1awd":{"B":255,"G":255,"R":255},"Slider1dawd":100,"ColorPicfsefker1":{"B":255,"G":255,"R":255},"Slidefefsr1":80,"dawdawd":"","Input1":"hh","Keybind1":"B","Dropdown1":["Ocean"]}]]
+	end
+
+	if CEnabled then
+		local notified
+		local loaded
+
+		local success, result = pcall(function()
+			if useStudio and config then
+				loaded = LoadConfiguration(config)
+				return
+			end
+
+			if isfile then 
+				if callSafely(isfile, ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
+					loaded = LoadConfiguration(callSafely(readfile, ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
+				end
+			else
+				notified = true
+				RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "We couldn't enable Configuration Saving as you are not using software with filesystem support.", Image = 4384402990})
+			end
+		end)
+
+		if success and loaded and not notified then
+			RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "The configuration file for this script has been loaded from a previous session.", Image = 4384403532})
+		elseif not success and not notified then
+			warn('Rayfield Configurations Error | '..tostring(result))
+			RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "We've encountered an issue loading your configuration correctly.\n\nCheck the Developer Console for more information.", Image = 4384402990})
+		end
+	end
+
+	globalLoaded = true
+end
+
+
+
+if useStudio then
+	-- run w/ studio
+	-- Feel free to place your own script here to see how it'd work in Roblox Studio before running it on your execution software.
+
+
+	--local Window = RayfieldLibrary:CreateWindow({
+	--	Name = "Rayfield Example Window",
+	--	LoadingTitle = "Rayfield Interface Suite",
+	--	Theme = 'Default',
+	--	Icon = 0,
+	--	LoadingSubtitle = "by Sirius",
+	--	ConfigurationSaving = {
+	--		Enabled = true,
+	--		FolderName = nil, -- Create a custom folder for your hub/game
+	--		FileName = "Big Hub52"
+	--	},
+	--	Discord = {
+	--		Enabled = false,
+	--		Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+	--		RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+	--	},
+	--	KeySystem = false, -- Set this to true to use our key system
+	--	KeySettings = {
+	--		Title = "Untitled",
+	--		Subtitle = "Key System",
+	--		Note = "No method of obtaining the key is provided",
+	--		FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+	--		SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+	--		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+	--		Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+	--	}
+	--})
+
+	--local Tab = Window:CreateTab("Tab Example", 'key-round') -- Title, Image
+	--local Tab2 = Window:CreateTab("Tab Example 2", 4483362458) -- Title, Image
+
+	--local Section = Tab2:CreateSection("Section")
+
+
+	--local ColorPicker = Tab2:CreateColorPicker({
+	--	Name = "Color Picker",
+	--	Color = Color3.fromRGB(255,255,255),
+	--	Flag = "ColorPicfsefker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Value)
+	--		-- The function that takes place every time the color picker is moved/changed
+	--		-- The variable (Value) is a Color3fromRGB value based on which color is selected
+	--	end
+	--})
+
+	--local Slider = Tab2:CreateSlider({
+	--	Name = "Slider Example",
+	--	Range = {0, 100},
+	--	Increment = 10,
+	--	Suffix = "Bananas",
+	--	CurrentValue = 40,
+	--	Flag = "Slidefefsr1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Value)
+	--		-- The function that takes place when the slider changes
+	--		-- The variable (Value) is a number which correlates to the value the slider is currently at
+	--	end,
+	--})
+
+	--local Input = Tab2:CreateInput({
+	--	Name = "Input Example",
+	--	CurrentValue = '',
+	--	PlaceholderText = "Input Placeholder",
+	--	Flag = 'dawdawd',
+	--	RemoveTextAfterFocusLost = false,
+	--	Callback = function(Text)
+	--		-- The function that takes place when the input is changed
+	--		-- The variable (Text) is a string for the value in the text box
+	--	end,
+	--})
+
+
+	----RayfieldLibrary:Notify({Title = "Rayfield Interface", Content = "Welcome to Rayfield. These - are the brand new notification design for Rayfield, with custom sizing and Rayfield calculated wait times.", Image = 4483362458})
+
+	--local Section = Tab:CreateSection("Section Example")
+
+	--local Button = Tab:CreateButton({
+	--	Name = "Change Theme",
+	--	Callback = function()
+	--		-- The function that takes place when the button is pressed
+	--		Window.ModifyTheme('DarkBlue')
+	--	end,
+	--})
+
+	--local Toggle = Tab:CreateToggle({
+	--	Name = "Toggle Example",
+	--	CurrentValue = false,
+	--	Flag = "Toggle1adwawd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Value)
+	--		-- The function that takes place when the toggle is pressed
+	--		-- The variable (Value) is a boolean on whether the toggle is true or false
+	--	end,
+	--})
+
+	--local ColorPicker = Tab:CreateColorPicker({
+	--	Name = "Color Picker",
+	--	Color = Color3.fromRGB(255,255,255),
+	--	Flag = "ColorPicker1awd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Value)
+	--		-- The function that takes place every time the color picker is moved/changed
+	--		-- The variable (Value) is a Color3fromRGB value based on which color is selected
+	--	end
+	--})
+
+	--local Slider = Tab:CreateSlider({
+	--	Name = "Slider Example",
+	--	Range = {0, 100},
+	--	Increment = 10,
+	--	Suffix = "Bananas",
+	--	CurrentValue = 40,
+	--	Flag = "Slider1dawd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Value)
+	--		-- The function that takes place when the slider changes
+	--		-- The variable (Value) is a number which correlates to the value the slider is currently at
+	--	end,
+	--})
+
+	--local Input = Tab:CreateInput({
+	--	Name = "Input Example",
+	--	CurrentValue = "Helo",
+	--	PlaceholderText = "Adaptive Input",
+	--	RemoveTextAfterFocusLost = false,
+	--	Flag = 'Input1',
+	--	Callback = function(Text)
+	--		-- The function that takes place when the input is changed
+	--		-- The variable (Text) is a string for the value in the text box
+	--	end,
+	--})
+
+	--local thoptions = {}
+	--for themename, theme in pairs(RayfieldLibrary.Theme) do
+	--	table.insert(thoptions, themename)
+	--end
+
+	--local Dropdown = Tab:CreateDropdown({
+	--	Name = "Theme",
+	--	Options = thoptions,
+	--	CurrentOption = {"Default"},
+	--	MultipleOptions = false,
+	--	Flag = "Dropdown1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Options)
+	--		--Window.ModifyTheme(Options[1])
+	--		-- The function that takes place when the selected option is changed
+	--		-- The variable (Options) is a table of strings for the current selected options
+	--	end,
+	--})
+
+
+	--Window.ModifyTheme({
+	--	TextColor = Color3.fromRGB(50, 55, 60),
+	--	Background = Color3.fromRGB(240, 245, 250),
+	--	Topbar = Color3.fromRGB(215, 225, 235),
+	--	Shadow = Color3.fromRGB(200, 210, 220),
+
+	--	NotificationBackground = Color3.fromRGB(210, 220, 230),
+	--	NotificationActionsBackground = Color3.fromRGB(225, 230, 240),
+
+	--	TabBackground = Color3.fromRGB(200, 210, 220),
+	--	TabStroke = Color3.fromRGB(180, 190, 200),
+	--	TabBackgroundSelected = Color3.fromRGB(175, 185, 200),
+	--	TabTextColor = Color3.fromRGB(50, 55, 60),
+	--	SelectedTabTextColor = Color3.fromRGB(30, 35, 40),
+
+	--	ElementBackground = Color3.fromRGB(210, 220, 230),
+	--	ElementBackgroundHover = Color3.fromRGB(220, 230, 240),
+	--	SecondaryElementBackground = Color3.fromRGB(200, 210, 220),
+	--	ElementStroke = Color3.fromRGB(190, 200, 210),
+	--	SecondaryElementStroke = Color3.fromRGB(180, 190, 200),
+
+	--	SliderBackground = Color3.fromRGB(200, 220, 235),  -- Lighter shade
+	--	SliderProgress = Color3.fromRGB(70, 130, 180),
+	--	SliderStroke = Color3.fromRGB(150, 180, 220),
+
+	--	ToggleBackground = Color3.fromRGB(210, 220, 230),
+	--	ToggleEnabled = Color3.fromRGB(70, 160, 210),
+	--	ToggleDisabled = Color3.fromRGB(180, 180, 180),
+	--	ToggleEnabledStroke = Color3.fromRGB(60, 150, 200),
+	--	ToggleDisabledStroke = Color3.fromRGB(140, 140, 140),
+	--	ToggleEnabledOuterStroke = Color3.fromRGB(100, 120, 140),
+	--	ToggleDisabledOuterStroke = Color3.fromRGB(120, 120, 130),
+
+	--	DropdownSelected = Color3.fromRGB(220, 230, 240),
+	--	DropdownUnselected = Color3.fromRGB(200, 210, 220),
+
+	--	InputBackground = Color3.fromRGB(220, 230, 240),
+	--	InputStroke = Color3.fromRGB(180, 190, 200),
+	--	PlaceholderColor = Color3.fromRGB(150, 150, 150)
+	--})
+
+	--local Keybind = Tab:CreateKeybind({
+	--	Name = "Keybind Example",
+	--	CurrentKeybind = "Q",
+	--	HoldToInteract = false,
+	--	Flag = "Keybind1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	--	Callback = function(Keybind)
+	--		-- The function that takes place when the keybind is pressed
+	--		-- The variable (Keybind) is a boolean for whether the keybind is being held or not (HoldToInteract needs to be true)
+	--	end,
+	--})
+
+	--local Label = Tab:CreateLabel("Label Example")
+
+	--local Label2 = Tab:CreateLabel("Warning", 4483362458, Color3.fromRGB(255, 159, 49),  true)
+
+	--local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph Example"})
+end
+
+if CEnabled and Main:FindFirstChild('Notice') then
+	Main.Notice.BackgroundTransparency = 1
+	Main.Notice.Title.TextTransparency = 1
+	Main.Notice.Size = UDim2.new(0, 0, 0, 0)
+	Main.Notice.Position = UDim2.new(0.5, 0, 0, -100)
+	Main.Notice.Visible = true
+
+
+	TweenService:Create(Main.Notice, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 280, 0, 35), Position = UDim2.new(0.5, 0, 0, -50), BackgroundTransparency = 0.5}):Play()
+	TweenService:Create(Main.Notice.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0.1}):Play()
+end
+-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA why :(
+--if not useStudio then
+--	task.spawn(loadWithTimeout, "https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/boost.lua")
+--end
+
+task.delay(4, function()
+	RayfieldLibrary.LoadConfiguration()
+	if Main:FindFirstChild('Notice') and Main.Notice.Visible then
+		TweenService:Create(Main.Notice, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 100, 0, 25), Position = UDim2.new(0.5, 0, 0, -100), BackgroundTransparency = 1}):Play()
+		TweenService:Create(Main.Notice.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+
+		task.wait(0.5)
+		Main.Notice.Visible = false
+	end
+end)
+
+return RayfieldLibrary
