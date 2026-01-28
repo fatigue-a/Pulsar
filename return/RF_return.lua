@@ -664,6 +664,48 @@ local RayfieldLibrary = {
 			InputStroke = Color3.fromRGB(180, 190, 200),
 			PlaceholderColor = Color3.fromRGB(150, 150, 150)
 		},
+
+		Pulsar = {
+			TextColor = Color3.fromRGB(200, 200, 200),
+
+			Background = Color3.fromRGB(15, 15, 18),
+			Topbar = Color3.fromRGB(22, 22, 26),
+			Shadow = Color3.fromRGB(10, 10, 12),
+
+			NotificationBackground = Color3.fromRGB(22, 22, 26),
+			NotificationActionsBackground = Color3.fromRGB(45, 45, 55),
+
+			TabBackground = Color3.fromRGB(30, 30, 36),
+			TabStroke = Color3.fromRGB(45, 45, 55),
+			TabBackgroundSelected = Color3.fromRGB(95, 165, 230),
+			TabTextColor = Color3.fromRGB(200, 200, 200),
+			SelectedTabTextColor = Color3.fromRGB(15, 15, 18),
+
+			ElementBackground = Color3.fromRGB(22, 22, 26),
+			ElementBackgroundHover = Color3.fromRGB(30, 30, 36),
+			SecondaryElementBackground = Color3.fromRGB(18, 18, 22),
+			ElementStroke = Color3.fromRGB(45, 45, 55),
+			SecondaryElementStroke = Color3.fromRGB(38, 38, 46),
+
+			SliderBackground = Color3.fromRGB(45, 45, 55),
+			SliderProgress = Color3.fromRGB(95, 165, 230),
+			SliderStroke = Color3.fromRGB(75, 130, 195),
+
+			ToggleBackground = Color3.fromRGB(22, 22, 26),
+			ToggleEnabled = Color3.fromRGB(95, 165, 230),
+			ToggleDisabled = Color3.fromRGB(60, 60, 70),
+			ToggleEnabledStroke = Color3.fromRGB(75, 130, 195),
+			ToggleDisabledStroke = Color3.fromRGB(70, 70, 80),
+			ToggleEnabledOuterStroke = Color3.fromRGB(65, 115, 170),
+			ToggleDisabledOuterStroke = Color3.fromRGB(45, 45, 55),
+
+			DropdownSelected = Color3.fromRGB(30, 30, 36),
+			DropdownUnselected = Color3.fromRGB(22, 22, 26),
+
+			InputBackground = Color3.fromRGB(22, 22, 26),
+			InputStroke = Color3.fromRGB(45, 45, 55),
+			PlaceholderColor = Color3.fromRGB(100, 100, 110)
+		},
 	}
 }
 
