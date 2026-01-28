@@ -10,7 +10,15 @@ local ids = {
 }
 
 if ids[game.PlaceId] then
-    loadstring(game:HttpGet(ids[game.PlaceId], true))()
+    local source = game:HttpGet(ids[game.PlaceId])
+    if type(source) ~= "string" then
+        error("[Pulsar] HttpGet returned non-string type: " .. type(source))
+    end
+    local fn, err = loadstring(source)
+    if not fn then
+        error("[Pulsar] Failed to compile game script: " .. tostring(err))
+    end
+    fn()
 else
     warn("Pulsar: Game not supported join ", game.PlaceId)
 end
