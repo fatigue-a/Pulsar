@@ -1,6 +1,4 @@
---[[ 
-	Custom how?
-	added a function that (barly) supports images in paragraph
+--[[
 
 	Rayfield Interface Suite
 	by Sirius
@@ -1642,10 +1640,10 @@ function RayfieldLibrary:CreateWindow(Settings)
 	end
 
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "Pulsar Hub"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "Kenu Hub"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "By Fatigue"
 
-	if Settings.LoadingTitle ~= "Pulsar Hub" then
+	if Settings.LoadingTitle ~= "Kenu Hub" then
 		LoadingFrame.Version.Text = "By Fatigue"
 	end
 
@@ -1696,8 +1694,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(100, 450))
 				RayfieldLibrary:Notify({
-					Title = "Pulsar Hub",
-					Content = "Enjoying Pulsar?",
+					Title = "Kenu Hub",
+					Content = "Enjoying Kenu?",
 					Duration = 7,
 					Image = 2867270,
 				})
