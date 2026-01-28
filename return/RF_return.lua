@@ -1,4 +1,6 @@
---[[
+--[[ 
+	Custom how?
+	added a function that (barly) supports images in paragraph
 
 	Rayfield Interface Suite
 	by Sirius
