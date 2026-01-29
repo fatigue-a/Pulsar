@@ -35,6 +35,10 @@ local function notify(title, msg, duration)
     end)
 end
 
+local function getTimestamp()
+    return os.date("[%H:%M:%S]")
+end
+
 local function getSavedKey()
     local ok, data = pcall(function()
         if readfile and isfile and isfile(CONFIG.KeyFileName) then
