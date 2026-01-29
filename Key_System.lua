@@ -76,7 +76,7 @@ local newKeySystem = assert(loadstring(coreSrc), "[Pulsar] Failed to compile key
 local lastApiMessage = nil
 
 local keyApi = newKeySystem({
-    useNonce = true,
+    useNonce = false,
     onMessage = function(msg)
         lastApiMessage = msg
         notify("Key System", msg, 3)
