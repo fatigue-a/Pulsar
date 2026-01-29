@@ -7,6 +7,7 @@ local CONFIG = {
     KeyCoreFile = "return/k_core.lua",
     LoaderFile = "Pulsar_Loader.lua",
     KeyFileName = "PulsarKey.txt",
+    DiscordInvite = "https://discord.gg/J9CScBEQ2S",
     Background = Color3.fromRGB(15, 15, 18),
     Surface = Color3.fromRGB(22, 22, 26),
     Border = Color3.fromRGB(45, 45, 55),
@@ -169,7 +170,6 @@ console.ClipsDescendants = true
 console.Active = true  -- Required for touch dragging
 console.Parent = screen
 
--- Minimized state tracking
 local isMinimized = false
 local expandedSize = UDim2.new(0, baseWidth, 0, baseHeight)
 
@@ -182,16 +182,12 @@ consoleBorder.Color = CONFIG.Border
 consoleBorder.Thickness = isMobile and 2 or 1
 consoleBorder.Parent = console
 
--- Intro animation (non-blocking)
 console.Size = UDim2.new(0, baseWidth, 0, 0)
 console.BackgroundTransparency = 1
 TweenService:Create(console, TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
     Size = UDim2.new(0, baseWidth, 0, baseHeight),
     BackgroundTransparency = 0
 }):Play()
--- Don't wait for animation, continue building UI
-
--- Title bar
 local titleBar = Instance.new("Frame")
 titleBar.Name = "TitleBar"
 titleBar.Size = UDim2.new(1, 0, 0, titleBarHeight)
@@ -204,7 +200,6 @@ local titleCorner = Instance.new("UICorner")
 titleCorner.CornerRadius = UDim.new(0, 4)
 titleCorner.Parent = titleBar
 
--- Fix bottom corners of title bar
 local titleFix = Instance.new("Frame")
 titleFix.Size = UDim2.new(1, 0, 0, 8)
 titleFix.Position = UDim2.new(0, 0, 1, -8)
@@ -212,7 +207,6 @@ titleFix.BackgroundColor3 = CONFIG.Surface
 titleFix.BorderSizePixel = 0
 titleFix.Parent = titleBar
 
--- Title bar bottom border
 local titleBorder = Instance.new("Frame")
 titleBorder.Size = UDim2.new(1, 0, 0, 1)
 titleBorder.Position = UDim2.new(0, 0, 1, 0)
@@ -220,7 +214,6 @@ titleBorder.BackgroundColor3 = CONFIG.Border
 titleBorder.BorderSizePixel = 0
 titleBorder.Parent = titleBar
 
--- Window controls (functional) - larger for mobile
 local controls = Instance.new("Frame")
 controls.Size = UDim2.new(0, controlSize * 3 + 16, 0, controlSize)
 controls.Position = UDim2.new(0, 10, 0.5, 0)
@@ -257,7 +250,6 @@ for i, data in ipairs(controlColors) do
     dotCorner.CornerRadius = UDim.new(1, 0)
     dotCorner.Parent = dot
     
-    -- Hover/Touch effect
     dot.MouseEnter:Connect(function()
         TweenService:Create(dot, TweenInfo.new(0.15), {BackgroundTransparency = 0}):Play()
     end)
@@ -265,7 +257,6 @@ for i, data in ipairs(controlColors) do
         TweenService:Create(dot, TweenInfo.new(0.15), {BackgroundTransparency = 0.3}):Play()
     end)
     
-    -- Touch feedback for mobile
     if isMobile then
         dot.InputBegan:Connect(function(input)
             if input.UserInputType == Enum.UserInputType.Touch then
@@ -288,7 +279,6 @@ for i, data in ipairs(controlColors) do
     end
 end
 
--- Dragging functionality
 local dragging = false
 local dragStart = nil
 local startPos = nil
@@ -314,7 +304,6 @@ UserInputService.InputChanged:Connect(function(input)
     end
 end)
 
--- Close button functionality
 closeBtn.MouseButton1Click:Connect(function()
     TweenService:Create(console, TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
         Size = UDim2.new(0, baseWidth, 0, 0),
@@ -325,7 +314,6 @@ closeBtn.MouseButton1Click:Connect(function()
     screen:Destroy()
 end)
 
--- Title text
 local titleText = Instance.new("TextLabel")
 titleText.Size = UDim2.new(1, -(controlSize * 3 + 90), 1, 0)
 titleText.Position = UDim2.new(0, controlSize * 3 + 30, 0, 0)
@@ -345,7 +333,6 @@ if isMobile then
     titleConstraint.Parent = titleText
 end
 
--- Version label
 local versionLabel = Instance.new("TextLabel")
 versionLabel.Size = UDim2.new(0, 60 * scale, 1, 0)
 versionLabel.Position = UDim2.new(1, -65 * scale, 0, 0)
@@ -356,7 +343,6 @@ versionLabel.Font = Enum.Font.Code
 versionLabel.TextSize = smallFontSize
 versionLabel.Parent = titleBar
 
--- Content area
 local contentPadding = math.floor(10 * scale)
 local content = Instance.new("Frame")
 content.Name = "Content"
@@ -365,7 +351,6 @@ content.Position = UDim2.new(0, contentPadding, 0, titleBarHeight + 5)
 content.BackgroundTransparency = 1
 content.Parent = console
 
--- Minimize button functionality (must be after content is created)
 minimizeBtn.MouseButton1Click:Connect(function()
     if isMinimized then
         -- Restore
@@ -390,7 +375,6 @@ minimizeBtn.MouseButton1Click:Connect(function()
     end
 end)
 
--- Double-click/tap title bar to minimize/restore
 local lastClickTime = 0
 titleBar.InputBegan:Connect(function(input)
     if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
@@ -402,7 +386,6 @@ titleBar.InputBegan:Connect(function(input)
     end
 end)
 
--- ASCII Header (simplified for mobile)
 local asciiHeader = Instance.new("TextLabel")
 asciiHeader.Size = UDim2.new(1, 0, 0, isMobile and 35 or 45)
 asciiHeader.BackgroundTransparency = 1
@@ -428,7 +411,6 @@ if isMobile then
     headerConstraint.Parent = asciiHeader
 end
 
--- Console output area
 local outputHeight = isMobile and 70 or 90
 local outputFrame = Instance.new("Frame")
 outputFrame.Name = "OutputFrame"
@@ -462,7 +444,6 @@ local outputLayout = Instance.new("UIListLayout")
 outputLayout.Padding = UDim.new(0, 2)
 outputLayout.Parent = outputScroll
 
--- Console log entries storage
 local logEntries = {}
 local logFontSize = math.floor(11 * scale)
 
@@ -481,29 +462,24 @@ local function addLog(text, color)
     
     table.insert(logEntries, entry)
     
-    -- Auto scroll to bottom
     task.defer(function()
         outputScroll.CanvasPosition = Vector2.new(0, outputScroll.AbsoluteCanvasSize.Y)
     end)
     
-    -- Limit log entries
     if #logEntries > 50 then
         logEntries[1]:Destroy()
         table.remove(logEntries, 1)
     end
 end
 
--- Initial logs
 addLog("Pulsar Key System initialized", CONFIG.Accent)
 addLog("Service connected: platoboost.com", CONFIG.TextDim)
 addLog("Awaiting key input...", CONFIG.TextDim)
 
--- Calculate positions based on output height
 local inputLabelY = (isMobile and 38 or 50) + outputHeight * scale + 8
 local inputBoxY = inputLabelY + (isMobile and 16 or 20)
-local inputBoxHeight = isMobile and 38 or 32  -- Taller for touch
+local inputBoxHeight = isMobile and 38 or 32
 
--- Input section label
 local inputLabel = Instance.new("TextLabel")
 inputLabel.Size = UDim2.new(1, 0, 0, isMobile and 16 or 18)
 inputLabel.Position = UDim2.new(0, 0, 0, inputLabelY)
@@ -515,7 +491,6 @@ inputLabel.TextSize = fontSize
 inputLabel.TextXAlignment = Enum.TextXAlignment.Left
 inputLabel.Parent = content
 
--- Key input box
 local inputFrame = Instance.new("Frame")
 inputFrame.Size = UDim2.new(1, 0, 0, inputBoxHeight)
 inputFrame.Position = UDim2.new(0, 0, 0, inputBoxY)
@@ -547,7 +522,6 @@ keyInput.TextXAlignment = Enum.TextXAlignment.Left
 keyInput.ClearTextOnFocus = false
 keyInput.Parent = inputFrame
 
--- Blinking cursor effect
 local cursor = Instance.new("TextLabel")
 cursor.Size = UDim2.new(0, 8, 0, 14)
 cursor.Position = UDim2.new(0, 8, 0.5, 0)
@@ -571,9 +545,8 @@ keyInput:GetPropertyChangedSignal("Text"):Connect(function()
     cursor.Visible = keyInput.Text == ""
 end)
 
--- Buttons section
 local buttonsY = inputBoxY + inputBoxHeight + (isMobile and 10 or 8)
-local buttonHeight = isMobile and 36 or 28  -- Taller for touch
+local buttonHeight = isMobile and 36 or 28
 local buttonWidth = isMobile and 100 or 140
 
 local buttonsFrame = Instance.new("Frame")
@@ -624,7 +597,6 @@ local function createConsoleButton(text)
         textConstraint.Parent = btnText
     end
     
-    -- Hover effects (desktop)
     btn.MouseEnter:Connect(function()
         TweenService:Create(btnBorder, TweenInfo.new(0.15), {Color = CONFIG.BorderActive}):Play()
         TweenService:Create(btnText, TweenInfo.new(0.15), {TextColor3 = CONFIG.Accent}):Play()
@@ -643,7 +615,6 @@ local function createConsoleButton(text)
         btn.BackgroundColor3 = CONFIG.Surface
     end)
     
-    -- Touch feedback for mobile
     if isMobile then
         btn.InputBegan:Connect(function(input)
             if input.UserInputType == Enum.UserInputType.Touch then
@@ -665,10 +636,9 @@ local function createConsoleButton(text)
 end
 
 local getKeyBtn, getKeyText, getKeyBorder = createConsoleButton("GET_KEY")
-local redeemBtn, redeemText, redeemBorder = createConsoleButton("REDEEM")
+local discordBtn, discordText, discordBorder = createConsoleButton("DISCORD")
 local verifyBtn, verifyText, verifyBorder = createConsoleButton("VERIFY")
 
--- Status bar at bottom
 local statusBarY = buttonsY + buttonHeight + (isMobile and 8 or 10)
 local statusBar = Instance.new("Frame")
 statusBar.Size = UDim2.new(1, 0, 0, isMobile and 20 or 24)
@@ -718,7 +688,6 @@ if isMobile then
     statusConstraint.Parent = statusText
 end
 
--- Blinking status indicator
 task.spawn(function()
     while statusIndicator and statusIndicator.Parent do
         TweenService:Create(statusIndicator, TweenInfo.new(0.8), {BackgroundTransparency = 0.6}):Play()
@@ -728,9 +697,6 @@ task.spawn(function()
     end
 end)
 
---// =========================================================
---// BUTTON LOGIC
---// =========================================================
 local function setStatus(text, color)
     -- Shorten text for mobile
     if isMobile and #text > 25 then
@@ -743,12 +709,12 @@ end
 
 local function setButtonsEnabled(enabled)
     getKeyBtn.Active = enabled
-    redeemBtn.Active = enabled
+    discordBtn.Active = enabled
     verifyBtn.Active = enabled
     
     local alpha = enabled and 1 or 0.5
     getKeyText.TextTransparency = enabled and 0 or 0.5
-    redeemText.TextTransparency = enabled and 0 or 0.5
+    discordText.TextTransparency = enabled and 0 or 0.5
     verifyText.TextTransparency = enabled and 0 or 0.5
 end
 
@@ -762,7 +728,6 @@ local function destroyUI()
     screen:Destroy()
 end
 
--- Get Key button
 getKeyBtn.MouseButton1Click:Connect(function()
     addLog("Requesting key link from server...", CONFIG.Warning)
     setStatus("PROCESSING - fetching link", CONFIG.Warning)
@@ -784,39 +749,18 @@ getKeyBtn.MouseButton1Click:Connect(function()
     end)
 end)
 
--- Redeem button
-redeemBtn.MouseButton1Click:Connect(function()
-    local key = keyInput.Text:gsub("%s+", "")
-    if key == "" then
-        addLog("ERROR: No key provided", CONFIG.Error)
-        setStatus("ERROR - empty input", CONFIG.Error)
-        TweenService:Create(inputBorder, TweenInfo.new(0.1), {Color = CONFIG.Error}):Play()
-        task.wait(0.3)
-        TweenService:Create(inputBorder, TweenInfo.new(0.2), {Color = CONFIG.Border}):Play()
-        return
+discordBtn.MouseButton1Click:Connect(function()
+    local clip = setclipboard or toclipboard or (syn and syn.write_clipboard) or (Clipboard and Clipboard.set)
+    if clip then
+        pcall(function() clip(CONFIG.DiscordInvite) end)
+        addLog("Discord invite copied to clipboard!", CONFIG.Success)
+        setStatus("COPIED - discord invite", CONFIG.Success)
+    else
+        addLog("Discord: " .. CONFIG.DiscordInvite, CONFIG.Accent)
+        setStatus("DISCORD - see console", CONFIG.Accent)
     end
-    
-    addLog("Attempting to redeem key...", CONFIG.Warning)
-    setStatus("PROCESSING - redeeming", CONFIG.Warning)
-    setButtonsEnabled(false)
-    lastApiMessage = nil  -- Clear previous message
-    
-    task.spawn(function()
-        local okRedeem = keyApi.redeemKey(key)
-        if okRedeem then
-            addLog("Key redeemed successfully!", CONFIG.Success)
-            addLog("Run VERIFY to authenticate", CONFIG.Accent)
-            setStatus("SUCCESS - now verify", CONFIG.Success)
-        else
-            local errorMsg = lastApiMessage or "invalid key"
-            addLog("ERROR: " .. errorMsg, CONFIG.Error)
-            setStatus("ERROR - " .. errorMsg, CONFIG.Error)
-        end
-        setButtonsEnabled(true)
-    end)
 end)
 
--- Verify button
 verifyBtn.MouseButton1Click:Connect(function()
     local key = keyInput.Text:gsub("%s+", "")
     if key == "" then
@@ -863,7 +807,6 @@ verifyBtn.MouseButton1Click:Connect(function()
     end)
 end)
 
--- Input focus effects
 keyInput.Focused:Connect(function()
     TweenService:Create(inputBorder, TweenInfo.new(0.15), {Color = CONFIG.BorderActive}):Play()
     cursor.Visible = false
