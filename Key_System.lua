@@ -821,13 +821,7 @@ verifyBtn.MouseButton1Click:Connect(function()
     lastApiMessage = nil  -- Clear previous message
     
     task.spawn(function()
-        local okVerify = false
-        if isBypassKey(key) then
-            addLog("Dev key detected!", CONFIG.Success)
-            okVerify = true
-        else
-            okVerify = keyApi.verifyKey(key)
-        end
+        local okVerify = keyApi.verifyKey(key)
         
         if okVerify then
             addLog("========================================", CONFIG.Success)
