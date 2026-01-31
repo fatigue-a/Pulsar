@@ -41,23 +41,59 @@ local function getTimestamp()
 end
 
 local function getSavedKey()
-    local ok, data = pcall(function()
-        if readfile and isfile and isfile(CONFIG.KeyFileName) then
-            return readfile(CONFIG.KeyFileName)
-        end
+    if not readfile or not isfile then
+        warn("[Pulsar] File system functions not available")
+        return nil
+    end
+    
+    local exists = false
+    pcall(function()
+        exists = isfile(CONFIG.KeyFileName)
     end)
-    return ok and data and data ~= "" and data or nil
+    
+    if not exists then
+        return nil
+    end
+    
+    local ok, data = pcall(function()
+        return readfile(CONFIG.KeyFileName)
+    end)
+    
+    if ok and data and data ~= "" then
+        print("[Pulsar] Found saved key file")
+        return data:gsub("%s+", "") -- Trim whitespace
+    end
+    
+    return nil
 end
 
 local function saveKey(key)
-    pcall(function()
-        if writefile then writefile(CONFIG.KeyFileName, key) end
+    if not writefile then
+        warn("[Pulsar] writefile not available - cannot save key")
+        return false
+    end
+    
+    local ok, err = pcall(function()
+        writefile(CONFIG.KeyFileName, key)
     end)
+    
+    if ok then
+        print("[Pulsar] Key saved to " .. CONFIG.KeyFileName)
+        return true
+    else
+        warn("[Pulsar] Failed to save key: " .. tostring(err))
+        return false
+    end
 end
 
 local function deleteKey()
+    if not delfile or not isfile then return end
+    
     pcall(function()
-        if delfile and isfile and isfile(CONFIG.KeyFileName) then delfile(CONFIG.KeyFileName) end
+        if isfile(CONFIG.KeyFileName) then 
+            delfile(CONFIG.KeyFileName)
+            print("[Pulsar] Deleted key file")
+        end
     end)
 end
 
@@ -102,15 +138,22 @@ end
 
 local savedKey = getSavedKey()
 if savedKey then
+    print("[Pulsar] Found saved key, verifying...")
     notify("Pulsar", "Checking saved key...", 2)
+    
     local valid = keyApi.verifyKey(savedKey)
+    
     if valid then
+        print("[Pulsar] Saved key is valid! Auto-loading hub...")
         loadHub()
         return
     else
+        print("[Pulsar] Saved key is invalid or expired")
         notify("Pulsar", "Saved key expired or invalid", 2)
         deleteKey()
     end
+else
+    print("[Pulsar] No saved key found, showing key UI...")
 end
 
 local UserInputService = game:GetService("UserInputService")
@@ -778,7 +821,14 @@ verifyBtn.MouseButton1Click:Connect(function()
     lastApiMessage = nil  -- Clear previous message
     
     task.spawn(function()
-        local okVerify = keyApi.verifyKey(key)
+        local okVerify = false
+        if isBypassKey(key) then
+            addLog("Dev key detected!", CONFIG.Success)
+            okVerify = true
+        else
+            okVerify = keyApi.verifyKey(key)
+        end
+        
         if okVerify then
             addLog("========================================", CONFIG.Success)
             addLog("ACCESS GRANTED", CONFIG.Success)
@@ -786,7 +836,12 @@ verifyBtn.MouseButton1Click:Connect(function()
             addLog("Loading Pulsar Hub...", CONFIG.Accent)
             setStatus("AUTHENTICATED - loading hub", CONFIG.Success)
             
-            saveKey(key)
+            local saved = saveKey(key)
+            if saved then
+                addLog("Key saved for future sessions!", CONFIG.TextDim)
+            else
+                addLog("Warning: Could not save key to file", CONFIG.Warning)
+            end
             
             TweenService:Create(consoleBorder, TweenInfo.new(0.3), {Color = CONFIG.Success}):Play()
             
