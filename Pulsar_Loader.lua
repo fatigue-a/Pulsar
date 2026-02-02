@@ -7,6 +7,7 @@ Trying to load without doing Key System first will not work!
 
 local ids = {
     [121864768012064] = "https://raw.githubusercontent.com/fatigue-a/Pulsar/refs/heads/main/Games/Fish-It/Fish-it.Lua",
+    [131623223084840] = "https://raw.githubusercontent.com/fatigue-a/Pulsar/refs/heads/main/Games/Escape-Tsunami-For-Brainrots/Escape-Tsunami-For-Brainrots.lua",
 }
 
 if ids[game.PlaceId] then
